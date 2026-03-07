@@ -3,5 +3,5 @@ dist
 *.log
 .DS_Store
 .env
-data/
-dev_tools/
+/data/
+/dev_tools/
