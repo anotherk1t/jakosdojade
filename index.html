@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Multimodal route planner for Gdańsk — public transit + city bikes (MEVO)">
+  <title>BikeRouter Gdańsk — Transit + Bike Route Planner</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="map-container">
+      <div id="map"></div>
+    </div>
+
+    <div id="sidebar">
+      <div id="sidebar-toggle" aria-label="Toggle sidebar">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <div id="sidebar-content">
+        <header id="sidebar-header">
+          <h1>
+            <span class="logo-icon">🚲</span>
+            <span>BikeRouter</span>
+            <span class="logo-city">Gdańsk</span>
+          </h1>
+        </header>
+
+        <section id="search-panel">
+          <div class="input-group" id="origin-group">
+            <label for="origin-input">From</label>
+            <div class="input-wrapper">
+              <input type="text" id="origin-input" placeholder="Click map or type address..." autocomplete="off">
+              <button id="origin-map-btn" class="map-pin-btn" title="Pick from map" aria-label="Pick origin from map">📍</button>
+            </div>
+          </div>
+
+          <button id="swap-btn" class="swap-button" title="Swap origin and destination" aria-label="Swap">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M4 2v12M4 14l-3-3M4 14l3-3M12 14V2M12 2l-3 3M12 2l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+
+          <div class="input-group" id="dest-group">
+            <label for="dest-input">To</label>
+            <div class="input-wrapper">
+              <input type="text" id="dest-input" placeholder="Click map or type address..." autocomplete="off">
+              <button id="dest-map-btn" class="map-pin-btn" title="Pick from map" aria-label="Pick destination from map">📍</button>
+            </div>
+          </div>
+
+          <div class="time-row">
+            <label for="time-input">Depart at</label>
+            <input type="time" id="time-input">
+            <button id="time-now-btn" class="small-btn">Now</button>
+          </div>
+
+          <div class="search-options">
+            <label class="toggle-label compact">
+              <input type="checkbox" id="own-bike-toggle">
+              <span>🚲 Own bike</span>
+            </label>
+          </div>
+
+          <button id="search-btn" class="primary-btn">
+            <span class="btn-text">Find Routes</span>
+            <span class="btn-loader" hidden>
+              <span class="spinner"></span>
+            </span>
+          </button>
+        </section>
+
+        <section id="results-panel" hidden>
+          <div id="results-header">
+            <h2>Routes</h2>
+            <button id="clear-results-btn" class="small-btn">Clear</button>
+          </div>
+          <div id="results-list"></div>
+        </section>
+
+        <section id="layers-panel">
+          <h3>Map Layers</h3>
+          <div class="layer-toggles">
+            <label class="toggle-label">
+              <input type="checkbox" id="toggle-stops" checked>
+              <span class="toggle-icon stop-icon">🚏</span>
+              <span>Transit Stops</span>
+            </label>
+            <label class="toggle-label">
+              <input type="checkbox" id="toggle-bikes" checked>
+              <span class="toggle-icon bike-icon">🚲</span>
+              <span>MEVO Stations</span>
+            </label>
+            <label class="toggle-label">
+              <input type="checkbox" id="toggle-trains" checked>
+              <span class="toggle-icon train-icon">🚆</span>
+              <span>Train Stations</span>
+            </label>
+            <label class="toggle-label">
+              <input type="checkbox" id="toggle-live">
+              <span class="toggle-icon live-icon">📡</span>
+              <span>Live Vehicles</span>
+            </label>
+          </div>
+        </section>
+
+        <footer id="sidebar-footer">
+          <p>Data: <a href="https://ztm.gda.pl/ztm/otwarte-dane,a,3099" target="_blank">ZTM Gdańsk</a> · <a href="https://rowermevo.pl/open-data/realtime" target="_blank">MEVO</a> · <a href="https://www.openstreetmap.org/" target="_blank">OSM</a></p>
+        </footer>
+      </div>
+    </div>
+
+    <div id="loading-overlay" hidden>
+      <div class="loading-card">
+        <div class="spinner large"></div>
+        <p id="loading-text">Loading transit data...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

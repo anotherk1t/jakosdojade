@@ -1,0 +1,479 @@
+[
+  {
+    "id": "borkowo_54.3334_18.3333",
+    "name": "Borkowo",
+    "lat": 54.3334,
+    "lon": 18.3333,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "cieplewo_54.2343_18.6475",
+    "name": "Cieplewo",
+    "lat": 54.2343,
+    "lon": 18.6475,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "gdańsk brętowo_54.3648_18.5734",
+    "name": "Gdańsk Brętowo",
+    "lat": 54.3648,
+    "lon": 18.5734,
+    "operators": [
+      "PKM"
+    ]
+  },
+  {
+    "id": "gdańsk firoga_54.3817_18.4767",
+    "name": "Gdańsk Firoga",
+    "lat": 54.3817,
+    "lon": 18.4767,
+    "operators": [
+      "PKM"
+    ]
+  },
+  {
+    "id": "gdańsk główny_54.3566_18.6443",
+    "name": "Gdańsk Główny",
+    "lat": 54.356592,
+    "lon": 18.644349,
+    "operators": [
+      "PolRegio",
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdańsk jasień_54.3536_18.5501",
+    "name": "Gdańsk Jasień",
+    "lat": 54.3536,
+    "lon": 18.5501,
+    "operators": [
+      "PKM"
+    ]
+  },
+  {
+    "id": "gdańsk kiełpinek_54.3554_18.5273",
+    "name": "Gdańsk Kiełpinek",
+    "lat": 54.3554,
+    "lon": 18.5273,
+    "operators": [
+      "PKM"
+    ]
+  },
+  {
+    "id": "gdańsk kokoszki_54.3623_18.4922",
+    "name": "Gdańsk Kokoszki",
+    "lat": 54.3623,
+    "lon": 18.4922,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "gdańsk lipce_54.3028_18.6355",
+    "name": "Gdańsk Lipce",
+    "lat": 54.3028,
+    "lon": 18.6355,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "gdańsk matarnia_54.3741_18.5063",
+    "name": "Gdańsk Matarnia",
+    "lat": 54.3741,
+    "lon": 18.5063,
+    "operators": [
+      "PKM"
+    ]
+  },
+  {
+    "id": "gdańsk niedźwiednik_54.3776_18.5719",
+    "name": "Gdańsk Niedźwiednik",
+    "lat": 54.3776,
+    "lon": 18.5719,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "gdańsk oliwa_54.4106_18.5717",
+    "name": "Gdańsk Oliwa",
+    "lat": 54.410554,
+    "lon": 18.571724,
+    "operators": [
+      "PolRegio",
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdańsk orunia_54.3243_18.6345",
+    "name": "Gdańsk Orunia",
+    "lat": 54.3243,
+    "lon": 18.6345,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "gdańsk osowa_54.4219_18.4524",
+    "name": "Gdańsk Osowa",
+    "lat": 54.4219,
+    "lon": 18.4524,
+    "operators": [
+      "PKM"
+    ]
+  },
+  {
+    "id": "gdańsk politechnika_54.3742_18.6271",
+    "name": "Gdańsk Politechnika",
+    "lat": 54.374245,
+    "lon": 18.627137,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdańsk port lotniczy_54.3828_18.4672",
+    "name": "Gdańsk Port Lotniczy",
+    "lat": 54.3828,
+    "lon": 18.4672,
+    "operators": [
+      "PKM"
+    ]
+  },
+  {
+    "id": "gdańsk przymorze - uniwersytet_54.4007_18.5766",
+    "name": "Gdańsk Przymorze - Uniwersytet",
+    "lat": 54.400653,
+    "lon": 18.57665,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdańsk rębiechowo_54.3883_18.4436",
+    "name": "Gdańsk Rębiechowo",
+    "lat": 54.3883,
+    "lon": 18.4436,
+    "operators": [
+      "PKM"
+    ]
+  },
+  {
+    "id": "gdańsk stocznia_54.3645_18.6420",
+    "name": "Gdańsk Stocznia",
+    "lat": 54.364462,
+    "lon": 18.641972,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdańsk strzyża_54.3916_18.5785",
+    "name": "Gdańsk Strzyża",
+    "lat": 54.3916,
+    "lon": 18.5785,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "gdańsk wrzeszcz_54.3822_18.6051",
+    "name": "Gdańsk Wrzeszcz",
+    "lat": 54.382173,
+    "lon": 18.605076,
+    "operators": [
+      "PolRegio",
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdańsk zaspa_54.3899_18.5913",
+    "name": "Gdańsk Zaspa",
+    "lat": 54.389906,
+    "lon": 18.591316,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdańsk śródmieście_54.3474_18.6441",
+    "name": "Gdańsk Śródmieście",
+    "lat": 54.347396,
+    "lon": 18.644051,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdańsk żabianka - awfis_54.4207_18.5685",
+    "name": "Gdańsk Żabianka - Awfis",
+    "lat": 54.420662,
+    "lon": 18.568536,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdynia chylonia_54.5457_18.4636",
+    "name": "Gdynia Chylonia",
+    "lat": 54.545692,
+    "lon": 18.463601,
+    "operators": [
+      "PolRegio",
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdynia cisowa_54.5501_18.4455",
+    "name": "Gdynia Cisowa",
+    "lat": 54.550083,
+    "lon": 18.445457,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdynia cisowa postojowa_54.5511_18.4397",
+    "name": "Gdynia Cisowa Postojowa",
+    "lat": 54.5511,
+    "lon": 18.4397,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "gdynia grabówek_54.5346_18.4953",
+    "name": "Gdynia Grabówek",
+    "lat": 54.534573,
+    "lon": 18.495341,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdynia główna_54.5202_18.5314",
+    "name": "Gdynia Główna",
+    "lat": 54.520191,
+    "lon": 18.531351,
+    "operators": [
+      "PolRegio",
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdynia karwiny_54.4693_18.5087",
+    "name": "Gdynia Karwiny",
+    "lat": 54.4693,
+    "lon": 18.5087,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "gdynia leszczynki_54.5414_18.4782",
+    "name": "Gdynia Leszczynki",
+    "lat": 54.541423,
+    "lon": 18.478242,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdynia orłowo_54.4767_18.5490",
+    "name": "Gdynia Orłowo",
+    "lat": 54.476721,
+    "lon": 18.549024,
+    "operators": [
+      "PolRegio",
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdynia redłowo_54.4917_18.5383",
+    "name": "Gdynia Redłowo",
+    "lat": 54.491662,
+    "lon": 18.538313,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdynia stadion_54.4696_18.5333",
+    "name": "Gdynia Stadion",
+    "lat": 54.4696,
+    "lon": 18.5333,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "gdynia stocznia_54.5256_18.5190",
+    "name": "Gdynia Stocznia",
+    "lat": 54.525634,
+    "lon": 18.519033,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "gdynia wzg. św. maksymiliana_54.5080_18.5356",
+    "name": "Gdynia Wzg. Św. Maksymiliana",
+    "lat": 54.507969,
+    "lon": 18.535571,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "leźno_54.3472_18.4593",
+    "name": "Leźno",
+    "lat": 54.3472,
+    "lon": 18.4593,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "otomino_54.3306_18.3768",
+    "name": "Otomino",
+    "lat": 54.3306,
+    "lon": 18.3768,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "pruszcz gdański_54.2579_18.6473",
+    "name": "Pruszcz Gdański",
+    "lat": 54.2579,
+    "lon": 18.6473,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "pępowo kartuskie_54.3667_18.4014",
+    "name": "Pępowo Kartuskie",
+    "lat": 54.3667,
+    "lon": 18.4014,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "reda_54.5953_18.3529",
+    "name": "Reda",
+    "lat": 54.595332,
+    "lon": 18.352881,
+    "operators": [
+      "PolRegio",
+      "SKM"
+    ]
+  },
+  {
+    "id": "rumia_54.5691_18.3865",
+    "name": "Rumia",
+    "lat": 54.569062,
+    "lon": 18.386524,
+    "operators": [
+      "PolRegio",
+      "SKM"
+    ]
+  },
+  {
+    "id": "rumia janowo_54.5589_18.4058",
+    "name": "Rumia Janowo",
+    "lat": 54.558921,
+    "lon": 18.405782,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "różyny_54.2121_18.6616",
+    "name": "Różyny",
+    "lat": 54.2121,
+    "lon": 18.6616,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "rębiechowo_54.3889_18.4211",
+    "name": "Rębiechowo",
+    "lat": 54.3889,
+    "lon": 18.4211,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "sopot_54.4401_18.5625",
+    "name": "Sopot",
+    "lat": 54.440067,
+    "lon": 18.562457,
+    "operators": [
+      "PolRegio",
+      "SKM"
+    ]
+  },
+  {
+    "id": "sopot kamienny potok_54.4578_18.5536",
+    "name": "Sopot Kamienny Potok",
+    "lat": 54.457764,
+    "lon": 18.553583,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "sopot wyścigi_54.4308_18.5654",
+    "name": "Sopot Wyścigi",
+    "lat": 54.430836,
+    "lon": 18.565351,
+    "operators": [
+      "SKM"
+    ]
+  },
+  {
+    "id": "stara piła_54.3265_18.4135",
+    "name": "Stara Piła",
+    "lat": 54.3265,
+    "lon": 18.4135,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "żukowo_54.3443_18.3610",
+    "name": "Żukowo",
+    "lat": 54.3443,
+    "lon": 18.361,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "żukowo wschodnie_54.3487_18.3741",
+    "name": "Żukowo Wschodnie",
+    "lat": 54.3487,
+    "lon": 18.3741,
+    "operators": [
+      "PolRegio"
+    ]
+  },
+  {
+    "id": "żukowo zachodnie_54.3332_18.3489",
+    "name": "Żukowo Zachodnie",
+    "lat": 54.3332,
+    "lon": 18.3489,
+    "operators": [
+      "PolRegio"
+    ]
+  }
+]

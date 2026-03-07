@@ -1,0 +1,6445 @@
+{
+  "lastUpdated": 1772374260,
+  "stations": [
+    {
+      "id": "5993",
+      "name": "GDA419",
+      "address": "ul. Jabłoniowa 39,80-175 Gdańsk",
+      "lat": 54.32837,
+      "lon": 18.55163,
+      "capacity": 10
+    },
+    {
+      "id": "5961",
+      "name": "GDA412",
+      "address": "Telewizyjna 18-24,80-298 Gdańsk",
+      "lat": 54.39493,
+      "lon": 18.47436,
+      "capacity": 10
+    },
+    {
+      "id": "5959",
+      "name": "GDA418",
+      "address": "Zaroślak Nad Radunią, Zaroślak 17, 80-811 Gdańsk",
+      "lat": 54.34258,
+      "lon": 18.64245,
+      "capacity": 10
+    },
+    {
+      "id": "5958",
+      "name": "GDA417",
+      "address": "Węzeł Kliniczna, Okrąg 1, 80-871 Gdańsk",
+      "lat": 54.37676,
+      "lon": 18.63248,
+      "capacity": 10
+    },
+    {
+      "id": "5957",
+      "name": "GDA416",
+      "address": "Nowiny 3,80-020 Gdańsk",
+      "lat": 54.32152,
+      "lon": 18.629648,
+      "capacity": 10
+    },
+    {
+      "id": "5956",
+      "name": "GDA415",
+      "address": "Plac Wałowy 3,80-821 Gdańsk",
+      "lat": 54.340498,
+      "lon": 18.64718,
+      "capacity": 10
+    },
+    {
+      "id": "5923",
+      "name": "GDA411",
+      "address": "ul. Jabłoniowa 55, 80-180 Gdańsk",
+      "lat": 54.322848,
+      "lon": 18.539932,
+      "capacity": 10
+    },
+    {
+      "id": "5890",
+      "name": "GDA408",
+      "address": "al. Pawła Admowicza / ul.Stolema",
+      "lat": 54.341247,
+      "lon": 18.570812,
+      "capacity": 10
+    },
+    {
+      "id": "5855",
+      "name": "GDA401",
+      "address": "ul. Marynarki Polskiej 195, 80-557 Gdańsk",
+      "lat": 54.36891347813861,
+      "lon": 18.638709407333124,
+      "capacity": 10
+    },
+    {
+      "id": "5854",
+      "name": "GDA404",
+      "address": "ul. Prof. Jerzego Stankiewicza,80-174 Gdańsk",
+      "lat": 54.33210130975888,
+      "lon": 18.55225706092898,
+      "capacity": 10
+    },
+    {
+      "id": "5853",
+      "name": "PRU031",
+      "address": "ul. Józefa Konrada Korzeniowskiego 5,83-004 Pruszcz Gdański",
+      "lat": 54.26136791727413,
+      "lon": 18.660485050456913,
+      "capacity": 10
+    },
+    {
+      "id": "5852",
+      "name": "PRU032",
+      "address": "ul. Zastawna 4,83-004 Pruszcz Gdański",
+      "lat": 54.24980281006788,
+      "lon": 18.63054779610681,
+      "capacity": 10
+    },
+    {
+      "id": "5851",
+      "name": "PRU030",
+      "address": "ul. Arctowskiego 2-4,83-004 Pruszcz Gdański",
+      "lat": 54.26536205443773,
+      "lon": 18.62647104896351,
+      "capacity": 10
+    },
+    {
+      "id": "5850",
+      "name": "GDA399",
+      "address": "ul. Starowiejska 62-60,80-534 Gdańsk",
+      "lat": 54.39582,
+      "lon": 18.64643,
+      "capacity": 10
+    },
+    {
+      "id": "5849",
+      "name": "GDA407",
+      "address": "Jana Charpantiera, 80-561 Gdańsk",
+      "lat": 54.393215173053676,
+      "lon": 18.67789098169722,
+      "capacity": 10
+    },
+    {
+      "id": "5848",
+      "name": "GDA406",
+      "address": "ul. Niegowska 1,80-003 Gdańsk",
+      "lat": 54.30267,
+      "lon": 18.63525,
+      "capacity": 15
+    },
+    {
+      "id": "5847",
+      "name": "GDA409",
+      "address": "Pastelowa, 80-180 Gdańsk",
+      "lat": 54.309876,
+      "lon": 18.601032,
+      "capacity": 20
+    },
+    {
+      "id": "5846",
+      "name": "GDA410",
+      "address": "Profesora Romualda Cebertowicza, 80-809 Gdańsk",
+      "lat": 54.335916,
+      "lon": 18.608258,
+      "capacity": 10
+    },
+    {
+      "id": "5845",
+      "name": "GDA405",
+      "address": "Bramińskiego 02, 80-180 Gdańsk",
+      "lat": 54.322443513841364,
+      "lon": 18.586432006454515,
+      "capacity": 10
+    },
+    {
+      "id": "5844",
+      "name": "GDA400",
+      "address": "Budowlanych 34, 80-298 Gdańsk",
+      "lat": 54.36941899297614,
+      "lon": 18.461909271143867,
+      "capacity": 10
+    },
+    {
+      "id": "5811",
+      "name": "GDA398",
+      "address": "Aleja Generała Józefa Hallera 201",
+      "lat": 54.39641221825073,
+      "lon": 18.62255276998812,
+      "capacity": 10
+    },
+    {
+      "id": "5810",
+      "name": "GDA403",
+      "address": "Kartuska 418/C, 80-125 Gdańsk",
+      "lat": 54.34515590223805,
+      "lon": 18.53594487610468,
+      "capacity": 10
+    },
+    {
+      "id": "5809",
+      "name": "GDA402",
+      "address": "ul . Nowatorów",
+      "lat": 54.362083,
+      "lon": 18.492193,
+      "capacity": 10
+    },
+    {
+      "id": "5735",
+      "name": "GPG011",
+      "address": "ul. Rataja",
+      "lat": 54.230028,
+      "lon": 18.635437,
+      "capacity": 50
+    },
+    {
+      "id": "5734",
+      "name": "GPG010",
+      "address": "ul. Spacerowa",
+      "lat": 54.222693,
+      "lon": 18.647111,
+      "capacity": 50
+    },
+    {
+      "id": "5733",
+      "name": "GPG012",
+      "address": "ul. Żurawia",
+      "lat": 54.2218405,
+      "lon": 18.5485268,
+      "capacity": 10
+    },
+    {
+      "id": "5732",
+      "name": "GPG002",
+      "address": "Dworcowa 1, 83-010 Straszyn",
+      "lat": 54.27024,
+      "lon": 18.571672,
+      "capacity": 50
+    },
+    {
+      "id": "5731",
+      "name": "GPG004",
+      "address": "Poprzeczna, 83-010 Straszyn",
+      "lat": 54.275331972711825,
+      "lon": 18.57558799921773,
+      "capacity": 50
+    },
+    {
+      "id": "5730",
+      "name": "GPG001",
+      "address": "Pocztowa, 83-010 Straszyn",
+      "lat": 54.272386,
+      "lon": 18.583012,
+      "capacity": 50
+    },
+    {
+      "id": "5729",
+      "name": "GPG005",
+      "address": "św. Siostry Faustyny, 83-010 Rotmanka",
+      "lat": 54.27443745858557,
+      "lon": 18.605631896673117,
+      "capacity": 10
+    },
+    {
+      "id": "5728",
+      "name": "GPG009",
+      "address": "Ogrodowa, 83-004 Juszkowo",
+      "lat": 54.258319,
+      "lon": 18.607851,
+      "capacity": 10
+    },
+    {
+      "id": "5727",
+      "name": "GPG008",
+      "address": "Sportowa, 83-004 Juszkowo",
+      "lat": 54.258571,
+      "lon": 18.597453,
+      "capacity": 10
+    },
+    {
+      "id": "5726",
+      "name": "GPG013",
+      "address": "Łąkowa, 83-031 Cieplewo",
+      "lat": 54.234049,
+      "lon": 18.646947,
+      "capacity": 10
+    },
+    {
+      "id": "5725",
+      "name": "GPG003",
+      "address": "Saturna, 83-010 Straszyn",
+      "lat": 54.267275521811484,
+      "lon": 18.55411041328,
+      "capacity": 10
+    },
+    {
+      "id": "5724",
+      "name": "GDA396",
+      "address": "plac Oruński 12, 80-056 Gdańsk",
+      "lat": 54.32415,
+      "lon": 18.63483,
+      "capacity": 10
+    },
+    {
+      "id": "5723",
+      "name": "GDA394",
+      "address": "Przywidzka 6, 80-174 Gdańsk",
+      "lat": 54.32171,
+      "lon": 18.55292,
+      "capacity": 10
+    },
+    {
+      "id": "5722",
+      "name": "GDA390",
+      "address": "Łabędzia 02, 80-125 Gdańsk",
+      "lat": 54.3469,
+      "lon": 18.57222,
+      "capacity": 10
+    },
+    {
+      "id": "5721",
+      "name": "GPG007",
+      "address": "Klasyczna 2, 80-180 Borkowo",
+      "lat": 54.302617,
+      "lon": 18.57812,
+      "capacity": 10
+    },
+    {
+      "id": "5720",
+      "name": "GPG006",
+      "address": "Akacjowa 2, 80-180 Borkowo",
+      "lat": 54.298585,
+      "lon": 18.595699,
+      "capacity": 10
+    },
+    {
+      "id": "5719",
+      "name": "GDA391",
+      "address": "Ferdynanda Magellana 14, 80-215 Gdańsk",
+      "lat": 54.363451,
+      "lon": 18.582268,
+      "capacity": 10
+    },
+    {
+      "id": "5718",
+      "name": "GDA392",
+      "address": "Aleja Zwycięstwa 41/42, 80-210 Gdańsk",
+      "lat": 54.3668,
+      "lon": 18.63276,
+      "capacity": 10
+    },
+    {
+      "id": "5717",
+      "name": "GDA393",
+      "address": "Aleja Generała Józefa Hallera 16/18, 80-426 Gdańsk",
+      "lat": 54.38039,
+      "lon": 18.62163,
+      "capacity": 10
+    },
+    {
+      "id": "5716",
+      "name": "RUM027",
+      "address": "Towarowa 49, 84-230 Rumia",
+      "lat": 54.572672,
+      "lon": 18.378749,
+      "capacity": 10
+    },
+    {
+      "id": "5715",
+      "name": "RUM024",
+      "address": "Zielona 10, 84-230 Rumia",
+      "lat": 54.553771,
+      "lon": 18.367752,
+      "capacity": 10
+    },
+    {
+      "id": "5714",
+      "name": "RUM025",
+      "address": "Chmielna 12, 84-230 Rumia",
+      "lat": 54.55728,
+      "lon": 18.37223,
+      "capacity": 10
+    },
+    {
+      "id": "5713",
+      "name": "RUM026",
+      "address": "Źródlana 1, 84-230 Rumia",
+      "lat": 54.560551,
+      "lon": 18.375988,
+      "capacity": 10
+    },
+    {
+      "id": "5712",
+      "name": "RUM033",
+      "address": "Generała Henryka Dąbrowskiego 74, 84-230 Rumia",
+      "lat": 54.560168,
+      "lon": 18.422973,
+      "capacity": 10
+    },
+    {
+      "id": "5711",
+      "name": "GPG015",
+      "address": "Bałtycka 3C, 83-021 Rokitnica",
+      "lat": 54.272733,
+      "lon": 18.683698,
+      "capacity": 10
+    },
+    {
+      "id": "5710",
+      "name": "RUM032",
+      "address": "Błoń Janowskich 1, 84-230 Rumia",
+      "lat": 54.572087,
+      "lon": 18.419257,
+      "capacity": 10
+    },
+    {
+      "id": "5709",
+      "name": "RUM031",
+      "address": "Kazimierska 11A, 84-230 Rumia",
+      "lat": 54.582756,
+      "lon": 18.406233,
+      "capacity": 10
+    },
+    {
+      "id": "5708",
+      "name": "RUM030",
+      "address": "Partyzantów 34, 84-230 Rumia",
+      "lat": 54.588079,
+      "lon": 18.394352,
+      "capacity": 10
+    },
+    {
+      "id": "5707",
+      "name": "RUM029",
+      "address": "Tadeusza Kościuszki 23, 84-230 Rumia",
+      "lat": 54.585318,
+      "lon": 18.388489,
+      "capacity": 10
+    },
+    {
+      "id": "5706",
+      "name": "RUM028",
+      "address": "Jeziorna 2, 84-230 Rumia",
+      "lat": 54.587931,
+      "lon": 18.373054,
+      "capacity": 10
+    },
+    {
+      "id": "5705",
+      "name": "GDA389",
+      "address": "Na Ostrowiu, 80-873 Gdańsk",
+      "lat": 54.373904,
+      "lon": 18.649331,
+      "capacity": 10
+    },
+    {
+      "id": "5673",
+      "name": "GPG014",
+      "address": "83-021 Przejazdowo",
+      "lat": 54.326273,
+      "lon": 18.744564,
+      "capacity": 10
+    },
+    {
+      "id": "5672",
+      "name": "GDA395",
+      "address": "Nadwiślańska 133, 80-680 Gdańsk",
+      "lat": 54.35091,
+      "lon": 18.7911,
+      "capacity": 10
+    },
+    {
+      "id": "5671",
+      "name": "GDA397",
+      "address": "Kontenerowa",
+      "lat": 54.38282,
+      "lon": 18.71079,
+      "capacity": 10
+    },
+    {
+      "id": "4971",
+      "name": "GDA370",
+      "address": "Lawendowe wzgórze",
+      "lat": 54.3272251,
+      "lon": 18.5602068,
+      "capacity": 20
+    },
+    {
+      "id": "4970",
+      "name": "GDA379",
+      "address": "Wydmy, 80-656 Gdańsk",
+      "lat": 54.373734401692076,
+      "lon": 18.72929096185743,
+      "capacity": 10
+    },
+    {
+      "id": "4960",
+      "name": "GDA373",
+      "address": "Rondo Junony",
+      "lat": 54.419942,
+      "lon": 18.470406,
+      "capacity": 21
+    },
+    {
+      "id": "4959",
+      "name": "GDA375",
+      "address": "Letnicka",
+      "lat": 54.40059896726345,
+      "lon": 18.646700421007978,
+      "capacity": 36
+    },
+    {
+      "id": "4958",
+      "name": "GDA388",
+      "address": "Rondo Starogardzka/Czerska",
+      "lat": 54.3014250014771,
+      "lon": 18.607359939485804,
+      "capacity": 25
+    },
+    {
+      "id": "4957",
+      "name": "GDA378",
+      "address": "Radarowa",
+      "lat": 54.38908713,
+      "lon": 18.4822624,
+      "capacity": 19
+    },
+    {
+      "id": "4924",
+      "name": "GDA385",
+      "address": "Rondo Guderskiego/Flisykowskiego",
+      "lat": 54.32187,
+      "lon": 18.5608,
+      "capacity": 26
+    },
+    {
+      "id": "4923",
+      "name": "GDA371",
+      "address": "Jabłoniowa/Turzycowa",
+      "lat": 54.330873,
+      "lon": 18.557719,
+      "capacity": 23
+    },
+    {
+      "id": "4922",
+      "name": "GDA383",
+      "address": "Jabłoniowa",
+      "lat": 54.33185,
+      "lon": 18.56417,
+      "capacity": 14
+    },
+    {
+      "id": "4921",
+      "name": "GDA386",
+      "address": "Jaworzniaków",
+      "lat": 54.31798,
+      "lon": 18.56839,
+      "capacity": 22
+    },
+    {
+      "id": "4920",
+      "name": "GDA387",
+      "address": "Jagiełły",
+      "lat": 54.30361022,
+      "lon": 18.61379527,
+      "capacity": 20
+    },
+    {
+      "id": "4919",
+      "name": "GDA382",
+      "address": "Modra",
+      "lat": 54.34207,
+      "lon": 18.66896,
+      "capacity": 16
+    },
+    {
+      "id": "4918",
+      "name": "GDA381",
+      "address": "Rzęsna",
+      "lat": 54.34948,
+      "lon": 18.70621,
+      "capacity": 21
+    },
+    {
+      "id": "4917",
+      "name": "GDA380",
+      "address": "Kępna",
+      "lat": 54.35909,
+      "lon": 18.74597,
+      "capacity": 22
+    },
+    {
+      "id": "4916",
+      "name": "KOS015",
+      "address": "Wiejska",
+      "lat": 54.5752,
+      "lon": 18.49053,
+      "capacity": 12
+    },
+    {
+      "id": "4915",
+      "name": "KOS016",
+      "address": "Derdowskiego",
+      "lat": 54.56409,
+      "lon": 18.50585,
+      "capacity": 23
+    },
+    {
+      "id": "4913",
+      "name": "KOS014",
+      "address": "Sezamkowa",
+      "lat": 54.5842,
+      "lon": 18.47796,
+      "capacity": 19
+    },
+    {
+      "id": "4912",
+      "name": "KOS013",
+      "address": "Słonecznikowa/Astrowa",
+      "lat": 54.59188,
+      "lon": 18.48759,
+      "capacity": 14
+    },
+    {
+      "id": "4911",
+      "name": "KOS012",
+      "address": "Lubczykowa",
+      "lat": 54.60501,
+      "lon": 18.47749,
+      "capacity": 19
+    },
+    {
+      "id": "4910",
+      "name": "GDA384",
+      "address": "Czemińskiego/Guderskiego",
+      "lat": 54.32356,
+      "lon": 18.55579,
+      "capacity": 29
+    },
+    {
+      "id": "4908",
+      "name": "GDA376",
+      "address": "sucha",
+      "lat": 54.39393,
+      "lon": 18.64408,
+      "capacity": 50
+    },
+    {
+      "id": "4907",
+      "name": "GDA374",
+      "address": "Grudziądzka",
+      "lat": 54.39447645,
+      "lon": 18.62103389,
+      "capacity": 43
+    },
+    {
+      "id": "4906",
+      "name": "GDA372",
+      "address": "Narzędziowców",
+      "lat": 54.36375,
+      "lon": 18.64732,
+      "capacity": 50
+    },
+    {
+      "id": "4904",
+      "name": "GDA366",
+      "address": "Adamowicza",
+      "lat": 54.349959,
+      "lon": 18.574246,
+      "capacity": 25
+    },
+    {
+      "id": "4903",
+      "name": "GDA369",
+      "address": "Lawendowe wzgórze",
+      "lat": 54.328892,
+      "lon": 18.568796,
+      "capacity": 21
+    },
+    {
+      "id": "4902",
+      "name": "GDA368",
+      "address": "Warszawska",
+      "lat": 54.331717,
+      "lon": 18.570822,
+      "capacity": 16
+    },
+    {
+      "id": "4901",
+      "name": "GDA364",
+      "address": "Sobieszewo, Turystyczna",
+      "lat": 54.3439594,
+      "lon": 18.8305346,
+      "capacity": 44
+    },
+    {
+      "id": "4900",
+      "name": "GDA365",
+      "address": "Sobieszewo, Boguckiego",
+      "lat": 54.33499,
+      "lon": 18.933902,
+      "capacity": 34
+    },
+    {
+      "id": "4868",
+      "name": "GDA377",
+      "address": "Gdańsk Rębiechowo",
+      "lat": 54.3872159,
+      "lon": 18.4461948,
+      "capacity": 10
+    },
+    {
+      "id": "4867",
+      "name": "GDA367",
+      "address": "skrzyżowanie Adamowicza/Kartuska",
+      "lat": 54.338218,
+      "lon": 18.572119,
+      "capacity": 10
+    },
+    {
+      "id": "4680",
+      "name": "OMGGS",
+      "address": "Długi Targ 39/40, 80-830 Gdańsk",
+      "lat": 54.34861612050537,
+      "lon": 18.654126563829493,
+      "capacity": 50
+    },
+    {
+      "id": "3920",
+      "name": "GDA092",
+      "address": "Olsztyńska 2b, 80-395 Gdańsk",
+      "lat": 54.404969,
+      "lon": 18.6044096,
+      "capacity": 10
+    },
+    {
+      "id": "3921",
+      "name": "GDA093",
+      "address": "Kołobrzeska 42A, 80-391 Gdańsk",
+      "lat": 54.4048229,
+      "lon": 18.5969398,
+      "capacity": 10
+    },
+    {
+      "id": "3922",
+      "name": "GDA094",
+      "address": "Aleja Rzeczypospolitej 25, 80-463 Gdańsk",
+      "lat": 54.4000381,
+      "lon": 18.5954995,
+      "capacity": 10
+    },
+    {
+      "id": "3923",
+      "name": "GDA095",
+      "address": "Aleja Jana Pawła II 25C, 80-462 Gdańsk",
+      "lat": 54.4045064,
+      "lon": 18.6123297,
+      "capacity": 10
+    },
+    {
+      "id": "3924",
+      "name": "GDA096",
+      "address": "Janusza Meissnera 4, 80-462 Gdańsk",
+      "lat": 54.3999566,
+      "lon": 18.6064973,
+      "capacity": 10
+    },
+    {
+      "id": "3925",
+      "name": "GDA097",
+      "address": "Aleja Jana Pawła II 3b, 80-462 Gdańsk",
+      "lat": 54.397234,
+      "lon": 18.6045205,
+      "capacity": 10
+    },
+    {
+      "id": "3926",
+      "name": "GDA098",
+      "address": "Aleja Jana Pawła II 1e, 80-462 Gdańsk",
+      "lat": 54.3970874,
+      "lon": 18.5978985,
+      "capacity": 10
+    },
+    {
+      "id": "3927",
+      "name": "GDA099",
+      "address": "aleja Jana Pawła II 48, 80-462 Gdańsk",
+      "lat": 54.4025041,
+      "lon": 18.6108344,
+      "capacity": 10
+    },
+    {
+      "id": "3928",
+      "name": "GDA100",
+      "address": "Zbigniewa Burzyńskiego 1, 80-462 Gdańsk",
+      "lat": 54.399374,
+      "lon": 18.607348,
+      "capacity": 10
+    },
+    {
+      "id": "3929",
+      "name": "GDA101",
+      "address": "Zbigniewa Burzyńskiego 6H, 80-462 Gdańsk",
+      "lat": 54.3957092,
+      "lon": 18.603511,
+      "capacity": 10
+    },
+    {
+      "id": "3930",
+      "name": "GDA102",
+      "address": "Kombatantów 1G, 80-464 Gdańsk",
+      "lat": 54.3966953,
+      "lon": 18.6119055,
+      "capacity": 10
+    },
+    {
+      "id": "3931",
+      "name": "GDA103",
+      "address": "Leszczyńskich 5A, 80-464 Gdańsk",
+      "lat": 54.3943767,
+      "lon": 18.614148,
+      "capacity": 10
+    },
+    {
+      "id": "3932",
+      "name": "GDA104",
+      "address": "Konstantego Ciołkowskiego 1A, 80-414 Gdańsk",
+      "lat": 54.3920442,
+      "lon": 18.6168327,
+      "capacity": 10
+    },
+    {
+      "id": "3933",
+      "name": "GDA105",
+      "address": "aleja Rzeczypospolitej 33, 80-463 Gdańsk",
+      "lat": 54.3898412,
+      "lon": 18.6087667,
+      "capacity": 10
+    },
+    {
+      "id": "3934",
+      "name": "GDA106",
+      "address": "Pilotów 23E, 80-460 Gdańsk",
+      "lat": 54.3962212,
+      "lon": 18.5892784,
+      "capacity": 10
+    },
+    {
+      "id": "3935",
+      "name": "GDA107",
+      "address": "Startowa 13K, 80-461 Gdańsk",
+      "lat": 54.3971784,
+      "lon": 18.596894,
+      "capacity": 10
+    },
+    {
+      "id": "3936",
+      "name": "GDA108",
+      "address": "Startowa 5A, 80-462 Gdańsk",
+      "lat": 54.393505,
+      "lon": 18.5994117,
+      "capacity": 10
+    },
+    {
+      "id": "3937",
+      "name": "GDA109",
+      "address": "Pilotów 6A, 80-460 Gdańsk",
+      "lat": 54.390708,
+      "lon": 18.5965129,
+      "capacity": 10
+    },
+    {
+      "id": "3938",
+      "name": "GDA110",
+      "address": "Pilotów 12A/32, 80-460 Gdańsk",
+      "lat": 54.3921138,
+      "lon": 18.5900393,
+      "capacity": 10
+    },
+    {
+      "id": "3939",
+      "name": "GDA111",
+      "address": "Hynka 59, 80-465 Gdańsk",
+      "lat": 54.3893996,
+      "lon": 18.5937191,
+      "capacity": 10
+    },
+    {
+      "id": "3940",
+      "name": "GDA112",
+      "address": "Dywizjonu 303 5K, 80-462 Gdańsk",
+      "lat": 54.389994,
+      "lon": 18.597972,
+      "capacity": 10
+    },
+    {
+      "id": "3941",
+      "name": "GDA113",
+      "address": "Dywizjonu 303 5A, 80-462 Gdańsk",
+      "lat": 54.3911144,
+      "lon": 18.6006875,
+      "capacity": 10
+    },
+    {
+      "id": "3942",
+      "name": "GDA114",
+      "address": "Dywizjonu 303 33G, 80-462 Gdańsk",
+      "lat": 54.40309645445791,
+      "lon": 18.683988681999637,
+      "capacity": 10
+    },
+    {
+      "id": "3943",
+      "name": "GDA115",
+      "address": "Jana Nagórskiego 7A, 80-463 Gdańsk",
+      "lat": 54.3921351,
+      "lon": 18.6053414,
+      "capacity": 10
+    },
+    {
+      "id": "3944",
+      "name": "GDA116",
+      "address": "Skarżyńskiego 5F, 80-463 Gdańsk",
+      "lat": 54.3886618,
+      "lon": 18.6050708,
+      "capacity": 10
+    },
+    {
+      "id": "3945",
+      "name": "GDA117",
+      "address": "Aleja Grunwaldzka 309, 80-309 Gdańsk",
+      "lat": 54.3942309,
+      "lon": 18.581392,
+      "capacity": 10
+    },
+    {
+      "id": "3946",
+      "name": "GDA118",
+      "address": "Wita Stwosza 73, 80-308 Gdańsk",
+      "lat": 54.3912591,
+      "lon": 18.5778401,
+      "capacity": 10
+    },
+    {
+      "id": "3947",
+      "name": "GDA119",
+      "address": "Abrahama 38, 80-307 Gdańsk",
+      "lat": 54.389862,
+      "lon": 18.5685209,
+      "capacity": 10
+    },
+    {
+      "id": "3948",
+      "name": "GDA120",
+      "address": "Polanki 99, 80-302 Gdańsk",
+      "lat": 54.3898555,
+      "lon": 18.5738951,
+      "capacity": 10
+    },
+    {
+      "id": "3949",
+      "name": "GDA121",
+      "address": "płk. Wilka-Krzyżanowskiego 2a, 80-271 Gdańsk",
+      "lat": 54.3886109,
+      "lon": 18.5810215,
+      "capacity": 10
+    },
+    {
+      "id": "3950",
+      "name": "GDA122",
+      "address": "Bernarda Chrzanowskiego 64D, 80-289 Gdańsk",
+      "lat": 54.3867775,
+      "lon": 18.5782197,
+      "capacity": 10
+    },
+    {
+      "id": "3951",
+      "name": "GDA123",
+      "address": "Piotra Norblina 11A, 80-304 Gdańsk",
+      "lat": 54.3867877,
+      "lon": 18.5722504,
+      "capacity": 10
+    },
+    {
+      "id": "3952",
+      "name": "GDA124",
+      "address": "Piotra Michałowskiego 48, 80-300 Gdańsk",
+      "lat": 54.3854283,
+      "lon": 18.5697635,
+      "capacity": 10
+    },
+    {
+      "id": "3953",
+      "name": "GDA125",
+      "address": "Aleja Grunwaldzka 232/4, 80-266 Gdańsk",
+      "lat": 54.3893661,
+      "lon": 18.5875447,
+      "capacity": 10
+    },
+    {
+      "id": "3954",
+      "name": "GDA126",
+      "address": "Braci Lewoniewskich 2a, 80-465 Gdańsk",
+      "lat": 54.3870902,
+      "lon": 18.5920846,
+      "capacity": 10
+    },
+    {
+      "id": "3955",
+      "name": "GDA127",
+      "address": "Karola Szymanowskiego 2, 80-280 Gdańsk",
+      "lat": 54.3861257,
+      "lon": 18.592266,
+      "capacity": 10
+    },
+    {
+      "id": "3956",
+      "name": "GDA128",
+      "address": "Fryderyka Chopina 36, 80-272 Gdańsk",
+      "lat": 54.3863352,
+      "lon": 18.581436,
+      "capacity": 10
+    },
+    {
+      "id": "3957",
+      "name": "GDA129",
+      "address": "Bernarda Chrzanowskiego 38, 80-278 Gdańsk",
+      "lat": 54.384644,
+      "lon": 18.581958,
+      "capacity": 10
+    },
+    {
+      "id": "3958",
+      "name": "GDA130",
+      "address": "Karola Szymanowskiego 14, 80-280 Gdańsk",
+      "lat": 54.3838928,
+      "lon": 18.5883165,
+      "capacity": 10
+    },
+    {
+      "id": "3959",
+      "name": "GDA131",
+      "address": "prof. Witolda Andruszkiewicza 5, 80-601 Gdańsk",
+      "lat": 54.36695895343297,
+      "lon": 18.692842698375728,
+      "capacity": 10
+    },
+    {
+      "id": "3960",
+      "name": "GDA132",
+      "address": "Juliusza Słowackiego 29/87, 80-257 Gdańsk",
+      "lat": 54.3807519,
+      "lon": 18.5881958,
+      "capacity": 10
+    },
+    {
+      "id": "3961",
+      "name": "GDA133",
+      "address": "Partyzantów 72/82, 80-254 Gdańsk",
+      "lat": 54.3790489,
+      "lon": 18.5885755,
+      "capacity": 10
+    },
+    {
+      "id": "3962",
+      "name": "GDA134",
+      "address": "Róży Ostrowskiej 74, 80-001 Gdańsk",
+      "lat": 54.3786056,
+      "lon": 18.5869609,
+      "capacity": 10
+    },
+    {
+      "id": "3963",
+      "name": "GDA135",
+      "address": "Partyzantów 103, 80-254 Gdańsk",
+      "lat": 54.3784701,
+      "lon": 18.5839192,
+      "capacity": 10
+    },
+    {
+      "id": "3964",
+      "name": "GDA136",
+      "address": "Srebrniki 5, 80-282 Gdańsk",
+      "lat": 54.3767013,
+      "lon": 18.5804027,
+      "capacity": 10
+    },
+    {
+      "id": "3965",
+      "name": "GDA137",
+      "address": "Juliusza Słowackiego 89, 80-283 Gdańsk",
+      "lat": 54.3772656,
+      "lon": 18.5718838,
+      "capacity": 10
+    },
+    {
+      "id": "3966",
+      "name": "GDA138",
+      "address": "Góralska 51A, 80-292 Gdańsk",
+      "lat": 54.380102,
+      "lon": 18.5599233,
+      "capacity": 10
+    },
+    {
+      "id": "3967",
+      "name": "GDA139",
+      "address": "Góralska 13B, 80-292 Gdańsk",
+      "lat": 54.3765635,
+      "lon": 18.5648296,
+      "capacity": 10
+    },
+    {
+      "id": "3968",
+      "name": "GDA140",
+      "address": "Mazowiecka 1, 80-292 Gdańsk",
+      "lat": 54.374532,
+      "lon": 18.5669034,
+      "capacity": 10
+    },
+    {
+      "id": "3969",
+      "name": "GDA141",
+      "address": "Jerzego Waldorffa 3, 80-283 Gdańsk",
+      "lat": 54.3669795,
+      "lon": 18.5490937,
+      "capacity": 10
+    },
+    {
+      "id": "3970",
+      "name": "GDA142",
+      "address": "Potokowa 25, 80-283 Gdańsk",
+      "lat": 54.3626549,
+      "lon": 18.5586863,
+      "capacity": 10
+    },
+    {
+      "id": "3971",
+      "name": "GDA143",
+      "address": "Rakoczego 7, 80-288 Gdańsk",
+      "lat": 54.3649788,
+      "lon": 18.5729407,
+      "capacity": 10
+    },
+    {
+      "id": "3972",
+      "name": "GDA144",
+      "address": "Jana Kilińskiego 35",
+      "lat": 54.3863544,
+      "lon": 18.6057714,
+      "capacity": 10
+    },
+    {
+      "id": "3973",
+      "name": "GDA145",
+      "address": "Aleja Legionów 15",
+      "lat": 54.3875896,
+      "lon": 18.6107299,
+      "capacity": 10
+    },
+    {
+      "id": "3974",
+      "name": "GDA146",
+      "address": "Tadeusza Kościuszki 80A",
+      "lat": 54.3882076,
+      "lon": 18.6169725,
+      "capacity": 10
+    },
+    {
+      "id": "3975",
+      "name": "GDA147",
+      "address": "Aleja Generała Józefa Hallera 165",
+      "lat": 54.3882139,
+      "lon": 18.6228009,
+      "capacity": 10
+    },
+    {
+      "id": "3976",
+      "name": "GDA148",
+      "address": "Racławicka 17C, 80-407 Gdańsk",
+      "lat": 54.3870641,
+      "lon": 18.62887,
+      "capacity": 10
+    },
+    {
+      "id": "3977",
+      "name": "GDA149",
+      "address": "Bolesława Chrobrego 27",
+      "lat": 54.3858291,
+      "lon": 18.6164044,
+      "capacity": 10
+    },
+    {
+      "id": "3978",
+      "name": "GDA150",
+      "address": "Jana Pestalozziego 1, 80-445 Gdańsk",
+      "lat": 54.384664,
+      "lon": 18.6092919,
+      "capacity": 10
+    },
+    {
+      "id": "3979",
+      "name": "GDA151",
+      "address": "Nad Stawem 8, 80-452 Gdańsk",
+      "lat": 54.383761,
+      "lon": 18.606117,
+      "capacity": 10
+    },
+    {
+      "id": "3980",
+      "name": "GDA152",
+      "address": "Jana Kilińskiego 2, 80-001 Gdańsk",
+      "lat": 54.3817683,
+      "lon": 18.6065998,
+      "capacity": 10
+    },
+    {
+      "id": "3981",
+      "name": "GDA153",
+      "address": "Jana Kilińskiego 2, Gdańsk",
+      "lat": 54.38160126357985,
+      "lon": 18.60715160906335,
+      "capacity": 10
+    },
+    {
+      "id": "3982",
+      "name": "GDA154",
+      "address": "Joachima Lelewela 18A",
+      "lat": 54.3831607,
+      "lon": 18.6144484,
+      "capacity": 10
+    },
+    {
+      "id": "3983",
+      "name": "GDA155",
+      "address": "Danusi 4D, 80-434 Gdańsk",
+      "lat": 54.3810278,
+      "lon": 18.6136476,
+      "capacity": 10
+    },
+    {
+      "id": "3984",
+      "name": "GDA156",
+      "address": "Aleja Grunwaldzka 141, 80-264 Gdańsk",
+      "lat": 54.382873,
+      "lon": 18.5985451,
+      "capacity": 10
+    },
+    {
+      "id": "3985",
+      "name": "GDA157",
+      "address": "Romana Dmowskiego 11C",
+      "lat": 54.3812316,
+      "lon": 18.6054209,
+      "capacity": 10
+    },
+    {
+      "id": "3986",
+      "name": "GDA158",
+      "address": "Klonowa 4D",
+      "lat": 54.3810553,
+      "lon": 18.6052818,
+      "capacity": 10
+    },
+    {
+      "id": "3987",
+      "name": "GDA159",
+      "address": "Aleja Grunwaldzka 117, 80-244 Gdańsk",
+      "lat": 54.3800692,
+      "lon": 18.6036406,
+      "capacity": 10
+    },
+    {
+      "id": "3988",
+      "name": "GDA160",
+      "address": "Aleja Grunwaldzka 122",
+      "lat": 54.379909,
+      "lon": 18.6024964,
+      "capacity": 10
+    },
+    {
+      "id": "3989",
+      "name": "GDA161",
+      "address": "Obywatelska 1, 80-259 Gdańsk",
+      "lat": 54.3807591,
+      "lon": 18.5936781,
+      "capacity": 10
+    },
+    {
+      "id": "3990",
+      "name": "GDA162",
+      "address": "Partyzantów 59",
+      "lat": 54.3790935,
+      "lon": 18.5952564,
+      "capacity": 10
+    },
+    {
+      "id": "3991",
+      "name": "GDA163",
+      "address": "Partyzantów 29, 80-254 Gdańsk",
+      "lat": 54.3784965,
+      "lon": 18.6006421,
+      "capacity": 10
+    },
+    {
+      "id": "3992",
+      "name": "GDA164",
+      "address": "Partyzantów 13C",
+      "lat": 54.3781091,
+      "lon": 18.6036896,
+      "capacity": 10
+    },
+    {
+      "id": "3993",
+      "name": "GDA165",
+      "address": "Brzozowa 1, 80-243 Gdańsk",
+      "lat": 54.3796897,
+      "lon": 18.6072603,
+      "capacity": 10
+    },
+    {
+      "id": "3994",
+      "name": "GDA166",
+      "address": "Romana Dmowskiego 17, 80-243 Gdańsk",
+      "lat": 54.3786475,
+      "lon": 18.6076413,
+      "capacity": 10
+    },
+    {
+      "id": "3995",
+      "name": "GDA167",
+      "address": "Aleja Grunwaldzka 92, 80-244 Gdańsk",
+      "lat": 54.3778801,
+      "lon": 18.607229,
+      "capacity": 10
+    },
+    {
+      "id": "3996",
+      "name": "GDA168",
+      "address": "Aleja Grunwaldzka 78, 80-244 Gdańsk",
+      "lat": 54.37741252771667,
+      "lon": 18.608731177632336,
+      "capacity": 10
+    },
+    {
+      "id": "3997",
+      "name": "GDA169",
+      "address": "Aleja Grunwaldzka 59",
+      "lat": 54.3771223,
+      "lon": 18.6110659,
+      "capacity": 10
+    },
+    {
+      "id": "3998",
+      "name": "GDA170",
+      "address": "Aleja Grunwaldzka 62",
+      "lat": 54.3766916,
+      "lon": 18.6113386,
+      "capacity": 10
+    },
+    {
+      "id": "3999",
+      "name": "GDA171",
+      "address": "Stefana Batorego 2C",
+      "lat": 54.3747027,
+      "lon": 18.605363,
+      "capacity": 10
+    },
+    {
+      "id": "4000",
+      "name": "GDA172",
+      "address": "Adama Mickiewicza 24",
+      "lat": 54.3832844,
+      "lon": 18.6225117,
+      "capacity": 10
+    },
+    {
+      "id": "4001",
+      "name": "GDA173",
+      "address": "Mikołaja Reja 34, 80-557 Gdańsk",
+      "lat": 54.37943677352865,
+      "lon": 18.631608086421323,
+      "capacity": 10
+    },
+    {
+      "id": "4002",
+      "name": "GDA174",
+      "address": "Stanisława Wyspiańskiego 20a, 80-434 Gdańsk",
+      "lat": 54.3789441,
+      "lon": 18.6161891,
+      "capacity": 10
+    },
+    {
+      "id": "4003",
+      "name": "GDA175",
+      "address": "Stanisława Wyspiańskiego 5A, 80-432 Gdańsk",
+      "lat": 54.3776101,
+      "lon": 18.6191375,
+      "capacity": 18
+    },
+    {
+      "id": "4004",
+      "name": "GDA176",
+      "address": "Aleja Generała Józefa Hallera 17",
+      "lat": 54.3764376,
+      "lon": 18.6239194,
+      "capacity": 10
+    },
+    {
+      "id": "4005",
+      "name": "GDA177",
+      "address": "Kliniczna 1b, 80-402 Gdańsk",
+      "lat": 54.3757278,
+      "lon": 18.6265248,
+      "capacity": 10
+    },
+    {
+      "id": "4006",
+      "name": "GDA178",
+      "address": "Kliniczna 2A, 80-402 Gdańsk",
+      "lat": 54.3745445,
+      "lon": 18.6271898,
+      "capacity": 10
+    },
+    {
+      "id": "4007",
+      "name": "GDA179",
+      "address": "Twarda 21",
+      "lat": 54.3742427,
+      "lon": 18.6310134,
+      "capacity": 10
+    },
+    {
+      "id": "4008",
+      "name": "GDA180",
+      "address": "Aleja Grunwaldzka 19/23, 80-236 Gdańsk",
+      "lat": 54.37618037663131,
+      "lon": 18.614230389256306,
+      "capacity": 10
+    },
+    {
+      "id": "4009",
+      "name": "GDA181",
+      "address": "Aleja Grunwaldzka 30/32C, 80-229 Gdańsk",
+      "lat": 54.375647771204,
+      "lon": 18.614252353285906,
+      "capacity": 16
+    },
+    {
+      "id": "4010",
+      "name": "GDA182",
+      "address": "Aleja Grunwaldzka 16, 80-236 Gdańsk",
+      "lat": 54.3751631,
+      "lon": 18.6177496,
+      "capacity": 10
+    },
+    {
+      "id": "4011",
+      "name": "GDA183",
+      "address": "Bohaterów Getta Warszawskiego 8, 80-230 Gdańsk",
+      "lat": 54.37324948344809,
+      "lon": 18.615901015799068,
+      "capacity": 10
+    },
+    {
+      "id": "4012",
+      "name": "GDA184",
+      "address": "Gabriela Narutowicza 11, 80-233 Gdańsk",
+      "lat": 54.3725143,
+      "lon": 18.6202129,
+      "capacity": 10
+    },
+    {
+      "id": "4013",
+      "name": "GDA185",
+      "address": "Trubadurów 6e, 80-205 Gdańsk",
+      "lat": 54.3732583,
+      "lon": 18.6256751,
+      "capacity": 10
+    },
+    {
+      "id": "4014",
+      "name": "GDA186",
+      "address": "Aleja Zwycięstwa 15, 80-219 Gdańsk",
+      "lat": 54.3720981,
+      "lon": 18.6257255,
+      "capacity": 10
+    },
+    {
+      "id": "4015",
+      "name": "GDA187",
+      "address": "Do Studzienki 32, 80-227 Gdańsk",
+      "lat": 54.3700074,
+      "lon": 18.6106885,
+      "capacity": 10
+    },
+    {
+      "id": "4016",
+      "name": "GDA188",
+      "address": "Traugutta 81, 80-221 Gdańsk",
+      "lat": 54.3704346,
+      "lon": 18.6160961,
+      "capacity": 10
+    },
+    {
+      "id": "4017",
+      "name": "GDA189",
+      "address": "Jana III Sobieskiego 13, 80-216 Gdańsk",
+      "lat": 54.36708554791048,
+      "lon": 18.612813819287794,
+      "capacity": 10
+    },
+    {
+      "id": "4018",
+      "name": "GDA190",
+      "address": "Mariana Smoluchowskiego 16, 80-214 Gdańsk",
+      "lat": 54.3665723,
+      "lon": 18.6201621,
+      "capacity": 10
+    },
+    {
+      "id": "4019",
+      "name": "GDA191",
+      "address": "Traugutta 1, 80-221 Gdańsk",
+      "lat": 54.368406,
+      "lon": 18.6299202,
+      "capacity": 10
+    },
+    {
+      "id": "4020",
+      "name": "GDA192",
+      "address": "Dębinki 7B, 80-211 Gdańsk",
+      "lat": 54.366229960532905,
+      "lon": 18.62744556929556,
+      "capacity": 10
+    },
+    {
+      "id": "4021",
+      "name": "GDA193",
+      "address": "Dębowa 3-1 80-208 Gdańsk",
+      "lat": 54.362416,
+      "lon": 18.629916,
+      "capacity": 10
+    },
+    {
+      "id": "4022",
+      "name": "GDA194",
+      "address": "Ludwika Pasteura 6, 80-215 Gdańsk",
+      "lat": 54.3622667,
+      "lon": 18.6054253,
+      "capacity": 10
+    },
+    {
+      "id": "4023",
+      "name": "GDA195",
+      "address": "Cygańska Góra 12C, 80-171 Gdańsk",
+      "lat": 54.3591433,
+      "lon": 18.6178024,
+      "capacity": 10
+    },
+    {
+      "id": "4024",
+      "name": "GDA196",
+      "address": "Powstańców Warszawskich 53, 80-165 Gdańsk",
+      "lat": 54.3565491,
+      "lon": 18.6194251,
+      "capacity": 10
+    },
+    {
+      "id": "4025",
+      "name": "GDA197",
+      "address": "Beethovena 19, 80-171 Gdańsk",
+      "lat": 54.355608,
+      "lon": 18.6139066,
+      "capacity": 10
+    },
+    {
+      "id": "4026",
+      "name": "GDA198",
+      "address": "Beethovena 78, 80-171 Gdańsk",
+      "lat": 54.3560633,
+      "lon": 18.6065686,
+      "capacity": 10
+    },
+    {
+      "id": "4027",
+      "name": "GDA199",
+      "address": "Ignacego Paderewskiego 7, 80-171 Gdańsk",
+      "lat": 54.3534891,
+      "lon": 18.6076306,
+      "capacity": 10
+    },
+    {
+      "id": "4028",
+      "name": "GDA200",
+      "address": "Karola Kurpińskiego 7, 80-169 Gdańsk",
+      "lat": 54.3534209,
+      "lon": 18.5998351,
+      "capacity": 10
+    },
+    {
+      "id": "4029",
+      "name": "GDA201",
+      "address": "Schuberta 79, 80-172 Gdańsk",
+      "lat": 54.3541029,
+      "lon": 18.5955175,
+      "capacity": 10
+    },
+    {
+      "id": "4030",
+      "name": "GDA202",
+      "address": "Jaśkowa Dolina 93, 80-286 Gdańsk",
+      "lat": 54.364383,
+      "lon": 18.5889872,
+      "capacity": 10
+    },
+    {
+      "id": "4031",
+      "name": "GDA203",
+      "address": "Franciszka Zabłockiego 1B, 80-287 Gdańsk",
+      "lat": 54.3617528,
+      "lon": 18.593818,
+      "capacity": 10
+    },
+    {
+      "id": "4032",
+      "name": "GDA204",
+      "address": "ul. Nałkowskiej 3, 80-288 Gdańsk",
+      "lat": 54.360485,
+      "lon": 18.5898757,
+      "capacity": 10
+    },
+    {
+      "id": "4033",
+      "name": "GDA205",
+      "address": "Rakoczego 17, 80-288 Gdańsk",
+      "lat": 54.3579299,
+      "lon": 18.5859542,
+      "capacity": 10
+    },
+    {
+      "id": "4034",
+      "name": "GDA206",
+      "address": "Rakoczego 5, 80-288 Gdańsk",
+      "lat": 54.3589207,
+      "lon": 18.5784842,
+      "capacity": 10
+    },
+    {
+      "id": "4035",
+      "name": "GDA207",
+      "address": "Powstania Listopadowego 2A",
+      "lat": 54.3552956,
+      "lon": 18.5776858,
+      "capacity": 10
+    },
+    {
+      "id": "4036",
+      "name": "GDA208",
+      "address": "ul. Bulońska 46, 80-288 Gdańsk",
+      "lat": 54.3522199,
+      "lon": 18.5762294,
+      "capacity": 10
+    },
+    {
+      "id": "4037",
+      "name": "GDA209",
+      "address": "Warneńska 4A",
+      "lat": 54.35740915884517,
+      "lon": 18.582937337071485,
+      "capacity": 10
+    },
+    {
+      "id": "4038",
+      "name": "GDA210",
+      "address": "Warneńska 4/6, 80-288 Gdańsk",
+      "lat": 54.357412271370805,
+      "lon": 18.583287565715636,
+      "capacity": 10
+    },
+    {
+      "id": "4039",
+      "name": "GDA211",
+      "address": "Franciszka Rakoczego 23",
+      "lat": 54.3556929,
+      "lon": 18.5880039,
+      "capacity": 10
+    },
+    {
+      "id": "4040",
+      "name": "GDA212",
+      "address": "Generała Władysława Andersa 28",
+      "lat": 54.3533406,
+      "lon": 18.5495486,
+      "capacity": 10
+    },
+    {
+      "id": "4041",
+      "name": "GDA213",
+      "address": "Gen. Władysława Andersa 2, 80-175 Gdańsk",
+      "lat": 54.3493715,
+      "lon": 18.5510681,
+      "capacity": 10
+    },
+    {
+      "id": "4042",
+      "name": "GDA214",
+      "address": "Myśliwska 61A, 80-283 Gdańsk",
+      "lat": 54.3505607,
+      "lon": 18.5593772,
+      "capacity": 10
+    },
+    {
+      "id": "4043",
+      "name": "GDA215",
+      "address": "Morenowe Wzgórze 2, 80-283 Gdańsk",
+      "lat": 54.349985,
+      "lon": 18.566196,
+      "capacity": 10
+    },
+    {
+      "id": "4044",
+      "name": "GDA216",
+      "address": "Damroki 89, 80-177 Gdańsk",
+      "lat": 54.3443106,
+      "lon": 18.5627266,
+      "capacity": 10
+    },
+    {
+      "id": "4045",
+      "name": "GDA217",
+      "address": "Damroki 30, 80-177 Gdańsk",
+      "lat": 54.3416273,
+      "lon": 18.5659397,
+      "capacity": 10
+    },
+    {
+      "id": "4046",
+      "name": "GDA218",
+      "address": "Pólnicy 3, 80-177 Gdańsk",
+      "lat": 54.3408377,
+      "lon": 18.5614069,
+      "capacity": 10
+    },
+    {
+      "id": "4047",
+      "name": "GDA219",
+      "address": "Damroki 2, 80-177 Gdańsk",
+      "lat": 54.3388441,
+      "lon": 18.5646007,
+      "capacity": 10
+    },
+    {
+      "id": "4048",
+      "name": "GDA220",
+      "address": "Kartuska 313, 80-125 Gdańsk",
+      "lat": 54.3420595,
+      "lon": 18.5788379,
+      "capacity": 10
+    },
+    {
+      "id": "4049",
+      "name": "GDA221",
+      "address": "Piekarnicza 21, 80-126 Gdańsk",
+      "lat": 54.3500062,
+      "lon": 18.5825829,
+      "capacity": 10
+    },
+    {
+      "id": "4050",
+      "name": "GDA222",
+      "address": "Piekarnicza 3, 80-126 Gdańsk",
+      "lat": 54.3508722,
+      "lon": 18.5861135,
+      "capacity": 10
+    },
+    {
+      "id": "4051",
+      "name": "GDA223",
+      "address": "Rakoczego 28, 80-171 Gdańsk",
+      "lat": 54.3514846,
+      "lon": 18.5918886,
+      "capacity": 10
+    },
+    {
+      "id": "4052",
+      "name": "GDA224",
+      "address": "Stanisława Lema 21",
+      "lat": 54.3492576,
+      "lon": 18.5902917,
+      "capacity": 10
+    },
+    {
+      "id": "4053",
+      "name": "GDA225",
+      "address": "Kartuska 274",
+      "lat": 54.3447971,
+      "lon": 18.5898401,
+      "capacity": 10
+    },
+    {
+      "id": "4054",
+      "name": "GDA226",
+      "address": "Kartuska 234, 80-122 Gdańsk",
+      "lat": 54.3460552,
+      "lon": 18.5980766,
+      "capacity": 10
+    },
+    {
+      "id": "4055",
+      "name": "GDA227",
+      "address": "Śródmieście,Gdańsk",
+      "lat": 54.347860136221385,
+      "lon": 18.641566395646805,
+      "capacity": 10
+    },
+    {
+      "id": "4056",
+      "name": "GDA228",
+      "address": "Kartuska 190, 80-122 Gdańsk",
+      "lat": 54.3482447,
+      "lon": 18.6064985,
+      "capacity": 10
+    },
+    {
+      "id": "4057",
+      "name": "GDA229",
+      "address": "Kartuska 145",
+      "lat": 54.3493047,
+      "lon": 18.6132975,
+      "capacity": 10
+    },
+    {
+      "id": "4058",
+      "name": "GDA230",
+      "address": "Kartuska 126",
+      "lat": 54.3486984,
+      "lon": 18.6182183,
+      "capacity": 10
+    },
+    {
+      "id": "4059",
+      "name": "GDA231",
+      "address": "Ciasna 1",
+      "lat": 54.3491765,
+      "lon": 18.6250098,
+      "capacity": 10
+    },
+    {
+      "id": "4060",
+      "name": "GDA232",
+      "address": "Kolonia Praca 28, 80-156 Gdańsk",
+      "lat": 54.3580385,
+      "lon": 18.6297944,
+      "capacity": 10
+    },
+    {
+      "id": "4061",
+      "name": "GDA233",
+      "address": "Gradowa 8",
+      "lat": 54.3566643,
+      "lon": 18.6398094,
+      "capacity": 10
+    },
+    {
+      "id": "4062",
+      "name": "GDA234",
+      "address": "Powstańców Warszawskich 17, 80-152 Gdańsk",
+      "lat": 54.3538696,
+      "lon": 18.633203,
+      "capacity": 10
+    },
+    {
+      "id": "4063",
+      "name": "GDA235",
+      "address": "Kartuska 26, 80-104 Gdańsk",
+      "lat": 54.3506312,
+      "lon": 18.6317593,
+      "capacity": 10
+    },
+    {
+      "id": "4064",
+      "name": "GDA236",
+      "address": "Kartuska 5, 80-103 Gdańsk",
+      "lat": 54.3515382,
+      "lon": 18.6367922,
+      "capacity": 10
+    },
+    {
+      "id": "4065",
+      "name": "GDA237",
+      "address": "Nowe Ogrody 12",
+      "lat": 54.3514905,
+      "lon": 18.6405871,
+      "capacity": 10
+    },
+    {
+      "id": "4066",
+      "name": "GDA238",
+      "address": "Generała Antoniego Giełguda 4",
+      "lat": 54.3607214,
+      "lon": 18.6412126,
+      "capacity": 10
+    },
+    {
+      "id": "4067",
+      "name": "GDA239",
+      "address": "Plac Solidarności 1",
+      "lat": 54.3613583,
+      "lon": 18.6506061,
+      "capacity": 10
+    },
+    {
+      "id": "4068",
+      "name": "GDA240",
+      "address": "Doki 2-42",
+      "lat": 54.3603513,
+      "lon": 18.6498145,
+      "capacity": 10
+    },
+    {
+      "id": "4069",
+      "name": "GDA241",
+      "address": "Rajska 14E",
+      "lat": 54.3578161,
+      "lon": 18.6473732,
+      "capacity": 10
+    },
+    {
+      "id": "4070",
+      "name": "GDA242",
+      "address": "Łagiewniki 3, 80-855 Gdańsk",
+      "lat": 54.3577167,
+      "lon": 18.6505507,
+      "capacity": 10
+    },
+    {
+      "id": "4071",
+      "name": "GDA243",
+      "address": "Wałowa 25",
+      "lat": 54.3585179,
+      "lon": 18.6535883,
+      "capacity": 10
+    },
+    {
+      "id": "4072",
+      "name": "GDA244",
+      "address": "Jana Heweliusza 23, 80-861 Gdańsk",
+      "lat": 54.3567103,
+      "lon": 18.6518141,
+      "capacity": 10
+    },
+    {
+      "id": "4073",
+      "name": "GDA245",
+      "address": "Jana Heweliusza 9, 80-890 Gdańsk",
+      "lat": 54.3558803,
+      "lon": 18.6490781,
+      "capacity": 10
+    },
+    {
+      "id": "4074",
+      "name": "GDA246",
+      "address": "3 Maja 12, 80-802 Gdańsk",
+      "lat": 54.35638854173584,
+      "lon": 18.64305009951181,
+      "capacity": 10
+    },
+    {
+      "id": "4075",
+      "name": "GDA247",
+      "address": "3 Maja 9, 80-802 Gdańsk",
+      "lat": 54.354424,
+      "lon": 18.6425814,
+      "capacity": 10
+    },
+    {
+      "id": "4076",
+      "name": "GDA248",
+      "address": "Podwale Grodzkie 2D, 80-895 Gdańsk",
+      "lat": 54.355590626535445,
+      "lon": 18.64514977432239,
+      "capacity": 10
+    },
+    {
+      "id": "4077",
+      "name": "GDA249",
+      "address": "Podwale Grodzkie 8, 80-895 Gdańsk",
+      "lat": 54.3556952,
+      "lon": 18.6460014,
+      "capacity": 10
+    },
+    {
+      "id": "4078",
+      "name": "GDA250",
+      "address": "Karmelicka 1, 80-851 Gdańsk",
+      "lat": 54.3552216,
+      "lon": 18.6460994,
+      "capacity": 10
+    },
+    {
+      "id": "4079",
+      "name": "GDA251",
+      "address": "Elżbietańska 9/10",
+      "lat": 54.3543159,
+      "lon": 18.6463379,
+      "capacity": 10
+    },
+    {
+      "id": "4080",
+      "name": "GDA252",
+      "address": "Wały Jagiellońskie 1, 80-854 Gdańsk",
+      "lat": 54.3521686,
+      "lon": 18.6455638,
+      "capacity": 10
+    },
+    {
+      "id": "4081",
+      "name": "GDA253",
+      "address": "Podwale Staromiejskie 109/112",
+      "lat": 54.35253,
+      "lon": 18.6492476,
+      "capacity": 10
+    },
+    {
+      "id": "4082",
+      "name": "GDA254",
+      "address": "Wielkie Młyny 16, 80-849 Gdańsk",
+      "lat": 54.35441068543071,
+      "lon": 18.650002922138015,
+      "capacity": 10
+    },
+    {
+      "id": "4083",
+      "name": "GDA255",
+      "address": "Plac Dominikański 7, 80-844 Gdańsk",
+      "lat": 54.3532291,
+      "lon": 18.6527757,
+      "capacity": 10
+    },
+    {
+      "id": "4084",
+      "name": "GDA256",
+      "address": "Olejarna 2, 80-843 Gdańsk",
+      "lat": 54.354789,
+      "lon": 18.6547502,
+      "capacity": 10
+    },
+    {
+      "id": "4085",
+      "name": "GDA257",
+      "address": "Sieroca 5A, 80-839 Gdańsk",
+      "lat": 54.3551761,
+      "lon": 18.6560876,
+      "capacity": 10
+    },
+    {
+      "id": "4086",
+      "name": "GDA258",
+      "address": "Stępkarska 1, 80-859 Gdańsk",
+      "lat": 54.3569376,
+      "lon": 18.6605458,
+      "capacity": 10
+    },
+    {
+      "id": "4087",
+      "name": "GDA259",
+      "address": "Podwale Staromiejskie 51/52, 80-845 Gdańsk",
+      "lat": 54.353756739981065,
+      "lon": 18.657487939397782,
+      "capacity": 10
+    },
+    {
+      "id": "4088",
+      "name": "GDA260",
+      "address": "Grobla IV 2, 80-837 Gdańsk",
+      "lat": 54.35280495719351,
+      "lon": 18.654533739793635,
+      "capacity": 10
+    },
+    {
+      "id": "4089",
+      "name": "GDA261",
+      "address": "Straganiarska 33",
+      "lat": 54.3522016,
+      "lon": 18.6574222,
+      "capacity": 10
+    },
+    {
+      "id": "4090",
+      "name": "GDA262",
+      "address": "Szeroka 14, 80-835 Gdańsk",
+      "lat": 54.351767,
+      "lon": 18.651163,
+      "capacity": 10
+    },
+    {
+      "id": "4091",
+      "name": "GDA263",
+      "address": "Grobla I 13",
+      "lat": 54.35114242076969,
+      "lon": 18.65395024973327,
+      "capacity": 10
+    },
+    {
+      "id": "4092",
+      "name": "GDA264",
+      "address": "ul .Szeroka 52/54",
+      "lat": 54.350881160416314,
+      "lon": 18.65580671467039,
+      "capacity": 10
+    },
+    {
+      "id": "4093",
+      "name": "GDA265",
+      "address": "Świętego 26/30",
+      "lat": 54.3507136,
+      "lon": 18.6513221,
+      "capacity": 10
+    },
+    {
+      "id": "4094",
+      "name": "GDA266",
+      "address": "Wały Jagiellońskie 2/4, 80-887 Gdańsk",
+      "lat": 54.3501741,
+      "lon": 18.646418,
+      "capacity": 10
+    },
+    {
+      "id": "4095",
+      "name": "GDA267",
+      "address": "Targ Węglowy 26",
+      "lat": 54.3504871,
+      "lon": 18.6452964,
+      "capacity": 10
+    },
+    {
+      "id": "4096",
+      "name": "GDA268",
+      "address": "Wełniarska 19/20",
+      "lat": 54.3503531,
+      "lon": 18.6483054,
+      "capacity": 1000
+    },
+    {
+      "id": "4097",
+      "name": "GDA269",
+      "address": "Ogarna 5/6,80-826 Gdańsk",
+      "lat": 54.34873,
+      "lon": 18.64836,
+      "capacity": 10
+    },
+    {
+      "id": "4098",
+      "name": "GDA270",
+      "address": "Długa 62/63",
+      "lat": 54.34905526381269,
+      "lon": 18.650698803123674,
+      "capacity": 10
+    },
+    {
+      "id": "4099",
+      "name": "GDA271",
+      "address": "Chlebnicka 24/25",
+      "lat": 54.34873195166085,
+      "lon": 18.65602720780805,
+      "capacity": 10
+    },
+    {
+      "id": "4100",
+      "name": "GDA272",
+      "address": "Długi Targ 28-29",
+      "lat": 54.34783842335048,
+      "lon": 18.655876264589523,
+      "capacity": 10
+    },
+    {
+      "id": "4101",
+      "name": "GDA273",
+      "address": "Chmielna 37, 80-748 Gdańsk",
+      "lat": 54.345832,
+      "lon": 18.656115,
+      "capacity": 10
+    },
+    {
+      "id": "4102",
+      "name": "GDA274",
+      "address": "Ogarna 85/86",
+      "lat": 54.3472795,
+      "lon": 18.6535085,
+      "capacity": 10
+    },
+    {
+      "id": "4103",
+      "name": "GDA275",
+      "address": "Węzeł Unii Europejskie N/A",
+      "lat": 54.3476185,
+      "lon": 18.6446368,
+      "capacity": 10
+    },
+    {
+      "id": "4104",
+      "name": "GDA276",
+      "address": "Toruńska 2C",
+      "lat": 54.3453550005172,
+      "lon": 18.6457276062321,
+      "capacity": 10
+    },
+    {
+      "id": "4105",
+      "name": "GDA277",
+      "address": "Kocurki 1-5",
+      "lat": 54.3457448,
+      "lon": 18.6481569,
+      "capacity": 10
+    },
+    {
+      "id": "4106",
+      "name": "GDA278",
+      "address": "Rzeźnicka 58",
+      "lat": 54.3439738,
+      "lon": 18.6470072,
+      "capacity": 10
+    },
+    {
+      "id": "4107",
+      "name": "GDA279",
+      "address": "Żabi Kruk 7A",
+      "lat": 54.3441829,
+      "lon": 18.649756,
+      "capacity": 10
+    },
+    {
+      "id": "4108",
+      "name": "GDA280",
+      "address": "Chmielna 74/76",
+      "lat": 54.3443345,
+      "lon": 18.6550865,
+      "capacity": 10
+    },
+    {
+      "id": "4109",
+      "name": "GDA281",
+      "address": "Łąkowa 10-3A",
+      "lat": 54.3432155,
+      "lon": 18.6624489,
+      "capacity": 10
+    },
+    {
+      "id": "4110",
+      "name": "GDA282",
+      "address": "Dobra 1A",
+      "lat": 54.3415569,
+      "lon": 18.655101,
+      "capacity": 10
+    },
+    {
+      "id": "4111",
+      "name": "GDA283",
+      "address": "Wróbla 11/12",
+      "lat": 54.3405042,
+      "lon": 18.6573326,
+      "capacity": 10
+    },
+    {
+      "id": "4112",
+      "name": "GDA284",
+      "address": "Mostowa 1-19",
+      "lat": 54.3356972,
+      "lon": 18.6491868,
+      "capacity": 10
+    },
+    {
+      "id": "4113",
+      "name": "GDA285",
+      "address": "Szafarnia 6/2",
+      "lat": 54.35037575579551,
+      "lon": 18.659941794167196,
+      "capacity": 10
+    },
+    {
+      "id": "4114",
+      "name": "GDA286",
+      "address": "Długie Ogrody 57-9",
+      "lat": 54.347325250323905,
+      "lon": 18.660765359329503,
+      "capacity": 10
+    },
+    {
+      "id": "4115",
+      "name": "GDA287",
+      "address": "Długie Ogrody 30-25",
+      "lat": 54.34783843568192,
+      "lon": 18.665273493345865,
+      "capacity": 10
+    },
+    {
+      "id": "4116",
+      "name": "GDA288",
+      "address": "Długie Ogrody 4-86",
+      "lat": 54.3481559,
+      "lon": 18.6686969,
+      "capacity": 10
+    },
+    {
+      "id": "4117",
+      "name": "GDA289",
+      "address": "Podwale Przedmiejskie 1",
+      "lat": 54.3479098,
+      "lon": 18.6699327,
+      "capacity": 10
+    },
+    {
+      "id": "4118",
+      "name": "GDA290",
+      "address": "Elbląska 73A",
+      "lat": 54.3494539,
+      "lon": 18.6747854,
+      "capacity": 10
+    },
+    {
+      "id": "4119",
+      "name": "GDA291",
+      "address": "Głęboka 6-26",
+      "lat": 54.3522295,
+      "lon": 18.6721159,
+      "capacity": 10
+    },
+    {
+      "id": "4120",
+      "name": "GDA292",
+      "address": "Przetoczna 1",
+      "lat": 54.3566886,
+      "lon": 18.6808614,
+      "capacity": 10
+    },
+    {
+      "id": "4121",
+      "name": "GDA293",
+      "address": "Teofila Lenartowicza 29",
+      "lat": 54.3576277,
+      "lon": 18.683116,
+      "capacity": 10
+    },
+    {
+      "id": "4122",
+      "name": "GDA294",
+      "address": "Teofila Lenartowicza 20",
+      "lat": 54.3582948,
+      "lon": 18.6870117,
+      "capacity": 10
+    },
+    {
+      "id": "4123",
+      "name": "GDA295",
+      "address": "Niska 6",
+      "lat": 54.3626443,
+      "lon": 18.7080234,
+      "capacity": 10
+    },
+    {
+      "id": "4124",
+      "name": "GDA296",
+      "address": "Wilhelma Stryjewskiego 25",
+      "lat": 54.360727,
+      "lon": 18.7108389,
+      "capacity": 10
+    },
+    {
+      "id": "4125",
+      "name": "GDA297",
+      "address": "Wilhelma Stryjewskiego 29F",
+      "lat": 54.3612279,
+      "lon": 18.7154781,
+      "capacity": 10
+    },
+    {
+      "id": "4126",
+      "name": "GDA298",
+      "address": "Tytusa Chałubińskiego 4",
+      "lat": 54.3421485,
+      "lon": 18.6259639,
+      "capacity": 10
+    },
+    {
+      "id": "4127",
+      "name": "GDA299",
+      "address": "Tytusa Chałubińskiego 11",
+      "lat": 54.3418493,
+      "lon": 18.6221568,
+      "capacity": 10
+    },
+    {
+      "id": "4128",
+      "name": "GDA300",
+      "address": "Marcina Dragana 17-1U",
+      "lat": 54.3410202,
+      "lon": 18.617494,
+      "capacity": 10
+    },
+    {
+      "id": "4129",
+      "name": "GDA301",
+      "address": "aleja  Sikorskiego - Wincentego Witosa  N/A",
+      "lat": 54.3384169,
+      "lon": 18.6178669,
+      "capacity": 10
+    },
+    {
+      "id": "4130",
+      "name": "GDA302",
+      "address": "Tytusa Chałubińskiego 37",
+      "lat": 54.3387535,
+      "lon": 18.618985,
+      "capacity": 10
+    },
+    {
+      "id": "4131",
+      "name": "GDA303",
+      "address": "Stanisława Worcella 33",
+      "lat": 54.3379348,
+      "lon": 18.6266183,
+      "capacity": 10
+    },
+    {
+      "id": "4132",
+      "name": "GDA304",
+      "address": "Telimeny 55",
+      "lat": 54.3429569,
+      "lon": 18.6117953,
+      "capacity": 10
+    },
+    {
+      "id": "4133",
+      "name": "GDA305",
+      "address": "Łostowicka 35",
+      "lat": 54.341552,
+      "lon": 18.6017141,
+      "capacity": 10
+    },
+    {
+      "id": "4134",
+      "name": "GDA306",
+      "address": "Rogalińska 21",
+      "lat": 54.3361757,
+      "lon": 18.5987548,
+      "capacity": 10
+    },
+    {
+      "id": "4135",
+      "name": "GDA307",
+      "address": "Bernarda Milskiego 1A",
+      "lat": 54.3370605,
+      "lon": 18.6032791,
+      "capacity": 10
+    },
+    {
+      "id": "4136",
+      "name": "GDA308",
+      "address": "Władysława Cieszyńskiego 38-6",
+      "lat": 54.3381058,
+      "lon": 18.6065688,
+      "capacity": 10
+    },
+    {
+      "id": "4137",
+      "name": "GDA309",
+      "address": "Władysława Cieszyńskiego 1D",
+      "lat": 54.338142,
+      "lon": 18.6108353,
+      "capacity": 10
+    },
+    {
+      "id": "4138",
+      "name": "GDA310",
+      "address": "Władysława Cieszyńskiego 36-49B",
+      "lat": 54.3372546,
+      "lon": 18.6125742,
+      "capacity": 10
+    },
+    {
+      "id": "4139",
+      "name": "GDA311",
+      "address": "Profesora Romana Lipowicza 17",
+      "lat": 54.3339718,
+      "lon": 18.6163222,
+      "capacity": 10
+    },
+    {
+      "id": "4140",
+      "name": "GDA312",
+      "address": "Nieborowska 11",
+      "lat": 54.3307245,
+      "lon": 18.6059462,
+      "capacity": 10
+    },
+    {
+      "id": "4141",
+      "name": "GDA313",
+      "address": "Rogalińska 5C",
+      "lat": 54.3288957,
+      "lon": 18.5991049,
+      "capacity": 10
+    },
+    {
+      "id": "4142",
+      "name": "GDA314",
+      "address": "Rogalińska 21",
+      "lat": 54.3330705,
+      "lon": 18.5965454,
+      "capacity": 10
+    },
+    {
+      "id": "4143",
+      "name": "GDA315",
+      "address": "Cedrowa 42",
+      "lat": 54.3389576,
+      "lon": 18.5877542,
+      "capacity": 10
+    },
+    {
+      "id": "4144",
+      "name": "GDA316",
+      "address": "Mariana Kołodzieja 45",
+      "lat": 54.3336839,
+      "lon": 18.5854871,
+      "capacity": 10
+    },
+    {
+      "id": "4145",
+      "name": "GDA317",
+      "address": "Piotrowska 6-13",
+      "lat": 54.3302019,
+      "lon": 18.5850396,
+      "capacity": 10
+    },
+    {
+      "id": "4146",
+      "name": "GDA318",
+      "address": "Piotrowska 44",
+      "lat": 54.3286543,
+      "lon": 18.5821486,
+      "capacity": 10
+    },
+    {
+      "id": "4147",
+      "name": "GDA319",
+      "address": "Jeleniogórska 19",
+      "lat": 54.3256624,
+      "lon": 18.5839051,
+      "capacity": 10
+    },
+    {
+      "id": "4148",
+      "name": "GDA320",
+      "address": "Płocka 11C",
+      "lat": 54.3258664,
+      "lon": 18.5924054,
+      "capacity": 10
+    },
+    {
+      "id": "4149",
+      "name": "GDA321",
+      "address": "Płocka 5C",
+      "lat": 54.3273692,
+      "lon": 18.5959098,
+      "capacity": 10
+    },
+    {
+      "id": "4150",
+      "name": "GDA322",
+      "address": "Przemyska 57",
+      "lat": 54.3298986,
+      "lon": 18.5936355,
+      "capacity": 10
+    },
+    {
+      "id": "4151",
+      "name": "GDA323",
+      "address": "Małomiejska 31B",
+      "lat": 54.3288103,
+      "lon": 18.6167259,
+      "capacity": 10
+    },
+    {
+      "id": "4152",
+      "name": "GDA324",
+      "address": "Małomiejska 31B",
+      "lat": 54.3272553,
+      "lon": 18.6109115,
+      "capacity": 10
+    },
+    {
+      "id": "4153",
+      "name": "GDA325",
+      "address": "Świętokrzyska 15",
+      "lat": 54.3227199,
+      "lon": 18.604989,
+      "capacity": 10
+    },
+    {
+      "id": "4154",
+      "name": "GDA326",
+      "address": "Generała Leopolda Okulickiego 7",
+      "lat": 54.3242642,
+      "lon": 18.6102023,
+      "capacity": 10
+    },
+    {
+      "id": "4155",
+      "name": "GDA327",
+      "address": "Zygmunta 11",
+      "lat": 54.3229571,
+      "lon": 18.6150601,
+      "capacity": 10
+    },
+    {
+      "id": "4156",
+      "name": "GDA328",
+      "address": "Platynowa 12B",
+      "lat": 54.3247296,
+      "lon": 18.61819,
+      "capacity": 10
+    },
+    {
+      "id": "4157",
+      "name": "GDA329",
+      "address": "Krzemowa 12B",
+      "lat": 54.3266183,
+      "lon": 18.621241,
+      "capacity": 10
+    },
+    {
+      "id": "4158",
+      "name": "GDA330",
+      "address": "Małomiejska 45A",
+      "lat": 54.3301742,
+      "lon": 18.6270356,
+      "capacity": 10
+    },
+    {
+      "id": "4159",
+      "name": "GDA331",
+      "address": "Sandomierska 1",
+      "lat": 54.3322056,
+      "lon": 18.6347569,
+      "capacity": 10
+    },
+    {
+      "id": "4160",
+      "name": "GDA332",
+      "address": "Gościnna 10",
+      "lat": 54.3226394,
+      "lon": 18.6322741,
+      "capacity": 10
+    },
+    {
+      "id": "4161",
+      "name": "GDA333",
+      "address": "Świętokrzyska 134-40",
+      "lat": 54.3214026,
+      "lon": 18.5990614,
+      "capacity": 10
+    },
+    {
+      "id": "4162",
+      "name": "GDA334",
+      "address": "Kazimierza Porębskiego 48E",
+      "lat": 54.3201889,
+      "lon": 18.5764172,
+      "capacity": 10
+    },
+    {
+      "id": "4163",
+      "name": "GDA335",
+      "address": "Konstantego Bergiela 6",
+      "lat": 54.3174996,
+      "lon": 18.5825562,
+      "capacity": 10
+    },
+    {
+      "id": "4164",
+      "name": "GDA336",
+      "address": "Wielkopolska 20",
+      "lat": 54.3161691,
+      "lon": 18.5900833,
+      "capacity": 10
+    },
+    {
+      "id": "4165",
+      "name": "GDA337",
+      "address": "Kampinoska 01, 80-180 Gdańsk",
+      "lat": 54.3162819,
+      "lon": 18.6037298,
+      "capacity": 10
+    },
+    {
+      "id": "4166",
+      "name": "GDA338",
+      "address": "Srebrna 46",
+      "lat": 54.3129016,
+      "lon": 18.5974477,
+      "capacity": 10
+    },
+    {
+      "id": "4167",
+      "name": "GDA339",
+      "address": "Łucznicza 2",
+      "lat": 54.3089717,
+      "lon": 18.587561,
+      "capacity": 10
+    },
+    {
+      "id": "4168",
+      "name": "GDA340",
+      "address": "Piłkarska 4-7",
+      "lat": 54.305126,
+      "lon": 18.5822173,
+      "capacity": 10
+    },
+    {
+      "id": "4169",
+      "name": "GDA341",
+      "address": "Kielnieńska 107",
+      "lat": 54.432233242794354,
+      "lon": 18.471384991192707,
+      "capacity": 10
+    },
+    {
+      "id": "4170",
+      "name": "GDA342",
+      "address": "Wacława Balcerskiego 15",
+      "lat": 54.42993,
+      "lon": 18.46969,
+      "capacity": 10
+    },
+    {
+      "id": "4171",
+      "name": "GDA343",
+      "address": "Kielnieńska 55",
+      "lat": 54.429441325627,
+      "lon": 18.47716,
+      "capacity": 10
+    },
+    {
+      "id": "4172",
+      "name": "GDA344",
+      "address": "Jednorożca 70",
+      "lat": 54.4246049,
+      "lon": 18.4778144,
+      "capacity": 10
+    },
+    {
+      "id": "4173",
+      "name": "GDA345",
+      "address": "Plac św. Jana Apostoła, 80-299 Gdańsk",
+      "lat": 54.4207702,
+      "lon": 18.4787004,
+      "capacity": 10
+    },
+    {
+      "id": "4174",
+      "name": "GDA346",
+      "address": "Koziorożca 10-2",
+      "lat": 54.4254609,
+      "lon": 18.4728457,
+      "capacity": 10
+    },
+    {
+      "id": "4175",
+      "name": "GDA347",
+      "address": "Pegaza 32",
+      "lat": 54.4243624,
+      "lon": 18.4640752,
+      "capacity": 10
+    },
+    {
+      "id": "4176",
+      "name": "GDA348",
+      "address": "Barniewicka 60A",
+      "lat": 54.4213192,
+      "lon": 18.4522328,
+      "capacity": 10
+    },
+    {
+      "id": "4177",
+      "name": "GDA349",
+      "address": "Juliusza Słowackiego 224",
+      "lat": 54.38249969482422,
+      "lon": 18.467166900634766,
+      "capacity": 10
+    },
+    {
+      "id": "4178",
+      "name": "GDA350",
+      "address": "Juliusza Słowackiego 175",
+      "lat": 54.3802885,
+      "lon": 18.4831988,
+      "capacity": 10
+    },
+    {
+      "id": "4179",
+      "name": "GDA351",
+      "address": "Kadetów 2A",
+      "lat": 54.3767944,
+      "lon": 18.507692,
+      "capacity": 10
+    },
+    {
+      "id": "4180",
+      "name": "GDA352",
+      "address": "Jesienna 23",
+      "lat": 54.3739674,
+      "lon": 18.5062144,
+      "capacity": 10
+    },
+    {
+      "id": "4181",
+      "name": "GDA353",
+      "address": "Złota Karczma 25A",
+      "lat": 54.3756887,
+      "lon": 18.5217257,
+      "capacity": 10
+    },
+    {
+      "id": "4182",
+      "name": "GDA354",
+      "address": "Majora Mieczysława Słabego 6",
+      "lat": 54.3718769,
+      "lon": 18.524396,
+      "capacity": 10
+    },
+    {
+      "id": "4183",
+      "name": "GDA355",
+      "address": "Osiedlowa 4A",
+      "lat": 54.3557667,
+      "lon": 18.4927959,
+      "capacity": 10
+    },
+    {
+      "id": "4184",
+      "name": "GDA356",
+      "address": "Jaśminowy Stok 5A",
+      "lat": 54.3558748,
+      "lon": 18.5107226,
+      "capacity": 10
+    },
+    {
+      "id": "4185",
+      "name": "GDA357",
+      "address": "Jaśminowy Stok 16",
+      "lat": 54.3529624,
+      "lon": 18.5088058,
+      "capacity": 10
+    },
+    {
+      "id": "4186",
+      "name": "GDA358",
+      "address": "Kminkowa 2/1",
+      "lat": 54.3527039,
+      "lon": 18.5133067,
+      "capacity": 10
+    },
+    {
+      "id": "4187",
+      "name": "GDA359",
+      "address": "Kartuska 379",
+      "lat": 54.350429,
+      "lon": 18.5094064,
+      "capacity": 10
+    },
+    {
+      "id": "4188",
+      "name": "GDA360",
+      "address": "Goplańska 45",
+      "lat": 54.3388809,
+      "lon": 18.5077755,
+      "capacity": 10
+    },
+    {
+      "id": "4189",
+      "name": "GDA361",
+      "address": "Szczęśliwa 52",
+      "lat": 54.3553576,
+      "lon": 18.5283322,
+      "capacity": 10
+    },
+    {
+      "id": "4190",
+      "name": "GDA362",
+      "address": "Serdeczna 1C",
+      "lat": 54.3510618,
+      "lon": 18.5299705,
+      "capacity": 10
+    },
+    {
+      "id": "4191",
+      "name": "GDA363",
+      "address": "Przytulna 13A",
+      "lat": 54.3512121,
+      "lon": 18.5331762,
+      "capacity": 10
+    },
+    {
+      "id": "4192",
+      "name": "GDY001",
+      "address": "Dedala 10",
+      "lat": 54.5834079,
+      "lon": 18.5387413,
+      "capacity": 10
+    },
+    {
+      "id": "4193",
+      "name": "GDY002",
+      "address": "Zielona 36",
+      "lat": 54.5779514,
+      "lon": 18.5387535,
+      "capacity": 10
+    },
+    {
+      "id": "4194",
+      "name": "GDY003",
+      "address": "Osada Rybacka 12",
+      "lat": 54.55915,
+      "lon": 18.5487714,
+      "capacity": 10
+    },
+    {
+      "id": "4195",
+      "name": "GDY004",
+      "address": "Pułkownika Stanisława Dąbka N/A",
+      "lat": 54.5535626,
+      "lon": 18.5298748,
+      "capacity": 10
+    },
+    {
+      "id": "4196",
+      "name": "GDY005",
+      "address": "Zielona 19-1",
+      "lat": 54.5492145,
+      "lon": 18.5304951,
+      "capacity": 10
+    },
+    {
+      "id": "4197",
+      "name": "GDY006",
+      "address": "Podchorążych 9",
+      "lat": 54.550743,
+      "lon": 18.5371113,
+      "capacity": 10
+    },
+    {
+      "id": "4198",
+      "name": "GDY007",
+      "address": "Arendta Dickmana 4",
+      "lat": 54.549095,
+      "lon": 18.5478527,
+      "capacity": 10
+    },
+    {
+      "id": "4199",
+      "name": "GDY008",
+      "address": "Inżyniera Jana Śmidowicza 67",
+      "lat": 54.5428221,
+      "lon": 18.5435259,
+      "capacity": 10
+    },
+    {
+      "id": "4200",
+      "name": "GDY009",
+      "address": "Inżyniera Jana Śmidowicza 45",
+      "lat": 54.542776,
+      "lon": 18.534011,
+      "capacity": 10
+    },
+    {
+      "id": "4201",
+      "name": "GDY010",
+      "address": "Konstantego Maciejewicza 11",
+      "lat": 54.562608,
+      "lon": 18.5070371,
+      "capacity": 10
+    },
+    {
+      "id": "4202",
+      "name": "GDY011",
+      "address": "Eugeniusza Kwiatkowskiego N/A",
+      "lat": 54.5594445,
+      "lon": 18.5105288,
+      "capacity": 10
+    },
+    {
+      "id": "4203",
+      "name": "GDY012",
+      "address": "Pułkownika Stanisława Dąbka 203",
+      "lat": 54.5561285,
+      "lon": 18.520427,
+      "capacity": 10
+    },
+    {
+      "id": "4204",
+      "name": "GDY013",
+      "address": "Rębaczy 13",
+      "lat": 54.5528988,
+      "lon": 18.5099111,
+      "capacity": 10
+    },
+    {
+      "id": "4205",
+      "name": "GDY014",
+      "address": "Cechowa 22",
+      "lat": 54.5526183,
+      "lon": 18.5150573,
+      "capacity": 10
+    },
+    {
+      "id": "4206",
+      "name": "GDY015",
+      "address": "Pułkownika Stanisława Dąbka",
+      "lat": 54.56276067329891,
+      "lon": 18.486815784221804,
+      "capacity": 10
+    },
+    {
+      "id": "4207",
+      "name": "GDY016",
+      "address": "Benisławskiego 13-2",
+      "lat": 54.5486767,
+      "lon": 18.5220355,
+      "capacity": 10
+    },
+    {
+      "id": "4208",
+      "name": "GDY017",
+      "address": "Komandora Bolesława Romanowskiego 52",
+      "lat": 54.562854,
+      "lon": 18.4971197,
+      "capacity": 10
+    },
+    {
+      "id": "4209",
+      "name": "GDY018",
+      "address": "Generała Dywizji Franciszka Kleeberga 2D",
+      "lat": 54.5610107,
+      "lon": 18.4934758,
+      "capacity": 10
+    },
+    {
+      "id": "4210",
+      "name": "GDY019",
+      "address": "Żelazna 11A",
+      "lat": 54.559016,
+      "lon": 18.4845417,
+      "capacity": 10
+    },
+    {
+      "id": "4211",
+      "name": "GDY020",
+      "address": "Komandora Zygmunta Horyda 14",
+      "lat": 54.5629346,
+      "lon": 18.4810403,
+      "capacity": 10
+    },
+    {
+      "id": "4212",
+      "name": "GDY021",
+      "address": "Złota 24",
+      "lat": 54.5592001,
+      "lon": 18.4717998,
+      "capacity": 10
+    },
+    {
+      "id": "4213",
+      "name": "GDY022",
+      "address": "Admirała Józefa Unruga 67",
+      "lat": 54.5546592,
+      "lon": 18.4926239,
+      "capacity": 10
+    },
+    {
+      "id": "4214",
+      "name": "GDY023",
+      "address": "Admirała Józefa Unruga 41",
+      "lat": 54.552307,
+      "lon": 18.5033296,
+      "capacity": 10
+    },
+    {
+      "id": "4215",
+      "name": "GDY024",
+      "address": "Admirała Józefa Unruga 35",
+      "lat": 54.5508979,
+      "lon": 18.5062887,
+      "capacity": 10
+    },
+    {
+      "id": "4216",
+      "name": "GDY025",
+      "address": "Janka Wiśniewskiego N/A",
+      "lat": 54.54631,
+      "lon": 18.5015189,
+      "capacity": 10
+    },
+    {
+      "id": "4217",
+      "name": "GDY026",
+      "address": "Kontenerowa 25",
+      "lat": 54.5504601,
+      "lon": 18.4862884,
+      "capacity": 10
+    },
+    {
+      "id": "4218",
+      "name": "GDY027",
+      "address": "Karola Kurpińskiego 1",
+      "lat": 54.5475393,
+      "lon": 18.4357994,
+      "capacity": 10
+    },
+    {
+      "id": "4219",
+      "name": "GDY028",
+      "address": "Morska 230/H",
+      "lat": 54.5465134,
+      "lon": 18.4416546,
+      "capacity": 10
+    },
+    {
+      "id": "4220",
+      "name": "GDY029",
+      "address": "Janowska N/A",
+      "lat": 54.5492969,
+      "lon": 18.4451302,
+      "capacity": 10
+    },
+    {
+      "id": "4221",
+      "name": "GDY030",
+      "address": "Zbożowa 25",
+      "lat": 54.5459378,
+      "lon": 18.4490398,
+      "capacity": 10
+    },
+    {
+      "id": "4222",
+      "name": "GDY031",
+      "address": "Kcyńska 7A",
+      "lat": 54.5439688,
+      "lon": 18.4531051,
+      "capacity": 10
+    },
+    {
+      "id": "4223",
+      "name": "GDY032",
+      "address": "Kartuska 61",
+      "lat": 54.5375862,
+      "lon": 18.4583884,
+      "capacity": 10
+    },
+    {
+      "id": "4224",
+      "name": "GDY033",
+      "address": "Chabrowa 55",
+      "lat": 54.5374147,
+      "lon": 18.4395433,
+      "capacity": 10
+    },
+    {
+      "id": "4225",
+      "name": "GDY034",
+      "address": "Czeremchowa 1",
+      "lat": 54.5341492,
+      "lon": 18.4456349,
+      "capacity": 10
+    },
+    {
+      "id": "4226",
+      "name": "GDY035",
+      "address": "Skarbka 70E",
+      "lat": 54.528225,
+      "lon": 18.4574921,
+      "capacity": 10
+    },
+    {
+      "id": "4227",
+      "name": "GDY036",
+      "address": "Hutnicza 34",
+      "lat": 54.549924,
+      "lon": 18.458361,
+      "capacity": 10
+    },
+    {
+      "id": "4228",
+      "name": "GDY037",
+      "address": "Hutnicza 20G",
+      "lat": 54.5472201,
+      "lon": 18.4727852,
+      "capacity": 10
+    },
+    {
+      "id": "4229",
+      "name": "GDY038",
+      "address": "Palmowa",
+      "lat": 54.546401,
+      "lon": 18.4628722,
+      "capacity": 10
+    },
+    {
+      "id": "4230",
+      "name": "GDY039",
+      "address": "Plac Dworcowy 1-43A",
+      "lat": 54.5450561,
+      "lon": 18.4629557,
+      "capacity": 10
+    },
+    {
+      "id": "4231",
+      "name": "GDY040",
+      "address": "Wejherowska 59",
+      "lat": 54.542883,
+      "lon": 18.466312,
+      "capacity": 10
+    },
+    {
+      "id": "4232",
+      "name": "GDY041",
+      "address": "Morska 305",
+      "lat": 54.5417339,
+      "lon": 18.4608305,
+      "capacity": 10
+    },
+    {
+      "id": "4233",
+      "name": "GDY042",
+      "address": "Morska 269",
+      "lat": 54.538813,
+      "lon": 18.4710298,
+      "capacity": 10
+    },
+    {
+      "id": "4234",
+      "name": "GDY043",
+      "address": "Chylońska 50A",
+      "lat": 54.5411823,
+      "lon": 18.477945,
+      "capacity": 10
+    },
+    {
+      "id": "4235",
+      "name": "GDY044",
+      "address": "Chylońska 5",
+      "lat": 54.5362785,
+      "lon": 18.4786331,
+      "capacity": 10
+    },
+    {
+      "id": "4236",
+      "name": "GDY045",
+      "address": "Hutnicza 1A",
+      "lat": 54.5381012,
+      "lon": 18.4940558,
+      "capacity": 10
+    },
+    {
+      "id": "4237",
+      "name": "GDY046",
+      "address": "Osada Kolejowa 1B",
+      "lat": 54.5346529,
+      "lon": 18.4946268,
+      "capacity": 10
+    },
+    {
+      "id": "4238",
+      "name": "GDY047",
+      "address": "Morska 158",
+      "lat": 54.5330561,
+      "lon": 18.4881963,
+      "capacity": 10
+    },
+    {
+      "id": "4239",
+      "name": "GDY048",
+      "address": "Działdowska 25",
+      "lat": 54.5315759,
+      "lon": 18.4827056,
+      "capacity": 10
+    },
+    {
+      "id": "4240",
+      "name": "GDY049",
+      "address": "Sambora 50",
+      "lat": 54.526723,
+      "lon": 18.490901,
+      "capacity": 10
+    },
+    {
+      "id": "4241",
+      "name": "GDY050",
+      "address": "Morska 127",
+      "lat": 54.530505643207114,
+      "lon": 18.498075709841963,
+      "capacity": 10
+    },
+    {
+      "id": "4242",
+      "name": "GDY051",
+      "address": "Czechosłowacka 3",
+      "lat": 54.5327082,
+      "lon": 18.5170832,
+      "capacity": 10
+    },
+    {
+      "id": "4243",
+      "name": "GDY052",
+      "address": "Janka Wiśniewskiego N/A",
+      "lat": 54.5264316,
+      "lon": 18.5191114,
+      "capacity": 10
+    },
+    {
+      "id": "4244",
+      "name": "GDY053",
+      "address": "Morska 113A",
+      "lat": 54.528958,
+      "lon": 18.5038443,
+      "capacity": 10
+    },
+    {
+      "id": "4245",
+      "name": "GDY054",
+      "address": "Morska 81",
+      "lat": 54.5263683,
+      "lon": 18.5126695,
+      "capacity": 10
+    },
+    {
+      "id": "4246",
+      "name": "GDY055",
+      "address": "Maurycego Beniowskiego 20",
+      "lat": 54.5236117,
+      "lon": 18.5130319,
+      "capacity": 10
+    },
+    {
+      "id": "4247",
+      "name": "GDY056",
+      "address": "Morska 73",
+      "lat": 54.5243766,
+      "lon": 18.517867,
+      "capacity": 10
+    },
+    {
+      "id": "4248",
+      "name": "GDY057",
+      "address": "Morska 4A",
+      "lat": 54.5202928,
+      "lon": 18.5292777,
+      "capacity": 10
+    },
+    {
+      "id": "4249",
+      "name": "GDY058",
+      "address": "Wolności 9-5",
+      "lat": 54.5195958,
+      "lon": 18.5274565,
+      "capacity": 10
+    },
+    {
+      "id": "4250",
+      "name": "GDY059",
+      "address": "Wolności 37A",
+      "lat": 54.5189122,
+      "lon": 18.5197656,
+      "capacity": 10
+    },
+    {
+      "id": "4251",
+      "name": "GDY060",
+      "address": "Tatrzańska 14",
+      "lat": 54.5160357,
+      "lon": 18.5251888,
+      "capacity": 10
+    },
+    {
+      "id": "4252",
+      "name": "GDY061",
+      "address": "Nowogrodzka 16-12",
+      "lat": 54.5147642,
+      "lon": 18.5311537,
+      "capacity": 10
+    },
+    {
+      "id": "4253",
+      "name": "GDY062",
+      "address": "Witomińska 8",
+      "lat": 54.5119852,
+      "lon": 18.5323498,
+      "capacity": 10
+    },
+    {
+      "id": "4254",
+      "name": "GDY063",
+      "address": "Witomińska 76",
+      "lat": 54.5097736,
+      "lon": 18.5194745,
+      "capacity": 10
+    },
+    {
+      "id": "4255",
+      "name": "GDY064",
+      "address": "Polska N/A",
+      "lat": 54.532701,
+      "lon": 18.5467272,
+      "capacity": 10
+    },
+    {
+      "id": "4256",
+      "name": "GDY065",
+      "address": "Polska 13",
+      "lat": 54.529469,
+      "lon": 18.537264,
+      "capacity": 10
+    },
+    {
+      "id": "4257",
+      "name": "GDY066",
+      "address": "Bernarda Chrzanowskiego 21",
+      "lat": 54.528056,
+      "lon": 18.543112,
+      "capacity": 10
+    },
+    {
+      "id": "4258",
+      "name": "GDY067",
+      "address": "Portowa N/A",
+      "lat": 54.5248354,
+      "lon": 18.5428157,
+      "capacity": 10
+    },
+    {
+      "id": "4259",
+      "name": "GDY068",
+      "address": "Plac Kaszubski 3-10",
+      "lat": 54.5223115,
+      "lon": 18.5430401,
+      "capacity": 10
+    },
+    {
+      "id": "4260",
+      "name": "GDY069",
+      "address": "Władysława IV 2",
+      "lat": 54.523138,
+      "lon": 18.538592,
+      "capacity": 10
+    },
+    {
+      "id": "4261",
+      "name": "GDY070",
+      "address": "Wójta Radtkego 29",
+      "lat": 54.5221026,
+      "lon": 18.5349553,
+      "capacity": 10
+    },
+    {
+      "id": "4262",
+      "name": "GDY071",
+      "address": "Dworcowa 11A",
+      "lat": 54.5201882,
+      "lon": 18.5322656,
+      "capacity": 10
+    },
+    {
+      "id": "4263",
+      "name": "GDY072",
+      "address": "3 Maja 22-26",
+      "lat": 54.519455,
+      "lon": 18.535668,
+      "capacity": 10
+    },
+    {
+      "id": "4264",
+      "name": "GDY073",
+      "address": "Władysława IV 30",
+      "lat": 54.5198483,
+      "lon": 18.5389278,
+      "capacity": 10
+    },
+    {
+      "id": "4265",
+      "name": "GDY074",
+      "address": "Świętojańska 22",
+      "lat": 54.519076,
+      "lon": 18.5422845,
+      "capacity": 10
+    },
+    {
+      "id": "4266",
+      "name": "GDY075",
+      "address": "Jerzego Waszyngtona 46/48",
+      "lat": 54.519609,
+      "lon": 18.54697,
+      "capacity": 10
+    },
+    {
+      "id": "4267",
+      "name": "GDY076",
+      "address": "Aleja Jana Pawła II 1",
+      "lat": 54.5186946,
+      "lon": 18.5583085,
+      "capacity": 10
+    },
+    {
+      "id": "4268",
+      "name": "GDY077",
+      "address": "Bulwar Nadmorski 1/40",
+      "lat": 54.5163446,
+      "lon": 18.5483987,
+      "capacity": 10
+    },
+    {
+      "id": "4269",
+      "name": "GDY078",
+      "address": "Plac Grunwaldzki 1",
+      "lat": 54.5166317,
+      "lon": 18.5434606,
+      "capacity": 10
+    },
+    {
+      "id": "4270",
+      "name": "GDY079",
+      "address": "Władysława IV 44",
+      "lat": 54.51637300378596,
+      "lon": 18.538092874670905,
+      "capacity": 10
+    },
+    {
+      "id": "4271",
+      "name": "GDY080",
+      "address": "Żwirki i Wigury 6",
+      "lat": 54.5149468,
+      "lon": 18.5402615,
+      "capacity": 10
+    },
+    {
+      "id": "4272",
+      "name": "GDY081",
+      "address": "Henryka Siemiradzkiego 2",
+      "lat": 54.5134244,
+      "lon": 18.5440008,
+      "capacity": 10
+    },
+    {
+      "id": "4273",
+      "name": "GDY082",
+      "address": "Władysława IV 54",
+      "lat": 54.5125548,
+      "lon": 18.5375127,
+      "capacity": 10
+    },
+    {
+      "id": "4274",
+      "name": "GDY083",
+      "address": "Kielecka - droga Gdynska N/A",
+      "lat": 54.5077745,
+      "lon": 18.5341314,
+      "capacity": 10
+    },
+    {
+      "id": "4275",
+      "name": "GDY084",
+      "address": "Władysława IV 70",
+      "lat": 54.5081265,
+      "lon": 18.5364068,
+      "capacity": 10
+    },
+    {
+      "id": "4276",
+      "name": "GDY085",
+      "address": "Aleja Marszałka Piłsudskiego 52",
+      "lat": 54.509144,
+      "lon": 18.5390832,
+      "capacity": 10
+    },
+    {
+      "id": "4277",
+      "name": "GDY086",
+      "address": "Aleja Marszałka Piłsudskiego 32",
+      "lat": 54.5084558,
+      "lon": 18.544535,
+      "capacity": 10
+    },
+    {
+      "id": "4278",
+      "name": "GDY087",
+      "address": "Augustyna Necla 17",
+      "lat": 54.51004,
+      "lon": 18.545994,
+      "capacity": 10
+    },
+    {
+      "id": "4279",
+      "name": "GDY088",
+      "address": "Ignacego Krasickiego 47",
+      "lat": 54.5080013,
+      "lon": 18.5491635,
+      "capacity": 10
+    },
+    {
+      "id": "4280",
+      "name": "GDY089",
+      "address": "Bulwar Feliksa Nowowiejskiego N/A",
+      "lat": 54.5083745,
+      "lon": 18.5537012,
+      "capacity": 10
+    },
+    {
+      "id": "4281",
+      "name": "GDY090",
+      "address": "Juliana Ejsmonda 2",
+      "lat": 54.5027093,
+      "lon": 18.5585469,
+      "capacity": 10
+    },
+    {
+      "id": "4282",
+      "name": "GDY091",
+      "address": "Stanisława Moniuszki 9",
+      "lat": 54.505636,
+      "lon": 18.548987,
+      "capacity": 10
+    },
+    {
+      "id": "4283",
+      "name": "GDY092",
+      "address": "Mikołaja Reja 13-5",
+      "lat": 54.505857,
+      "lon": 18.541474,
+      "capacity": 10
+    },
+    {
+      "id": "4284",
+      "name": "GDY093",
+      "address": "Legionów 67",
+      "lat": 54.502929,
+      "lon": 18.5422534,
+      "capacity": 10
+    },
+    {
+      "id": "4285",
+      "name": "GDY094",
+      "address": "Harcerska 4",
+      "lat": 54.502373,
+      "lon": 18.538781,
+      "capacity": 10
+    },
+    {
+      "id": "4286",
+      "name": "GDY095",
+      "address": "Aleja Zwycięstwa 90",
+      "lat": 54.4969584,
+      "lon": 18.5378403,
+      "capacity": 10
+    },
+    {
+      "id": "4287",
+      "name": "GDY096",
+      "address": "Legionów 107A",
+      "lat": 54.497168,
+      "lon": 18.54161,
+      "capacity": 10
+    },
+    {
+      "id": "4288",
+      "name": "GDY097",
+      "address": "Mikołaja Kopernika 67",
+      "lat": 54.4990446,
+      "lon": 18.5492728,
+      "capacity": 10
+    },
+    {
+      "id": "4289",
+      "name": "GDY098",
+      "address": "Bohaterów Starówki Warszawskiej 3",
+      "lat": 54.494259,
+      "lon": 18.5521859,
+      "capacity": 10
+    },
+    {
+      "id": "4290",
+      "name": "GDY099",
+      "address": "Janusza Korczaka 16",
+      "lat": 54.4947148,
+      "lon": 18.5428019,
+      "capacity": 10
+    },
+    {
+      "id": "4291",
+      "name": "GDY100",
+      "address": "Stryjska - Pawła Łaźniaka N/A",
+      "lat": 54.4922693,
+      "lon": 18.5387437,
+      "capacity": 10
+    },
+    {
+      "id": "4292",
+      "name": "GDY101",
+      "address": "Sportowa 10",
+      "lat": 54.496663,
+      "lon": 18.5334955,
+      "capacity": 10
+    },
+    {
+      "id": "4293",
+      "name": "GDY102",
+      "address": "Łużycka 3B",
+      "lat": 54.4945457,
+      "lon": 18.5347201,
+      "capacity": 10
+    },
+    {
+      "id": "4294",
+      "name": "GDY103",
+      "address": "Sandomierska 5",
+      "lat": 54.486687,
+      "lon": 18.5287104,
+      "capacity": 10
+    },
+    {
+      "id": "4295",
+      "name": "GDY104",
+      "address": "Wieluńska 86",
+      "lat": 54.4843398,
+      "lon": 18.5159563,
+      "capacity": 7
+    },
+    {
+      "id": "4296",
+      "name": "GDY105",
+      "address": "plac Górnośląski 1",
+      "lat": 54.4835805,
+      "lon": 18.5382178,
+      "capacity": 10
+    },
+    {
+      "id": "4297",
+      "name": "GDY106",
+      "address": "Wielkopolska 96",
+      "lat": 54.4814259,
+      "lon": 18.5313137,
+      "capacity": 10
+    },
+    {
+      "id": "4299",
+      "name": "GDY108",
+      "address": "Lidzka 69",
+      "lat": 54.475734,
+      "lon": 18.5164222,
+      "capacity": 10
+    },
+    {
+      "id": "4300",
+      "name": "GDY109",
+      "address": "Strzelców 36-3",
+      "lat": 54.4766231,
+      "lon": 18.5035543,
+      "capacity": 10
+    },
+    {
+      "id": "4302",
+      "name": "GDY111",
+      "address": "Parkowa 8D 8D",
+      "lat": 54.4699323,
+      "lon": 18.5185601,
+      "capacity": 10
+    },
+    {
+      "id": "4303",
+      "name": "GDY112",
+      "address": "Inżynierska 103",
+      "lat": 54.47786,
+      "lon": 18.5466549,
+      "capacity": 10
+    },
+    {
+      "id": "4304",
+      "name": "GDY113",
+      "address": "Legionów 116",
+      "lat": 54.4899407,
+      "lon": 18.5450474,
+      "capacity": 10
+    },
+    {
+      "id": "4305",
+      "name": "GDY114",
+      "address": "Powstania Styczniowego 6",
+      "lat": 54.4896291,
+      "lon": 18.5550012,
+      "capacity": 10
+    },
+    {
+      "id": "4306",
+      "name": "GDY115",
+      "address": "Aleja Zwycięstwa 1",
+      "lat": 54.4847171,
+      "lon": 18.5460291,
+      "capacity": 10
+    },
+    {
+      "id": "4307",
+      "name": "GDY116",
+      "address": "Orłowska 12",
+      "lat": 54.4808078,
+      "lon": 18.5638432,
+      "capacity": 10
+    },
+    {
+      "id": "4308",
+      "name": "GDY117",
+      "address": "Orłowska 86",
+      "lat": 54.4781893,
+      "lon": 18.5482586,
+      "capacity": 10
+    },
+    {
+      "id": "4309",
+      "name": "GDY118",
+      "address": "Przebendowskich 49A",
+      "lat": 54.476033,
+      "lon": 18.5507798,
+      "capacity": 10
+    },
+    {
+      "id": "4310",
+      "name": "GDY119",
+      "address": "Światowida 52",
+      "lat": 54.4732012,
+      "lon": 18.5543096,
+      "capacity": 10
+    },
+    {
+      "id": "4311",
+      "name": "GDY120",
+      "address": "Narcyzowa 1/1",
+      "lat": 54.4999571,
+      "lon": 18.5140557,
+      "capacity": 10
+    },
+    {
+      "id": "4312",
+      "name": "GDY121",
+      "address": "Nauczycielska 6",
+      "lat": 54.4994170166498,
+      "lon": 18.503872498330672,
+      "capacity": 10
+    },
+    {
+      "id": "4313",
+      "name": "GDY122",
+      "address": "Małokacka 20",
+      "lat": 54.498070590643806,
+      "lon": 18.51002095916172,
+      "capacity": 10
+    },
+    {
+      "id": "4314",
+      "name": "GDY123",
+      "address": "Wielkokacka 14-25",
+      "lat": 54.495038,
+      "lon": 18.5083263,
+      "capacity": 10
+    },
+    {
+      "id": "4315",
+      "name": "GDY124",
+      "address": "2 Morskiego Pułku Strzelców 16-13",
+      "lat": 54.4916735,
+      "lon": 18.513955,
+      "capacity": 10
+    },
+    {
+      "id": "4316",
+      "name": "GDY125",
+      "address": "Chwarznieńska 124",
+      "lat": 54.4982509,
+      "lon": 18.497247,
+      "capacity": 10
+    },
+    {
+      "id": "4317",
+      "name": "GDY126",
+      "address": "Chwarznieńska 140A",
+      "lat": 54.5000918,
+      "lon": 18.4715139,
+      "capacity": 10
+    },
+    {
+      "id": "4318",
+      "name": "GDY127",
+      "address": "Apollina 1",
+      "lat": 54.5006858,
+      "lon": 18.4573342,
+      "capacity": 10
+    },
+    {
+      "id": "4319",
+      "name": "GDY128",
+      "address": "Władysława Kańskiego 2D",
+      "lat": 54.4994728,
+      "lon": 18.4381231,
+      "capacity": 10
+    },
+    {
+      "id": "4320",
+      "name": "GDY129",
+      "address": "Jana Kamrowskiego 1C",
+      "lat": 54.4969526,
+      "lon": 18.4383309,
+      "capacity": 10
+    },
+    {
+      "id": "4321",
+      "name": "GDY130",
+      "address": "Generała Mariusza Zaruskiego 10",
+      "lat": 54.4930105,
+      "lon": 18.4342826,
+      "capacity": 10
+    },
+    {
+      "id": "4322",
+      "name": "GDY131",
+      "address": "Stanisława Filipkowskiego 2/U1",
+      "lat": 54.4865512,
+      "lon": 18.4280555,
+      "capacity": 10
+    },
+    {
+      "id": "4323",
+      "name": "GDY132",
+      "address": "Miętowa 1E",
+      "lat": 54.4741991,
+      "lon": 18.4620315,
+      "capacity": 10
+    },
+    {
+      "id": "4324",
+      "name": "GDY133",
+      "address": "Nowowiczlińska 45A",
+      "lat": 54.4738167,
+      "lon": 18.4655971,
+      "capacity": 10
+    },
+    {
+      "id": "4325",
+      "name": "GDY134",
+      "address": "Gorczycowa 14B",
+      "lat": 54.4722499,
+      "lon": 18.4622869,
+      "capacity": 10
+    },
+    {
+      "id": "4326",
+      "name": "GDY135",
+      "address": "Miętowa  126",
+      "lat": 54.4715668,
+      "lon": 18.4503154,
+      "capacity": 10
+    },
+    {
+      "id": "4327",
+      "name": "GDY136",
+      "address": "Kameliowa 2",
+      "lat": 54.4705898,
+      "lon": 18.4680196,
+      "capacity": 10
+    },
+    {
+      "id": "4328",
+      "name": "GDY137",
+      "address": "Szafranowa 16",
+      "lat": 54.4670078,
+      "lon": 18.463714,
+      "capacity": 10
+    },
+    {
+      "id": "4329",
+      "name": "GDY138",
+      "address": "Rdestowa 150D",
+      "lat": 54.46289313978714,
+      "lon": 18.455337797434158,
+      "capacity": 10
+    },
+    {
+      "id": "4330",
+      "name": "GDY139",
+      "address": "Starochwaszczyńska 169",
+      "lat": 54.4557398,
+      "lon": 18.4533586,
+      "capacity": 10
+    },
+    {
+      "id": "4331",
+      "name": "GDY140",
+      "address": "Sudecka 2",
+      "lat": 54.451115,
+      "lon": 18.456508,
+      "capacity": 10
+    },
+    {
+      "id": "4332",
+      "name": "GDY141",
+      "address": "Kornela Makuszyńskiego 17F",
+      "lat": 54.4736732,
+      "lon": 18.4844179,
+      "capacity": 10
+    },
+    {
+      "id": "4333",
+      "name": "GDY142",
+      "address": "Kornela Makuszyńskiego  26-2",
+      "lat": 54.4737387,
+      "lon": 18.4901497,
+      "capacity": 10
+    },
+    {
+      "id": "4334",
+      "name": "GDY143",
+      "address": "Leopolda Staffa 22",
+      "lat": 54.4739233,
+      "lon": 18.4998015,
+      "capacity": 10
+    },
+    {
+      "id": "4335",
+      "name": "GDY144",
+      "address": "Strzelców 4",
+      "lat": 54.469243,
+      "lon": 18.508301,
+      "capacity": 10
+    },
+    {
+      "id": "4336",
+      "name": "GDY145",
+      "address": "Buraczana 26D",
+      "lat": 54.4706656,
+      "lon": 18.5022081,
+      "capacity": 10
+    },
+    {
+      "id": "4337",
+      "name": "GDY146",
+      "address": "Poli Gojawiczyńskiej 1A",
+      "lat": 54.46944137238651,
+      "lon": 18.500176197231866,
+      "capacity": 10
+    },
+    {
+      "id": "4338",
+      "name": "GDY147",
+      "address": "Kazimierza Kruczkowskiego 12",
+      "lat": 54.4718661,
+      "lon": 18.4960811,
+      "capacity": 10
+    },
+    {
+      "id": "4339",
+      "name": "GDY148",
+      "address": "Chwaszczyńska 10",
+      "lat": 54.470920668597984,
+      "lon": 18.490947438884746,
+      "capacity": 10
+    },
+    {
+      "id": "4340",
+      "name": "GDY149",
+      "address": "Gryfa Pomorskiego 71",
+      "lat": 54.4678457,
+      "lon": 18.4876949,
+      "capacity": 10
+    },
+    {
+      "id": "4341",
+      "name": "GDY150",
+      "address": "Źródło Marii 19M",
+      "lat": 54.4677257,
+      "lon": 18.4933237,
+      "capacity": 10
+    },
+    {
+      "id": "4342",
+      "name": "GDY151",
+      "address": "Lipowa 56",
+      "lat": 54.4655504,
+      "lon": 18.4825506,
+      "capacity": 10
+    },
+    {
+      "id": "4343",
+      "name": "GDY152",
+      "address": "Księdza Jana Pawła Siega 1C",
+      "lat": 54.4640409,
+      "lon": 18.4872628,
+      "capacity": 10
+    },
+    {
+      "id": "4344",
+      "name": "GDY153",
+      "address": "Starodworcowa 34",
+      "lat": 54.4646556,
+      "lon": 18.4968232,
+      "capacity": 10
+    },
+    {
+      "id": "4345",
+      "name": "SOP001",
+      "address": "Oskara Kolberga 11, 81-881 Sopot",
+      "lat": 54.4574017,
+      "lon": 18.5349488,
+      "capacity": 10
+    },
+    {
+      "id": "4346",
+      "name": "SOP002",
+      "address": "Kujawska 29/62, 81-862 Sopot",
+      "lat": 54.4584776,
+      "lon": 18.5475776,
+      "capacity": 10
+    },
+    {
+      "id": "4347",
+      "name": "SOP003",
+      "address": "Wejherowska 42, 81-814 Sopot",
+      "lat": 54.4572292,
+      "lon": 18.5529934,
+      "capacity": 10
+    },
+    {
+      "id": "4348",
+      "name": "SOP004",
+      "address": "Józefa Kraszewskiego 26, 81-815 Sopot",
+      "lat": 54.4540529,
+      "lon": 18.548997,
+      "capacity": 10
+    },
+    {
+      "id": "4349",
+      "name": "SOP005",
+      "address": "Powstańców Warszawy 80, 81-712 Sopot",
+      "lat": 54.4538491,
+      "lon": 18.5625128,
+      "capacity": 10
+    },
+    {
+      "id": "4351",
+      "name": "SOP007",
+      "address": "Powstańców Warszawy 9, 81-764 Sopot",
+      "lat": 54.4458123,
+      "lon": 18.568029,
+      "capacity": 10
+    },
+    {
+      "id": "4352",
+      "name": "SOP008",
+      "address": "Plac Zdrojowy 2, 81-720 Sopot",
+      "lat": 54.4452261,
+      "lon": 18.5709993,
+      "capacity": 10
+    },
+    {
+      "id": "4353",
+      "name": "SOP009",
+      "address": "Bohaterów Monte Cassino 51, 81-767 Sopot",
+      "lat": 54.444407107318995,
+      "lon": 18.56602261208414,
+      "capacity": 10
+    },
+    {
+      "id": "4354",
+      "name": "SOP010",
+      "address": "plac Konstytucji 3 Maja 1, 81-753 Sopot",
+      "lat": 54.44288836352638,
+      "lon": 18.56304551646383,
+      "capacity": 10
+    },
+    {
+      "id": "4355",
+      "name": "SOP011",
+      "address": "Kolejowa 2, 81-835 Sopot",
+      "lat": 54.4408562,
+      "lon": 18.561557,
+      "capacity": 10
+    },
+    {
+      "id": "4356",
+      "name": "SOP012",
+      "address": "Tadeusza Kościuszki 22/24, 81-704 Sopot",
+      "lat": 54.4399963,
+      "lon": 18.5642502,
+      "capacity": 10
+    },
+    {
+      "id": "4357",
+      "name": "SOP013",
+      "address": "Marynarzy 2, 81-835 Sopot",
+      "lat": 54.4393091,
+      "lon": 18.5632453,
+      "capacity": 10
+    },
+    {
+      "id": "4358",
+      "name": "SOP014",
+      "address": "Fryderyka Chopina, 81-752 Sopot",
+      "lat": 54.4425284,
+      "lon": 18.5704254,
+      "capacity": 10
+    },
+    {
+      "id": "4359",
+      "name": "SOP015",
+      "address": "3 Maja 7/4, 81-729 Sopot",
+      "lat": 54.43844197411524,
+      "lon": 18.572611348749714,
+      "capacity": 10
+    },
+    {
+      "id": "4360",
+      "name": "SOP016",
+      "address": "Króla Jana Kazimierza 4C, 81-742 Sopot",
+      "lat": 54.43516821275696,
+      "lon": 18.56674754464484,
+      "capacity": 10
+    },
+    {
+      "id": "4361",
+      "name": "SOP017",
+      "address": "23 Marca 91/50, 81-820 Sopot",
+      "lat": 54.4476991,
+      "lon": 18.5408644,
+      "capacity": 10
+    },
+    {
+      "id": "4362",
+      "name": "SOP018",
+      "address": "Armii Krajowej 99, 81-824 Sopot",
+      "lat": 54.441974,
+      "lon": 18.5570092,
+      "capacity": 10
+    },
+    {
+      "id": "4363",
+      "name": "SOP019",
+      "address": "Adama Mickiewicza 46, 81-834 Sopot",
+      "lat": 54.439403,
+      "lon": 18.5469075,
+      "capacity": 10
+    },
+    {
+      "id": "4364",
+      "name": "SOP020",
+      "address": "Generała Józefa Wybickiego 48, 81-842 Sopot",
+      "lat": 54.4363201,
+      "lon": 18.5518686,
+      "capacity": 10
+    },
+    {
+      "id": "4365",
+      "name": "SOP021",
+      "address": "Aleja Niepodległości 702, 81-853 Sopot",
+      "lat": 54.4336343,
+      "lon": 18.5613244,
+      "capacity": 10
+    },
+    {
+      "id": "4366",
+      "name": "SOP022",
+      "address": "Aleja Niepodległości 677 C, 81-854 Sopot",
+      "lat": 54.43075591295741,
+      "lon": 18.561175301752257,
+      "capacity": 10
+    },
+    {
+      "id": "4367",
+      "name": "SOP023",
+      "address": "Rzemieślnicza 3, 81-855 Sopot",
+      "lat": 54.4298981,
+      "lon": 18.5633059,
+      "capacity": 10
+    },
+    {
+      "id": "4368",
+      "name": "SOP024",
+      "address": "Karlikowo, 81-701 Sopot",
+      "lat": 54.4306453,
+      "lon": 18.5659911,
+      "capacity": 10
+    },
+    {
+      "id": "4369",
+      "name": "SOP025",
+      "address": "Skarpowa 10, 81-701 Sopot",
+      "lat": 54.4350527,
+      "lon": 18.5721904,
+      "capacity": 10
+    },
+    {
+      "id": "4370",
+      "name": "SOP026",
+      "address": "Aleja Wojska Polskiego, 81-769 Sopot",
+      "lat": 54.4329215,
+      "lon": 18.5862395,
+      "capacity": 10
+    },
+    {
+      "id": "4371",
+      "name": "SOP027",
+      "address": "Hestii 3, 81-731 Sopot",
+      "lat": 54.4308625,
+      "lon": 18.5864688,
+      "capacity": 10
+    },
+    {
+      "id": "4372",
+      "name": "SOP028",
+      "address": "Karlikowo, 81-701 Sopot",
+      "lat": 54.42581618640938,
+      "lon": 18.577611198493145,
+      "capacity": 10
+    },
+    {
+      "id": "4373",
+      "name": "PRU001",
+      "address": "Grunwaldzka 1, 83-000 Pruszcz Gdański",
+      "lat": 54.2700477,
+      "lon": 18.6383083,
+      "capacity": 10
+    },
+    {
+      "id": "4374",
+      "name": "PRU002",
+      "address": "Stefana Rogozińskiego 5/S5, 83-000 Pruszcz Gdański",
+      "lat": 54.27069,
+      "lon": 18.62816,
+      "capacity": 10
+    },
+    {
+      "id": "4375",
+      "name": "PRU003",
+      "address": "Jana z Kolna 4, 83-000 Pruszcz Gdański",
+      "lat": 54.2679784,
+      "lon": 18.6281948,
+      "capacity": 20
+    },
+    {
+      "id": "4376",
+      "name": "PRU004",
+      "address": "Cicha 6, 83-000 Pruszcz Gdański",
+      "lat": 54.26056069184702,
+      "lon": 18.625219324723616,
+      "capacity": 10
+    },
+    {
+      "id": "4377",
+      "name": "PRU005",
+      "address": "Spokojna/Ogrodowa",
+      "lat": 54.257598776333026,
+      "lon": 18.62428196342296,
+      "capacity": 10
+    },
+    {
+      "id": "4378",
+      "name": "PRU006",
+      "address": "Wojska Polskiego 3, 83-000 Pruszcz Gdański",
+      "lat": 54.2600199,
+      "lon": 18.6339026,
+      "capacity": 10
+    },
+    {
+      "id": "4379",
+      "name": "PRU007",
+      "address": "Krótka 2, 83-000 Pruszcz Gdański",
+      "lat": 54.2624929,
+      "lon": 18.6363939,
+      "capacity": 10
+    },
+    {
+      "id": "4380",
+      "name": "PRU008",
+      "address": "Aleja Księdza Józefa Waląga 3, 83-004 Pruszcz Gdański",
+      "lat": 54.2610248,
+      "lon": 18.638354,
+      "capacity": 20
+    },
+    {
+      "id": "4381",
+      "name": "PRU009",
+      "address": "ul. Chopina 34, 83-000 Pruszcz Gdański",
+      "lat": 54.26115,
+      "lon": 18.643427,
+      "capacity": 10
+    },
+    {
+      "id": "4382",
+      "name": "PRU010",
+      "address": "Dworcowa 1, 83-004 Pruszcz Gdański",
+      "lat": 54.2584539,
+      "lon": 18.6454008,
+      "capacity": 20
+    },
+    {
+      "id": "4383",
+      "name": "PRU011",
+      "address": "Polskich Kolejarzy 7/i 8, 83-000 Pruszcz Gdański",
+      "lat": 54.2584094,
+      "lon": 18.6478168,
+      "capacity": 10
+    },
+    {
+      "id": "4384",
+      "name": "PRU012",
+      "address": "Juliana Ursyna Niemcewicza 1, 83-000 Pruszcz Gdański",
+      "lat": 54.2612003,
+      "lon": 18.6506886,
+      "capacity": 10
+    },
+    {
+      "id": "4385",
+      "name": "PRU013",
+      "address": "Milenijna 3-1, 83-004 Pruszcz Gdański",
+      "lat": 54.267165,
+      "lon": 18.653649,
+      "capacity": 10
+    },
+    {
+      "id": "4386",
+      "name": "PRU014",
+      "address": "Huberta Wagnera 1A, 83-000 Pruszcz Gdański",
+      "lat": 54.267799737935974,
+      "lon": 18.67226873287001,
+      "capacity": 10
+    },
+    {
+      "id": "4387",
+      "name": "PRU015",
+      "address": "Wacława Rzewuskiego 1, 83-000 Pruszcz Gdański",
+      "lat": 54.265724,
+      "lon": 18.663455,
+      "capacity": 10
+    },
+    {
+      "id": "4388",
+      "name": "PRU016",
+      "address": "Azaliowa 1/C/6, 83-000 Pruszcz Gdański",
+      "lat": 54.2635812,
+      "lon": 18.6645543,
+      "capacity": 10
+    },
+    {
+      "id": "4389",
+      "name": "PRU017",
+      "address": "Jana Kasprowicza 11, 83-004 Pruszcz Gdański",
+      "lat": 54.2644746,
+      "lon": 18.669083,
+      "capacity": 10
+    },
+    {
+      "id": "4390",
+      "name": "PRU018",
+      "address": "Józefa Konrada Korzeniowskiego 66, 83-004 Pruszcz Gdański",
+      "lat": 54.2602137,
+      "lon": 18.6730361,
+      "capacity": 10
+    },
+    {
+      "id": "4391",
+      "name": "PRU019",
+      "address": "Jarosława Dąbrowskiego 79, 83-000 Pruszcz Gdański",
+      "lat": 54.256028,
+      "lon": 18.672408,
+      "capacity": 10
+    },
+    {
+      "id": "4392",
+      "name": "PRU020",
+      "address": "Andrzeja Frycza-Modrzewskiego 17, 83-000 Pruszcz Gdański",
+      "lat": 54.259134,
+      "lon": 18.664409,
+      "capacity": 10
+    },
+    {
+      "id": "4393",
+      "name": "PRU021",
+      "address": "Jarosława Dąbrowskiego 26, 83-000 Pruszcz Gdański",
+      "lat": 54.257259,
+      "lon": 18.6600407,
+      "capacity": 10
+    },
+    {
+      "id": "4394",
+      "name": "PRU022",
+      "address": "Generała Władysława Sikorskiego 33, 83-000 Pruszcz Gdański",
+      "lat": 54.246677,
+      "lon": 18.6513593,
+      "capacity": 10
+    },
+    {
+      "id": "4395",
+      "name": "PRU023",
+      "address": "Wojska Polskiego 34, 83-000 Pruszcz Gdański",
+      "lat": 54.2575065,
+      "lon": 18.6330522,
+      "capacity": 10
+    },
+    {
+      "id": "4396",
+      "name": "PRU024",
+      "address": "Matejki 3, 83-000 Pruszcz Gdański",
+      "lat": 54.2546534,
+      "lon": 18.6370144,
+      "capacity": 10
+    },
+    {
+      "id": "4397",
+      "name": "PRU025",
+      "address": "Nad Radunią 26, 83-000 Pruszcz Gdański",
+      "lat": 54.263468,
+      "lon": 18.635283,
+      "capacity": 10
+    },
+    {
+      "id": "4399",
+      "name": "PRU027",
+      "address": "Zastawna, 83-004 Pruszcz Gdański",
+      "lat": 54.2525819,
+      "lon": 18.6287567,
+      "capacity": 10
+    },
+    {
+      "id": "4400",
+      "name": "PRU028",
+      "address": "Grunwaldzka 117, 83-000 Pruszcz Gdański",
+      "lat": 54.240313,
+      "lon": 18.630609,
+      "capacity": 10
+    },
+    {
+      "id": "4401",
+      "name": "PRU029",
+      "address": "Tczewska 2, 83-000 Pruszcz Gdański",
+      "lat": 54.2408017,
+      "lon": 18.6167293,
+      "capacity": 30
+    },
+    {
+      "id": "4402",
+      "name": "TCZ001",
+      "address": "Topolowa 23, 83-110 Tczew",
+      "lat": 54.100651158347176,
+      "lon": 18.772214247789833,
+      "capacity": 10
+    },
+    {
+      "id": "4403",
+      "name": "TCZ002",
+      "address": "Armii Krajowej 35, 83-110 Tczew",
+      "lat": 54.0985671,
+      "lon": 18.7645118,
+      "capacity": 10
+    },
+    {
+      "id": "4404",
+      "name": "TCZ003",
+      "address": "Harcerska 2, 83-110 Tczew",
+      "lat": 54.0971742,
+      "lon": 18.7598077,
+      "capacity": 10
+    },
+    {
+      "id": "4405",
+      "name": "TCZ004",
+      "address": "Władysława Jagiełły 4d, 83-110 Tczew",
+      "lat": 54.0955376,
+      "lon": 18.7648851,
+      "capacity": 10
+    },
+    {
+      "id": "4406",
+      "name": "TCZ005",
+      "address": "Jagiellońska 55, 83-100 Tczew",
+      "lat": 54.0917583,
+      "lon": 18.7620241,
+      "capacity": 10
+    },
+    {
+      "id": "4407",
+      "name": "TCZ006",
+      "address": "Biedronka Kwiatowa/Sadowa",
+      "lat": 54.1007642,
+      "lon": 18.779643,
+      "capacity": 10
+    },
+    {
+      "id": "4408",
+      "name": "TCZ007",
+      "address": "Królowej Marysieńki 10, 83-110 Tczew",
+      "lat": 54.0955798238688,
+      "lon": 18.776940494469244,
+      "capacity": 10
+    },
+    {
+      "id": "4409",
+      "name": "TCZ008",
+      "address": "Jana Brzechwy 2, 83-110 Tczew \"Plac Zabaw Osiedle Bajkowe\"",
+      "lat": 54.0896164,
+      "lon": 18.7672997,
+      "capacity": 10
+    },
+    {
+      "id": "4410",
+      "name": "TCZ009",
+      "address": "Christiana Andersena 9, 83-100 Tczew",
+      "lat": 54.0889099,
+      "lon": 18.7723626,
+      "capacity": 10
+    },
+    {
+      "id": "4411",
+      "name": "TCZ010",
+      "address": "Kazimierza Wielkiego 11, 83-110 Tczew",
+      "lat": 54.0836696,
+      "lon": 18.7773026,
+      "capacity": 10
+    },
+    {
+      "id": "4412",
+      "name": "TCZ011",
+      "address": "Spółdzielcza 1c, 83-110 Tczew",
+      "lat": 54.1028432,
+      "lon": 18.802941,
+      "capacity": 10
+    },
+    {
+      "id": "4413",
+      "name": "TCZ012",
+      "address": "okolice Sklep spożywczo monopolowy Elżbiety/Kolejowa/Mostowa",
+      "lat": 54.0958415,
+      "lon": 18.7930664,
+      "capacity": 10
+    },
+    {
+      "id": "4414",
+      "name": "TCZ013",
+      "address": "Pomorska 4, 83-110 Tczew",
+      "lat": 54.0963053,
+      "lon": 18.7897597,
+      "capacity": 10
+    },
+    {
+      "id": "4415",
+      "name": "TCZ014",
+      "address": "Jedności Narodu 22, 83-110 Tczew",
+      "lat": 54.0970839,
+      "lon": 18.7816266,
+      "capacity": 10
+    },
+    {
+      "id": "4416",
+      "name": "TCZ015",
+      "address": "Aleja Zwycięstwa 16, 83-110 Tczew",
+      "lat": 54.0936239,
+      "lon": 18.7861984,
+      "capacity": 10
+    },
+    {
+      "id": "4417",
+      "name": "TCZ016",
+      "address": "Rondo Spółdzielców Tczew",
+      "lat": 54.09280596482816,
+      "lon": 18.78201958500921,
+      "capacity": 10
+    },
+    {
+      "id": "4418",
+      "name": "TCZ017",
+      "address": "Bulwar Nadwiślański, 83-110 Tczew",
+      "lat": 54.0906907,
+      "lon": 18.8024598,
+      "capacity": 10
+    },
+    {
+      "id": "4419",
+      "name": "TCZ018",
+      "address": "Plac Generała Józefa Hallera 23/5, 83-110 Tczew",
+      "lat": 54.0870854,
+      "lon": 18.7995413,
+      "capacity": 10
+    },
+    {
+      "id": "4420",
+      "name": "TCZ019",
+      "address": "Jarosława Dąbrowskiego 7A, 83-110 Tczew",
+      "lat": 54.0869246,
+      "lon": 18.7954243,
+      "capacity": 10
+    },
+    {
+      "id": "4421",
+      "name": "TCZ020",
+      "address": "30 Stycznia 61, 83-110 Tczew",
+      "lat": 54.0855634,
+      "lon": 18.7933738,
+      "capacity": 10
+    },
+    {
+      "id": "4422",
+      "name": "TCZ021",
+      "address": "Wojska Polskiego 28a, 83-100 Tczew",
+      "lat": 54.0884483,
+      "lon": 18.787843,
+      "capacity": 10
+    },
+    {
+      "id": "4423",
+      "name": "TCZ022",
+      "address": "Grunwaldzka 1, 83-110 Tczew",
+      "lat": 54.0882285,
+      "lon": 18.7829221,
+      "capacity": 10
+    },
+    {
+      "id": "4424",
+      "name": "TCZ023",
+      "address": "Parkowa 1, 83-110 Tczew",
+      "lat": 54.0821782,
+      "lon": 18.8022202,
+      "capacity": 10
+    },
+    {
+      "id": "4425",
+      "name": "TCZ024",
+      "address": "Ceglarska 6, 83-110 Tczew",
+      "lat": 54.0750583,
+      "lon": 18.8063239,
+      "capacity": 10
+    },
+    {
+      "id": "4426",
+      "name": "TCZ025",
+      "address": "Czyżykowska 68, 83-110 Tczew",
+      "lat": 54.0773158,
+      "lon": 18.8005084,
+      "capacity": 10
+    },
+    {
+      "id": "4427",
+      "name": "TCZ026",
+      "address": "Genbema 22, 83-110 Tczew",
+      "lat": 54.0775323,
+      "lon": 18.7893946,
+      "capacity": 10
+    },
+    {
+      "id": "4428",
+      "name": "TCZ027",
+      "address": "Lewiatan Malczewskiego/Kamila Norwida/Józefa Chełmońskiego, 83-110 Tczew",
+      "lat": 54.07329,
+      "lon": 18.7743485,
+      "capacity": 10
+    },
+    {
+      "id": "4429",
+      "name": "TCZ028",
+      "address": "Bartosza Głowackiego 57, 83-110 Tczew",
+      "lat": 54.0678073,
+      "lon": 18.7676508,
+      "capacity": 10
+    },
+    {
+      "id": "4430",
+      "name": "RUM001",
+      "address": "ul. 1 Maja",
+      "lat": 54.5836756,
+      "lon": 18.3950614,
+      "capacity": 10
+    },
+    {
+      "id": "4431",
+      "name": "RUM002",
+      "address": "Żwirki i Wigury 48",
+      "lat": 54.5822756,
+      "lon": 18.3862824,
+      "capacity": 10
+    },
+    {
+      "id": "4432",
+      "name": "RUM003",
+      "address": "Gniewowska 26",
+      "lat": 54.5778746,
+      "lon": 18.3916996,
+      "capacity": 10
+    },
+    {
+      "id": "4433",
+      "name": "RUM004",
+      "address": "Dębogórska 2",
+      "lat": 54.5779567,
+      "lon": 18.400233,
+      "capacity": 10
+    },
+    {
+      "id": "4434",
+      "name": "RUM005",
+      "address": "ul. Żwirki i Wigury 23",
+      "lat": 54.5747553,
+      "lon": 18.3873328,
+      "capacity": 10
+    },
+    {
+      "id": "4435",
+      "name": "RUM006",
+      "address": "ul. Adama Mickiewicza 19",
+      "lat": 54.5737509,
+      "lon": 18.395466,
+      "capacity": 10
+    },
+    {
+      "id": "4436",
+      "name": "RUM007",
+      "address": "ul. Czesława Miłosza 5-1",
+      "lat": 54.5730792,
+      "lon": 18.400324,
+      "capacity": 10
+    },
+    {
+      "id": "4437",
+      "name": "RUM008",
+      "address": "ul. Generała Henryka Dąbrowskiego 13",
+      "lat": 54.5696349,
+      "lon": 18.3921521,
+      "capacity": 10
+    },
+    {
+      "id": "4438",
+      "name": "RUM009",
+      "address": "ul. Towarowa 23/2",
+      "lat": 54.5686224,
+      "lon": 18.3866423,
+      "capacity": 10
+    },
+    {
+      "id": "4439",
+      "name": "RUM010",
+      "address": "ul. Starowiejska 2",
+      "lat": 54.56934737323832,
+      "lon": 18.388234657005157,
+      "capacity": 10
+    },
+    {
+      "id": "4440",
+      "name": "RUM011",
+      "address": "ul. Jana III Sobieskiego 7C",
+      "lat": 54.5651395,
+      "lon": 18.3921923,
+      "capacity": 10
+    },
+    {
+      "id": "4441",
+      "name": "RUM012",
+      "address": "ul. Sabata 24",
+      "lat": 54.562768,
+      "lon": 18.385873,
+      "capacity": 10
+    },
+    {
+      "id": "4442",
+      "name": "RUM013",
+      "address": "ul. Marszałka Józefa Piłsudskiego 122",
+      "lat": 54.5755007,
+      "lon": 18.4086281,
+      "capacity": 10
+    },
+    {
+      "id": "4443",
+      "name": "RUM014",
+      "address": "ul. Dębogórska 84d",
+      "lat": 54.573553,
+      "lon": 18.4157027,
+      "capacity": 10
+    },
+    {
+      "id": "4444",
+      "name": "RUM015",
+      "address": "ul. Marszałka Józefa Piłsudskiego 30",
+      "lat": 54.5673748,
+      "lon": 18.3984861,
+      "capacity": 10
+    },
+    {
+      "id": "4445",
+      "name": "RUM016",
+      "address": "ul. Poznańska",
+      "lat": 54.5676432,
+      "lon": 18.4065929,
+      "capacity": 10
+    },
+    {
+      "id": "4446",
+      "name": "RUM017",
+      "address": "ul. Gdańska 39",
+      "lat": 54.5680738,
+      "lon": 18.4119632,
+      "capacity": 10
+    },
+    {
+      "id": "4447",
+      "name": "RUM018",
+      "address": "ul. Chylońska 10",
+      "lat": 54.5660762,
+      "lon": 18.4167992,
+      "capacity": 10
+    },
+    {
+      "id": "4448",
+      "name": "RUM019",
+      "address": "ul. Bydgoska 10",
+      "lat": 54.5632226,
+      "lon": 18.4052811,
+      "capacity": 10
+    },
+    {
+      "id": "4449",
+      "name": "RUM020",
+      "address": "ul. Generała Henryka Dąbrowskiego 109",
+      "lat": 54.5641762,
+      "lon": 18.4100579,
+      "capacity": 10
+    },
+    {
+      "id": "4450",
+      "name": "RUM021",
+      "address": "ul. Stoczniowców 9D",
+      "lat": 54.5612224,
+      "lon": 18.413651,
+      "capacity": 10
+    },
+    {
+      "id": "4451",
+      "name": "RUM022",
+      "address": "Gdańska 39/9",
+      "lat": 54.5591319,
+      "lon": 18.4066741,
+      "capacity": 10
+    },
+    {
+      "id": "4452",
+      "name": "RUM023",
+      "address": "ul. Jana III Sobieskiego 73",
+      "lat": 54.5585124,
+      "lon": 18.4055934,
+      "capacity": 10
+    },
+    {
+      "id": "4453",
+      "name": "RED001",
+      "address": "Rekowska 2",
+      "lat": 54.6315535,
+      "lon": 18.3621039,
+      "capacity": 10
+    },
+    {
+      "id": "4454",
+      "name": "RED002",
+      "address": "Długa 49A",
+      "lat": 54.6259918,
+      "lon": 18.3524734,
+      "capacity": 10
+    },
+    {
+      "id": "4455",
+      "name": "RED003",
+      "address": "Pucka 58D",
+      "lat": 54.6158258,
+      "lon": 18.345769,
+      "capacity": 10
+    },
+    {
+      "id": "4456",
+      "name": "RED004",
+      "address": "ul. Kwiatowa",
+      "lat": 54.6138901,
+      "lon": 18.3334569,
+      "capacity": 10
+    },
+    {
+      "id": "4457",
+      "name": "RED005",
+      "address": "ul. Brzozowa 22",
+      "lat": 54.6108773,
+      "lon": 18.3531126,
+      "capacity": 10
+    },
+    {
+      "id": "4458",
+      "name": "RED006",
+      "address": "Olimpijska 5",
+      "lat": 54.6068071,
+      "lon": 18.3634034,
+      "capacity": 10
+    },
+    {
+      "id": "4459",
+      "name": "RED007",
+      "address": "Tenisowa 5",
+      "lat": 54.6050585,
+      "lon": 18.3556925,
+      "capacity": 10
+    },
+    {
+      "id": "4460",
+      "name": "RED008",
+      "address": "ul. Torowa 2-4",
+      "lat": 54.6043978,
+      "lon": 18.3183416,
+      "capacity": 10
+    },
+    {
+      "id": "4461",
+      "name": "RED009",
+      "address": "ul. Łąkowa 1",
+      "lat": 54.6033711,
+      "lon": 18.3505569,
+      "capacity": 10
+    },
+    {
+      "id": "4462",
+      "name": "RED010",
+      "address": "ul. Księcia Poniatowskiego 1",
+      "lat": 54.6000856,
+      "lon": 18.3521634,
+      "capacity": 10
+    },
+    {
+      "id": "4463",
+      "name": "RED011",
+      "address": "Aleja Jana Pawła II 30",
+      "lat": 54.6023066,
+      "lon": 18.355582,
+      "capacity": 10
+    },
+    {
+      "id": "4464",
+      "name": "RED012",
+      "address": "ul. Aleksandra Zawadzkiego 12",
+      "lat": 54.5974469,
+      "lon": 18.3559434,
+      "capacity": 10
+    },
+    {
+      "id": "4465",
+      "name": "RED013",
+      "address": "Gniewowska 26",
+      "lat": 54.5968147,
+      "lon": 18.344459,
+      "capacity": 10
+    },
+    {
+      "id": "4466",
+      "name": "RED014",
+      "address": "ul. Leśna",
+      "lat": 54.5955065,
+      "lon": 18.3523613,
+      "capacity": 10
+    },
+    {
+      "id": "4467",
+      "name": "RED015",
+      "address": "Reda Dworzec PKP",
+      "lat": 54.5953735,
+      "lon": 18.3533513,
+      "capacity": 10
+    },
+    {
+      "id": "4468",
+      "name": "RED016",
+      "address": "Osiedle Przy Młynie",
+      "lat": 54.5948049,
+      "lon": 18.3611769,
+      "capacity": 10
+    },
+    {
+      "id": "4469",
+      "name": "RED017",
+      "address": "ul. Gniewowska 76",
+      "lat": 54.591846,
+      "lon": 18.336109,
+      "capacity": 10
+    },
+    {
+      "id": "4470",
+      "name": "PUC001",
+      "address": "Ścieżka Rowerowa R10, 84-100 Puck",
+      "lat": 54.724527,
+      "lon": 18.4027031,
+      "capacity": 10
+    },
+    {
+      "id": "4471",
+      "name": "PUC002",
+      "address": "Żeglarzy 17",
+      "lat": 54.7229078,
+      "lon": 18.4101002,
+      "capacity": 10
+    },
+    {
+      "id": "4472",
+      "name": "PUC003",
+      "address": "1 Maja 1",
+      "lat": 54.7206806,
+      "lon": 18.4115054,
+      "capacity": 10
+    },
+    {
+      "id": "4473",
+      "name": "PUC004",
+      "address": "Stary Rynek 2",
+      "lat": 54.7204325,
+      "lon": 18.4115341,
+      "capacity": 10
+    },
+    {
+      "id": "4474",
+      "name": "PUC005",
+      "address": "aleja Lipowa 3a",
+      "lat": 54.7211789,
+      "lon": 18.4184943,
+      "capacity": 10
+    },
+    {
+      "id": "4475",
+      "name": "PUC006",
+      "address": "ul. 10 Lutego 40",
+      "lat": 54.7194709,
+      "lon": 18.4001744,
+      "capacity": 10
+    },
+    {
+      "id": "4476",
+      "name": "PUC007",
+      "address": "Nowa 11",
+      "lat": 54.7167051,
+      "lon": 18.4037605,
+      "capacity": 10
+    },
+    {
+      "id": "4477",
+      "name": "PUC008",
+      "address": "Dworcowa 7",
+      "lat": 54.71598,
+      "lon": 18.4089489,
+      "capacity": 10
+    },
+    {
+      "id": "4478",
+      "name": "PUC009",
+      "address": "Majkowskiego 18-20",
+      "lat": 54.7140553,
+      "lon": 18.4156572,
+      "capacity": 10
+    },
+    {
+      "id": "4479",
+      "name": "PUC010",
+      "address": "ul. Wybickiego",
+      "lat": 54.7129099,
+      "lon": 18.4203879,
+      "capacity": 10
+    },
+    {
+      "id": "4480",
+      "name": "PUC011",
+      "address": "ul. Nowy Świat",
+      "lat": 54.7152682,
+      "lon": 18.4302406,
+      "capacity": 10
+    },
+    {
+      "id": "4481",
+      "name": "PUC012",
+      "address": "Kaszubska 1",
+      "lat": 54.7103439,
+      "lon": 18.4119081,
+      "capacity": 10
+    },
+    {
+      "id": "4482",
+      "name": "PUC013",
+      "address": "ul. Dziedzictwa Jana Pawła II 12",
+      "lat": 54.7116056,
+      "lon": 18.4032593,
+      "capacity": 10
+    },
+    {
+      "id": "4483",
+      "name": "PUC014",
+      "address": "Wejherowska 45",
+      "lat": 54.7097114,
+      "lon": 18.3958439,
+      "capacity": 10
+    },
+    {
+      "id": "4484",
+      "name": "WLA001",
+      "address": "Kopernika 13, 84-105 Władysławowo",
+      "lat": 54.829079,
+      "lon": 18.210238,
+      "capacity": 10
+    },
+    {
+      "id": "4485",
+      "name": "WLA002",
+      "address": "Karwieńska 6, 84-105 Ostrowo",
+      "lat": 54.824806,
+      "lon": 18.24325,
+      "capacity": 10
+    },
+    {
+      "id": "4486",
+      "name": "WLA003",
+      "address": "Rozewska 1, 84-104 Jastrzębia Góra",
+      "lat": 54.833472,
+      "lon": 18.30275,
+      "capacity": 10
+    },
+    {
+      "id": "4487",
+      "name": "WLA004",
+      "address": "Pucka 8, 84-104 Władysławowo",
+      "lat": 54.825892,
+      "lon": 18.310976,
+      "capacity": 10
+    },
+    {
+      "id": "4488",
+      "name": "WLA005",
+      "address": "Osiedlowa 34, 84-104 Władysławowo",
+      "lat": 54.820737,
+      "lon": 18.338996,
+      "capacity": 10
+    },
+    {
+      "id": "4489",
+      "name": "WLA006",
+      "address": "Żeromskiego 263, 84-120 Władysławowo",
+      "lat": 54.809354,
+      "lon": 18.366631,
+      "capacity": 10
+    },
+    {
+      "id": "4490",
+      "name": "WLA007",
+      "address": "Władysławowska 59, 84-120 Chłapowo",
+      "lat": 54.803806,
+      "lon": 18.372361,
+      "capacity": 10
+    },
+    {
+      "id": "4491",
+      "name": "WLA008",
+      "address": "Żeromskiego 52, 84-120 Władysławowo",
+      "lat": 54.800216472560315,
+      "lon": 18.39310219442976,
+      "capacity": 10
+    },
+    {
+      "id": "4492",
+      "name": "WLA009",
+      "address": "Jachtowa, 84-120 Władysławowo",
+      "lat": 54.796113,
+      "lon": 18.386197,
+      "capacity": 10
+    },
+    {
+      "id": "4493",
+      "name": "WLA010",
+      "address": "Żeromskiego 32, 84-120 Władysławowo",
+      "lat": 54.79644,
+      "lon": 18.395869,
+      "capacity": 10
+    },
+    {
+      "id": "4494",
+      "name": "WLA011",
+      "address": "Żeromskiego 15, 84-120 Władysławowo",
+      "lat": 54.7933686,
+      "lon": 18.3989669,
+      "capacity": 10
+    },
+    {
+      "id": "4495",
+      "name": "WLA012",
+      "address": "Przybys 13, 84-120 Władysławowo",
+      "lat": 54.787778,
+      "lon": 18.398778,
+      "capacity": 10
+    },
+    {
+      "id": "4496",
+      "name": "WLA013",
+      "address": "Krasickiego 1, 84-120 Władysławowo",
+      "lat": 54.785474,
+      "lon": 18.397478,
+      "capacity": 10
+    },
+    {
+      "id": "4497",
+      "name": "WLA014",
+      "address": "Hryniewieckiego 3, 84-120 Władysławowo",
+      "lat": 54.796917,
+      "lon": 18.410389,
+      "capacity": 10
+    },
+    {
+      "id": "4498",
+      "name": "WLA015",
+      "address": "Hallera 19, 84-120 Władysławowo",
+      "lat": 54.7939736,
+      "lon": 18.4093081,
+      "capacity": 10
+    },
+    {
+      "id": "4499",
+      "name": "WLA016",
+      "address": "Portowa 15, 84-120 Władysławowo",
+      "lat": 54.7939086,
+      "lon": 18.4162915,
+      "capacity": 10
+    },
+    {
+      "id": "4500",
+      "name": "WLA017",
+      "address": "Portowa 2a, 84-120 Władysławowo",
+      "lat": 54.78949297920764,
+      "lon": 18.414542114524238,
+      "capacity": 10
+    },
+    {
+      "id": "4501",
+      "name": "WLA018",
+      "address": "Gdańska 23, 84-120 Władysławowo",
+      "lat": 54.786667,
+      "lon": 18.407083,
+      "capacity": 10
+    },
+    {
+      "id": "4502",
+      "name": "WLA019",
+      "address": "Bohaterów Kaszubskich 66, 84-120 Władysławowo",
+      "lat": 54.783889,
+      "lon": 18.415083,
+      "capacity": 10
+    },
+    {
+      "id": "4503",
+      "name": "WLA020",
+      "address": "Kaperska 4, 84-120 Chałupy",
+      "lat": 54.759972,
+      "lon": 18.505361,
+      "capacity": 10
+    },
+    {
+      "id": "4504",
+      "name": "ZUK001",
+      "address": "Gdyńska 50, 80-209 Chwaszczyno",
+      "lat": 54.442393,
+      "lon": 18.417663,
+      "capacity": 10
+    },
+    {
+      "id": "4505",
+      "name": "ZUK002",
+      "address": "Borowiecka 2, 80-297 Banino",
+      "lat": 54.393075,
+      "lon": 18.402382,
+      "capacity": 10
+    },
+    {
+      "id": "4506",
+      "name": "ZUK003",
+      "address": "Armii Krajowej 2e, 83-330 Żukowo",
+      "lat": 54.350491,
+      "lon": 18.370298,
+      "capacity": 10
+    },
+    {
+      "id": "4507",
+      "name": "ZUK004",
+      "address": "Gdyńska 13, 83-330 Żukowo",
+      "lat": 54.3438508,
+      "lon": 18.3639135,
+      "capacity": 10
+    },
+    {
+      "id": "4508",
+      "name": "ZUK005",
+      "address": "Gdańska 52, 83-330 Żukowo",
+      "lat": 54.3425967,
+      "lon": 18.3589207,
+      "capacity": 10
+    },
+    {
+      "id": "4509",
+      "name": "KAR001",
+      "address": "Długa 36",
+      "lat": 54.3566612,
+      "lon": 18.2174837,
+      "capacity": 10
+    },
+    {
+      "id": "4510",
+      "name": "KAR002",
+      "address": "Szkolna 1",
+      "lat": 54.3565357,
+      "lon": 18.1693448,
+      "capacity": 10
+    },
+    {
+      "id": "4511",
+      "name": "KAR003",
+      "address": "Kartuska 29b",
+      "lat": 54.3460079,
+      "lon": 18.1306217,
+      "capacity": 10
+    },
+    {
+      "id": "4512",
+      "name": "KAR004",
+      "address": "Prokowska 40",
+      "lat": 54.3431258,
+      "lon": 18.1852807,
+      "capacity": 10
+    },
+    {
+      "id": "4513",
+      "name": "KAR005",
+      "address": "Mściwoja II 13",
+      "lat": 54.3404064,
+      "lon": 18.2022379,
+      "capacity": 10
+    },
+    {
+      "id": "4514",
+      "name": "KAR006",
+      "address": "Nowe Osiedle 1",
+      "lat": 54.3393403,
+      "lon": 18.1982383,
+      "capacity": 10
+    },
+    {
+      "id": "4515",
+      "name": "KAR007",
+      "address": "Klasztorna 18",
+      "lat": 54.3359401,
+      "lon": 18.1911066,
+      "capacity": 10
+    },
+    {
+      "id": "4516",
+      "name": "KAR008",
+      "address": "Promenada Asesora - Parking \"Szpaner Plac\"",
+      "lat": 54.3339493,
+      "lon": 18.1955964,
+      "capacity": 10
+    },
+    {
+      "id": "4517",
+      "name": "KAR009",
+      "address": "Kolejowa 4",
+      "lat": 54.3344869,
+      "lon": 18.2058112,
+      "capacity": 10
+    },
+    {
+      "id": "4518",
+      "name": "KAR010",
+      "address": "Gdańska 26",
+      "lat": 54.3297365,
+      "lon": 18.2043216,
+      "capacity": 10
+    },
+    {
+      "id": "4519",
+      "name": "KAR011",
+      "address": "Ogródków Działkowych 22",
+      "lat": 54.3298553,
+      "lon": 18.1864661,
+      "capacity": 10
+    },
+    {
+      "id": "4520",
+      "name": "KAR012",
+      "address": "Gen. Józefa Wybickiego 36",
+      "lat": 54.3259992,
+      "lon": 18.1945303,
+      "capacity": 10
+    },
+    {
+      "id": "4521",
+      "name": "KAR013",
+      "address": "Polna 17",
+      "lat": 54.3240751,
+      "lon": 18.183442,
+      "capacity": 10
+    },
+    {
+      "id": "4522",
+      "name": "KAR014",
+      "address": "Gdańska 8, 83-332 Borowo",
+      "lat": 54.3176983,
+      "lon": 18.2863572,
+      "capacity": 10
+    },
+    {
+      "id": "4523",
+      "name": "KAR015",
+      "address": "Kartuska 22, 83-332 Dzierżążno",
+      "lat": 54.3161093,
+      "lon": 18.2672024,
+      "capacity": 10
+    },
+    {
+      "id": "4524",
+      "name": "KAR016",
+      "address": "ks. Antoniego Arasmusa 2b, 83-307 Kiełpino",
+      "lat": 54.2896929,
+      "lon": 18.22579,
+      "capacity": 10
+    },
+    {
+      "id": "4525",
+      "name": "SOM001",
+      "address": "Dworcowa 2-4, 83-314 Somonino",
+      "lat": 54.270212,
+      "lon": 18.193457,
+      "capacity": 10
+    },
+    {
+      "id": "4526",
+      "name": "SOM002",
+      "address": "Droga Kaszubska 11, 83-311 Ostrzyce",
+      "lat": 54.2548362,
+      "lon": 18.1144906,
+      "capacity": 10
+    },
+    {
+      "id": "4527",
+      "name": "STE001",
+      "address": "Dworcowa 2, 83-316 Gołubie",
+      "lat": 54.21352,
+      "lon": 18.03812,
+      "capacity": 10
+    },
+    {
+      "id": "4528",
+      "name": "STE002",
+      "address": "DW214 11, 83-322 Stężyca",
+      "lat": 54.2067035,
+      "lon": 17.95355848,
+      "capacity": 10
+    },
+    {
+      "id": "4529",
+      "name": "SIE001",
+      "address": "Królewska 10, 83-342 Kamienica Królewska",
+      "lat": 54.391719,
+      "lon": 17.888904,
+      "capacity": 10
+    },
+    {
+      "id": "4530",
+      "name": "SIE002",
+      "address": "Piwna 2, 83-340 Sierakowice",
+      "lat": 54.3494517,
+      "lon": 17.8974718,
+      "capacity": 10
+    },
+    {
+      "id": "4531",
+      "name": "SIE003",
+      "address": "DW214, 83-340 Sierakowice",
+      "lat": 54.3492701,
+      "lon": 17.8910911,
+      "capacity": 10
+    },
+    {
+      "id": "4532",
+      "name": "SIE004",
+      "address": "Kartuska 2, 83-340 Sierakowice",
+      "lat": 54.3450829,
+      "lon": 17.893155,
+      "capacity": 10
+    },
+    {
+      "id": "4533",
+      "name": "SIE005",
+      "address": "Jeziorna 66A, 83-341 Gowidlino",
+      "lat": 54.32257,
+      "lon": 17.79401,
+      "capacity": 10
+    },
+    {
+      "id": "4534",
+      "name": "KOL001",
+      "address": "Zeusa 1A, 80-180 Kowale",
+      "lat": 54.310934,
+      "lon": 18.565856,
+      "capacity": 10
+    },
+    {
+      "id": "4535",
+      "name": "KOL002",
+      "address": "Karola Conradiego 7, 80-180 Jankowo Gdańskie",
+      "lat": 54.295137,
+      "lon": 18.554077,
+      "capacity": 10
+    },
+    {
+      "id": "4536",
+      "name": "KOL003",
+      "address": "Strażacka 1, 83-050 Lublewo Gdańskie",
+      "lat": 54.28383919151804,
+      "lon": 18.502262148927343,
+      "capacity": 10
+    },
+    {
+      "id": "4537",
+      "name": "KOL004",
+      "address": "Leśna 2, 83-050 Kolbudy",
+      "lat": 54.2712938,
+      "lon": 18.4682885,
+      "capacity": 10
+    },
+    {
+      "id": "4538",
+      "name": "KOL005",
+      "address": "Brunona Gregorkiewicza 14, 83-050 Bielkówko",
+      "lat": 54.260473,
+      "lon": 18.513144,
+      "capacity": 10
+    },
+    {
+      "id": "4539",
+      "name": "KOS001",
+      "address": "Morska 105, 81-198 Rewa",
+      "lat": 54.631954,
+      "lon": 18.497385,
+      "capacity": 10
+    },
+    {
+      "id": "4541",
+      "name": "KOS003",
+      "address": "Gdyńska 4, 81-198 Mosty",
+      "lat": 54.608731,
+      "lon": 18.496299,
+      "capacity": 10
+    },
+    {
+      "id": "4542",
+      "name": "KOS004",
+      "address": "Grudniowa 6/18, 84-230 Kazimierz",
+      "lat": 54.602862,
+      "lon": 18.421171,
+      "capacity": 10
+    },
+    {
+      "id": "4543",
+      "name": "KOS005",
+      "address": "Kaszubska 33A, 81-198 Pierwoszyno",
+      "lat": 54.598,
+      "lon": 18.499238,
+      "capacity": 10
+    },
+    {
+      "id": "4544",
+      "name": "KOS006",
+      "address": "Pomorska 18, 81-198 Dębogórze",
+      "lat": 54.591225,
+      "lon": 18.458383,
+      "capacity": 10
+    },
+    {
+      "id": "4545",
+      "name": "KOS007",
+      "address": "Gdyńska 50",
+      "lat": 54.58836086091085,
+      "lon": 18.49422608552169,
+      "capacity": 10
+    },
+    {
+      "id": "4546",
+      "name": "KOS008",
+      "address": "Jana Chryzostoma Paska 6, 81-198 Suchy Dwór",
+      "lat": 54.575527,
+      "lon": 18.470351,
+      "capacity": 10
+    },
+    {
+      "id": "4547",
+      "name": "KOS009",
+      "address": "Dębogórska 25, 84-230",
+      "lat": 54.573109,
+      "lon": 18.435305,
+      "capacity": 10
+    },
+    {
+      "id": "4548",
+      "name": "KOS010",
+      "address": "Mauretańska 6A, 81-198 Pogórze",
+      "lat": 54.566736,
+      "lon": 18.479416,
+      "capacity": 10
+    },
+    {
+      "id": "4549",
+      "name": "KOS011",
+      "address": "Ignacego Jana Paderewskiego 1/lokal U3, 81-198 Gdynia",
+      "lat": 54.567693,
+      "lon": 18.492694,
+      "capacity": 10
+    },
+    {
+      "id": "4540",
+      "name": "KOS002",
+      "address": "Nadmorska 32, 81-198 Mechelinki",
+      "lat": 54.609968,
+      "lon": 18.513215,
+      "capacity": 10
+    },
+    {
+      "id": "3829",
+      "name": "GDA001",
+      "address": "plac Dwóch Miast 1, 80-334 Gdańsk",
+      "lat": 54.4258484,
+      "lon": 18.5779021,
+      "capacity": 10
+    },
+    {
+      "id": "3830",
+      "name": "GDA002",
+      "address": "Jelitkowska 57-51, 80-342 Gdańsk",
+      "lat": 54.4279049,
+      "lon": 18.5904457,
+      "capacity": 10
+    },
+    {
+      "id": "3831",
+      "name": "GDA003",
+      "address": "Pomorska 57a, 80-343 Gdańsk",
+      "lat": 54.4247829,
+      "lon": 18.5954508,
+      "capacity": 10
+    },
+    {
+      "id": "3832",
+      "name": "GDA004",
+      "address": "Orłowska 5F, 80-347 Gdańsk",
+      "lat": 54.4235293,
+      "lon": 18.5871054,
+      "capacity": 10
+    },
+    {
+      "id": "3833",
+      "name": "GDA005",
+      "address": "Gospody 20, 80-340 Gdańsk",
+      "lat": 54.4242033,
+      "lon": 18.5774484,
+      "capacity": 10
+    },
+    {
+      "id": "3834",
+      "name": "GDA006",
+      "address": "Szyprów 9, 80-335 Gdańsk",
+      "lat": 54.4238576,
+      "lon": 18.5740724,
+      "capacity": 10
+    },
+    {
+      "id": "3835",
+      "name": "GDA007",
+      "address": "Subisława 41/14, 80-354 Gdańsk",
+      "lat": 54.4208015,
+      "lon": 18.5701376,
+      "capacity": 10
+    },
+    {
+      "id": "3836",
+      "name": "GDA008",
+      "address": "Pelplińska 7, 80-335 Gdańsk",
+      "lat": 54.4165599,
+      "lon": 18.5724502,
+      "capacity": 10
+    },
+    {
+      "id": "3837",
+      "name": "GDA009",
+      "address": "Pomorska 25, 80-333 Gdańsk",
+      "lat": 54.4199562,
+      "lon": 18.5818225,
+      "capacity": 10
+    },
+    {
+      "id": "3838",
+      "name": "GDA010",
+      "address": "Chłopska 48, 80-358 Gdańsk",
+      "lat": 54.4203544,
+      "lon": 18.5838837,
+      "capacity": 10
+    },
+    {
+      "id": "3839",
+      "name": "GDA011",
+      "address": "Aleja Grunwaldzka 62, 80-236 Gdańsk",
+      "lat": 54.4233153,
+      "lon": 18.5644725,
+      "capacity": 10
+    },
+    {
+      "id": "3840",
+      "name": "GDA012",
+      "address": "Bitwy Oliwskiej 20A, 80-339 Gdańsk",
+      "lat": 54.4205661,
+      "lon": 18.5676941,
+      "capacity": 10
+    },
+    {
+      "id": "3841",
+      "name": "GDA013",
+      "address": "Aleja Grunwaldzka 594, 80-337 Gdańsk",
+      "lat": 54.4206738,
+      "lon": 18.5648303,
+      "capacity": 10
+    },
+    {
+      "id": "3842",
+      "name": "GDA014",
+      "address": "Józefa Czyżewskiego 25, 80-336 Gdańsk",
+      "lat": 54.4184498,
+      "lon": 18.5596479,
+      "capacity": 10
+    },
+    {
+      "id": "3843",
+      "name": "GDA015",
+      "address": "Józefa Czyżewskiego 11, 80-330 Gdańsk",
+      "lat": 54.4155107,
+      "lon": 18.5579113,
+      "capacity": 10
+    },
+    {
+      "id": "3844",
+      "name": "GDA016",
+      "address": "Opacka 7, 80-330 Gdańsk",
+      "lat": 54.411886,
+      "lon": 18.5562708,
+      "capacity": 10
+    },
+    {
+      "id": "3845",
+      "name": "GDA017",
+      "address": "Aleja Grunwaldzka 569, 80-339 Gdańsk",
+      "lat": 54.4181337,
+      "lon": 18.5657569,
+      "capacity": 10
+    },
+    {
+      "id": "3846",
+      "name": "GDA018",
+      "address": "Opacka 33-31, 80-330 Gdańsk",
+      "lat": 54.4139669,
+      "lon": 18.5658072,
+      "capacity": 10
+    },
+    {
+      "id": "3847",
+      "name": "GDA019",
+      "address": "Karwieńska 3, 80-328 Gdańsk",
+      "lat": 54.4131014,
+      "lon": 18.5352242,
+      "capacity": 10
+    },
+    {
+      "id": "3848",
+      "name": "GDA020",
+      "address": "Stary Rynek Oliwski 14, 80-324 Gdańsk",
+      "lat": 54.4089353,
+      "lon": 18.5555974,
+      "capacity": 10
+    },
+    {
+      "id": "3849",
+      "name": "GDA021",
+      "address": "Opata Jacka Rybińskiego 218/16, 80-320 Gdańsk",
+      "lat": 54.409599,
+      "lon": 18.5623971,
+      "capacity": 10
+    },
+    {
+      "id": "3850",
+      "name": "GDA022",
+      "address": "Aleja Grunwaldzka 508, 80-317 Gdańsk",
+      "lat": 54.4096316,
+      "lon": 18.5676368,
+      "capacity": 10
+    },
+    {
+      "id": "3851",
+      "name": "GDA023",
+      "address": "Poczty Gdańskiej 4, 80-321 Gdańsk",
+      "lat": 54.4097367,
+      "lon": 18.5704614,
+      "capacity": 10
+    },
+    {
+      "id": "3852",
+      "name": "GDA024",
+      "address": "Adama Asnyka 1, 80-316 Gdańsk",
+      "lat": 54.408208,
+      "lon": 18.5631075,
+      "capacity": 10
+    },
+    {
+      "id": "3853",
+      "name": "GDA025",
+      "address": "Stefana Żeromskiego 1, 80-319 Gdańsk",
+      "lat": 54.4063802,
+      "lon": 18.5598908,
+      "capacity": 10
+    },
+    {
+      "id": "3854",
+      "name": "GDA026",
+      "address": "Wita Stwosza 18C, 80-312 Gdańsk",
+      "lat": 54.4044941,
+      "lon": 18.5641213,
+      "capacity": 10
+    },
+    {
+      "id": "3855",
+      "name": "GDA027",
+      "address": "Aleja Grunwaldzka 478, 80-309 Gdańsk",
+      "lat": 54.4052974,
+      "lon": 18.5708582,
+      "capacity": 10
+    },
+    {
+      "id": "3856",
+      "name": "GDA028",
+      "address": "Pomorska 84, 80-345 Gdańsk",
+      "lat": 54.4191568,
+      "lon": 18.5815211,
+      "capacity": 10
+    },
+    {
+      "id": "3857",
+      "name": "GDA029",
+      "address": "Piastowska 95, 80-358 Gdańsk",
+      "lat": 54.4161545,
+      "lon": 18.5862388,
+      "capacity": 10
+    },
+    {
+      "id": "3858",
+      "name": "GDA030",
+      "address": "Poznańska 2, 80-359 Gdańsk",
+      "lat": 54.4142581,
+      "lon": 18.5797366,
+      "capacity": 10
+    },
+    {
+      "id": "3859",
+      "name": "GDA031",
+      "address": "Leona Droszyńskiego 31A, 80-381 Gdańsk",
+      "lat": 54.4110303,
+      "lon": 18.5724922,
+      "capacity": 10
+    },
+    {
+      "id": "3860",
+      "name": "GDA032",
+      "address": "Sambora 7A, 80-361 Gdańsk",
+      "lat": 54.4095888,
+      "lon": 18.5757385,
+      "capacity": 10
+    },
+    {
+      "id": "3861",
+      "name": "GDA033",
+      "address": "Beniowskiego 66, 80-382 Gdańsk",
+      "lat": 54.4120642,
+      "lon": 18.5769125,
+      "capacity": 10
+    },
+    {
+      "id": "3862",
+      "name": "GDA034",
+      "address": "Bolesława Krzywoustego 19, 80-360 Gdańsk",
+      "lat": 54.412794,
+      "lon": 18.5811569,
+      "capacity": 10
+    },
+    {
+      "id": "3863",
+      "name": "GDA035",
+      "address": "Bolesława Krzywoustego 20A, 80-360 Gdańsk",
+      "lat": 54.4132809,
+      "lon": 18.584921,
+      "capacity": 10
+    },
+    {
+      "id": "3864",
+      "name": "GDA036",
+      "address": "Czerwony Dwór 26, 80-383 Gdańsk",
+      "lat": 54.4117088,
+      "lon": 18.5844151,
+      "capacity": 10
+    },
+    {
+      "id": "3865",
+      "name": "GDA037",
+      "address": "Chłopska 41, 80-349 Gdańsk",
+      "lat": 54.4116514,
+      "lon": 18.5875389,
+      "capacity": 10
+    },
+    {
+      "id": "3866",
+      "name": "GDA038",
+      "address": "Generała T. Bora-Komorowskiego 31, 80-377 Gdańsk",
+      "lat": 54.4090882,
+      "lon": 18.5861307,
+      "capacity": 10
+    },
+    {
+      "id": "3867",
+      "name": "GDA039",
+      "address": "Chłopska 34A, 80-368 Gdańsk",
+      "lat": 54.4136227,
+      "lon": 18.5880968,
+      "capacity": 10
+    },
+    {
+      "id": "3868",
+      "name": "GDA040",
+      "address": "Chłopska 34D, 80-358 Gdańsk",
+      "lat": 54.4159087,
+      "lon": 18.5876723,
+      "capacity": 10
+    },
+    {
+      "id": "3869",
+      "name": "GDA041",
+      "address": "Piastowska 100D, 80-358 Gdańsk",
+      "lat": 54.4169893,
+      "lon": 18.5915682,
+      "capacity": 10
+    },
+    {
+      "id": "3870",
+      "name": "GDA042",
+      "address": "Kapliczna 18, 80-341 Gdańsk",
+      "lat": 54.4217508,
+      "lon": 18.6016453,
+      "capacity": 10
+    },
+    {
+      "id": "3871",
+      "name": "GDA043",
+      "address": "Prezydenta Lecha Kaczyńskiego 4A",
+      "lat": 54.4160978,
+      "lon": 18.5964168,
+      "capacity": 10
+    },
+    {
+      "id": "3872",
+      "name": "GDA044",
+      "address": "Prezydenta Lecha Kaczyńskiego 16, 80-365 Gdańsk",
+      "lat": 54.4150283,
+      "lon": 18.6011302,
+      "capacity": 10
+    },
+    {
+      "id": "3873",
+      "name": "GDA045",
+      "address": "Jagiellońska 7, 80-371 Gdańsk",
+      "lat": 54.4131106,
+      "lon": 18.5925311,
+      "capacity": 10
+    },
+    {
+      "id": "3874",
+      "name": "GDA046",
+      "address": "Jagiellońska 36A, 80-367 Gdańsk",
+      "lat": 54.413656,
+      "lon": 18.598089,
+      "capacity": 10
+    },
+    {
+      "id": "3875",
+      "name": "GDA047",
+      "address": "Jagiellońska 10M, 80-371 Gdańsk",
+      "lat": 54.4122016,
+      "lon": 18.5885344,
+      "capacity": 10
+    },
+    {
+      "id": "3876",
+      "name": "GDA048",
+      "address": "Chłopska 18, 80-309 Gdańsk",
+      "lat": 54.408088,
+      "lon": 18.5898205,
+      "capacity": 10
+    },
+    {
+      "id": "3877",
+      "name": "GDA049",
+      "address": "Obrońców Wybrzeża 1, 63-756 Gdańsk",
+      "lat": 54.4089435,
+      "lon": 18.5940589,
+      "capacity": 10
+    },
+    {
+      "id": "3878",
+      "name": "GDA050",
+      "address": "Obrońców Wybrzeża 2A, 80-334 Gdańsk",
+      "lat": 54.4091835,
+      "lon": 18.5976696,
+      "capacity": 10
+    },
+    {
+      "id": "3879",
+      "name": "GDA051",
+      "address": "Obrońców Wybrzeża 19, 80-398 Gdańsk",
+      "lat": 54.4098525,
+      "lon": 18.5992425,
+      "capacity": 10
+    },
+    {
+      "id": "3880",
+      "name": "GDA052",
+      "address": "Obrońców Wybrzeża 27, 80-365 Gdańsk",
+      "lat": 54.4108954,
+      "lon": 18.6041376,
+      "capacity": 10
+    },
+    {
+      "id": "3881",
+      "name": "GDA053",
+      "address": "Kołobrzeska 67, 80-396 Gdańsk",
+      "lat": 54.4054598,
+      "lon": 18.5997007,
+      "capacity": 10
+    },
+    {
+      "id": "3882",
+      "name": "GDA054",
+      "address": "Kołobrzeska 45, 80-391 Gdańsk",
+      "lat": 54.4042446,
+      "lon": 18.5922225,
+      "capacity": 10
+    },
+    {
+      "id": "3883",
+      "name": "GDA055",
+      "address": "Śląska 86, 80-389 Gdańsk",
+      "lat": 54.4069816,
+      "lon": 18.5890912,
+      "capacity": 10
+    },
+    {
+      "id": "3884",
+      "name": "GDA056",
+      "address": "Kołobrzeska 43, 80-391 Gdańsk",
+      "lat": 54.4040458,
+      "lon": 18.5903393,
+      "capacity": 10
+    },
+    {
+      "id": "3885",
+      "name": "GDA057",
+      "address": "aleja Rzeczypospolitej 4/151, 80-369 Gdańsk",
+      "lat": 54.4020771,
+      "lon": 18.5914493,
+      "capacity": 10
+    },
+    {
+      "id": "3886",
+      "name": "GDA058",
+      "address": "Kołobrzeska 32, 80-984 Gdańsk",
+      "lat": 54.4030551,
+      "lon": 18.5869497,
+      "capacity": 30
+    },
+    {
+      "id": "3887",
+      "name": "GDA059",
+      "address": "Krynicka 29, 80-393 Gdańsk",
+      "lat": 54.4050124,
+      "lon": 18.5850847,
+      "capacity": 30
+    },
+    {
+      "id": "3888",
+      "name": "GDA060",
+      "address": "Beniowskiego 1, 80-382 Gdańsk",
+      "lat": 54.4062622,
+      "lon": 18.5795854,
+      "capacity": 30
+    },
+    {
+      "id": "3889",
+      "name": "GDA061",
+      "address": "Lęborska 3B, 80-386 Gdańsk",
+      "lat": 54.4043222,
+      "lon": 18.5762904,
+      "capacity": 10
+    },
+    {
+      "id": "3890",
+      "name": "GDA062",
+      "address": "Słupska 26C, 80-392 Gdańsk",
+      "lat": 54.401667,
+      "lon": 18.576447,
+      "capacity": 10
+    },
+    {
+      "id": "3891",
+      "name": "GDA063",
+      "address": "Kołobrzeska 2, 80-390 Gdańsk",
+      "lat": 54.4015477,
+      "lon": 18.5771668,
+      "capacity": 10
+    },
+    {
+      "id": "3892",
+      "name": "GDA064",
+      "address": "Szczecińska 23, 80-387 Gdańsk",
+      "lat": 54.4025834,
+      "lon": 18.5814932,
+      "capacity": 10
+    },
+    {
+      "id": "3893",
+      "name": "GDA065",
+      "address": "Aleja Grunwaldzka 472, 80-309 Gdańsk",
+      "lat": 54.4026628,
+      "lon": 18.5720424,
+      "capacity": 10
+    },
+    {
+      "id": "3894",
+      "name": "GDA066",
+      "address": "Jana Bażyńskiego 2, 80-309 Gdańsk",
+      "lat": 54.4009109,
+      "lon": 18.5737664,
+      "capacity": 10
+    },
+    {
+      "id": "3895",
+      "name": "GDA067",
+      "address": "Aleja Grunwaldzka 417, 80-309 Gdańsk",
+      "lat": 54.4009349,
+      "lon": 18.5749621,
+      "capacity": 10
+    },
+    {
+      "id": "3896",
+      "name": "GDA068",
+      "address": "Aleja Grunwaldzka 411, 80-309 Gdańsk",
+      "lat": 54.3986149,
+      "lon": 18.5762511,
+      "capacity": 10
+    },
+    {
+      "id": "3897",
+      "name": "GDA069",
+      "address": "Wita Stwosza 48, 80-308 Gdańsk",
+      "lat": 54.3988103,
+      "lon": 18.5683705,
+      "capacity": 10
+    },
+    {
+      "id": "3898",
+      "name": "GDA070",
+      "address": "Macierzy Szkolnej w Gdańsku 8, 80-308 Gdańsk",
+      "lat": 54.3959017,
+      "lon": 18.5707202,
+      "capacity": 10
+    },
+    {
+      "id": "3899",
+      "name": "GDA071",
+      "address": "Jantarowa 21, 80-341 Gdańsk",
+      "lat": 54.4133677,
+      "lon": 18.6238331,
+      "capacity": 10
+    },
+    {
+      "id": "3900",
+      "name": "GDA072",
+      "address": "Aleja Generała Józefa Hallera 277, 80-502 Gdańsk",
+      "lat": 54.4112302,
+      "lon": 18.6290499,
+      "capacity": 10
+    },
+    {
+      "id": "3901",
+      "name": "GDA073",
+      "address": "Aleja Generała Józefa Hallera 247C, 80-502 Gdańsk",
+      "lat": 54.4080708,
+      "lon": 18.6272554,
+      "capacity": 10
+    },
+    {
+      "id": "3902",
+      "name": "GDA074",
+      "address": "Emilii Plater 14B, 80-522 Gdańsk",
+      "lat": 54.4063345,
+      "lon": 18.6319209,
+      "capacity": 10
+    },
+    {
+      "id": "3903",
+      "name": "GDA075",
+      "address": "Aleja Generała Józefa Hallera 233, 80-502 Gdańsk",
+      "lat": 54.4045861,
+      "lon": 18.6247778,
+      "capacity": 10
+    },
+    {
+      "id": "3904",
+      "name": "GDA076",
+      "address": "Dworska 29, 80-506 Gdańsk",
+      "lat": 54.4041138,
+      "lon": 18.6283289,
+      "capacity": 10
+    },
+    {
+      "id": "3905",
+      "name": "GDA077",
+      "address": "Gdańska 20, 80-518 Gdańsk",
+      "lat": 54.4041728,
+      "lon": 18.6332361,
+      "capacity": 10
+    },
+    {
+      "id": "3906",
+      "name": "GDA078",
+      "address": "Konstantego Ildefonsa Gałczyńskiego 2, 80-524 Gdańsk",
+      "lat": 54.4067217,
+      "lon": 18.6385696,
+      "capacity": 10
+    },
+    {
+      "id": "3907",
+      "name": "GDA079",
+      "address": "Ksawerego Dunikowskiego 17A, 80-524 Gdańsk",
+      "lat": 54.4050012,
+      "lon": 18.643718,
+      "capacity": 10
+    },
+    {
+      "id": "3908",
+      "name": "GDA080",
+      "address": "Łozy 17I, 80-516 Gdańsk",
+      "lat": 54.4030383,
+      "lon": 18.6392604,
+      "capacity": 10
+    },
+    {
+      "id": "3909",
+      "name": "GDA081",
+      "address": "Wyzwolenia 7A, 80-537 Gdańsk",
+      "lat": 54.4030109,
+      "lon": 18.655441,
+      "capacity": 10
+    },
+    {
+      "id": "3910",
+      "name": "GDA082",
+      "address": "Wyzwolenia 28, 80-537 Gdańsk",
+      "lat": 54.4002698,
+      "lon": 18.6614674,
+      "capacity": 10
+    },
+    {
+      "id": "3911",
+      "name": "GDA083",
+      "address": "Wolności 8, 80-538 Gdańsk",
+      "lat": 54.3994049,
+      "lon": 18.6693607,
+      "capacity": 10
+    },
+    {
+      "id": "3912",
+      "name": "GDA084",
+      "address": "Ks. Mariana Góreckiego 3, 80-544 Gdańsk",
+      "lat": 54.4008559,
+      "lon": 18.671317,
+      "capacity": 10
+    },
+    {
+      "id": "3913",
+      "name": "GDA085",
+      "address": "Starowiejska 17, 80-534 Gdańsk",
+      "lat": 54.3890595,
+      "lon": 18.6495517,
+      "capacity": 10
+    },
+    {
+      "id": "3914",
+      "name": "GDA086",
+      "address": "Pokoleń Lechii Gdańsk 1, 80-560 Gdańsk",
+      "lat": 54.3906251,
+      "lon": 18.6428542,
+      "capacity": 10
+    },
+    {
+      "id": "3915",
+      "name": "GDA087",
+      "address": "Żaglowa 11, 80-560 Gdańsk",
+      "lat": 54.38635802401379,
+      "lon": 18.636422356431808,
+      "capacity": 500
+    },
+    {
+      "id": "3916",
+      "name": "GDA088",
+      "address": "Narwicka 2G, 80-557 Gdańsk",
+      "lat": 54.3823482,
+      "lon": 18.6378922,
+      "capacity": 10
+    },
+    {
+      "id": "3917",
+      "name": "GDA089",
+      "address": "Czarny Dwór 18, 80-365 Gdańsk",
+      "lat": 54.4076244,
+      "lon": 18.6148341,
+      "capacity": 10
+    },
+    {
+      "id": "3918",
+      "name": "GDA090",
+      "address": "Jelitkowski Dwór 17, 80-365 Gdańsk",
+      "lat": 54.4073669,
+      "lon": 18.6101659,
+      "capacity": 10
+    },
+    {
+      "id": "3919",
+      "name": "GDA091",
+      "address": "Kołobrzeska 56A, 80-394 Gdańsk",
+      "lat": 54.4066122,
+      "lon": 18.6059394,
+      "capacity": 10
+    }
+  ]
+}
