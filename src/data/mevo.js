@@ -21,7 +21,7 @@ export async function loadStations() {
     if (stations) return stations;
 
     try {
-        const { default: data } = await import('../../dev_tools/mevo_stations_snapshot.json');
+        const { default: data } = await import('./mevo_stations_snapshot.json');
 
         stations = data.stations.map(s => ({
             id: s.id,
