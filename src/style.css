@@ -544,19 +544,41 @@ input {
   border-top: 1px solid var(--border);
 }
 
-#layers-panel h3 {
-  font-size: 11px;
+.layers-toggle-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--text-dim);
-  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.layers-toggle-btn:hover {
+  color: var(--text);
+}
+
+.layers-toggle-btn svg {
+  transition: transform 0.2s;
+}
+
+.layers-toggle-btn[aria-expanded="true"] svg {
+  transform: rotate(180deg);
 }
 
 .layer-toggles {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  margin-top: 10px;
+}
+
+.layer-toggles[hidden] {
+  display: none;
 }
 
 .toggle-label {
@@ -851,7 +873,7 @@ input {
     left: 0;
     width: 100vw;
     height: auto;
-    max-height: 65vh;
+    max-height: 85vh; /* Increased from 65vh to give more UI space */
     border-right: none;
     border-top: 1px solid var(--border);
     border-radius: var(--radius) var(--radius) 0 0;
@@ -896,7 +918,9 @@ input {
 
   #results-panel {
     padding: 12px 16px;
-    max-height: 35vh;
+    /* Removed max-height: 35vh; so it can take available space */
+    flex: 1 1 auto;
+    min-height: 200px;
   }
 
   #layers-panel {

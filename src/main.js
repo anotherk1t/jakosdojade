@@ -31,6 +31,12 @@ async function init() {
     initResults((route) => {
         if (route) {
             drawRoute(route.legs);
+            
+            // On mobile, collapse sidebar automatically to show the map
+            const sidebar = document.getElementById('sidebar');
+            if (window.innerWidth <= 640 && sidebar && !sidebar.classList.contains('collapsed')) {
+                sidebar.classList.add('collapsed');
+            }
         } else {
             clearRouteLines();
         }
@@ -43,6 +49,17 @@ async function init() {
         setOriginMarker,
         setDestMarker,
     });
+
+    // Layers panel toggle
+    const layersBtn = document.getElementById('layers-toggle-btn');
+    const layersContainer = document.getElementById('layer-toggles-container');
+    if (layersBtn && layersContainer) {
+        layersBtn.addEventListener('click', () => {
+            const isHidden = layersContainer.hidden;
+            layersContainer.hidden = !isHidden;
+            layersBtn.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+        });
+    }
 
     // Layer toggles
     document.getElementById('toggle-stops').addEventListener('change', (e) => {

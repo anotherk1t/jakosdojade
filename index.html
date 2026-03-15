@@ -86,8 +86,13 @@
         </section>
 
         <section id="layers-panel">
-          <h3>Map Layers</h3>
-          <div class="layer-toggles">
+          <button id="layers-toggle-btn" class="layers-toggle-btn" aria-expanded="false">
+            <span>Map Layers</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+          <div class="layer-toggles" id="layer-toggles-container" hidden>
             <label class="toggle-label">
               <input type="checkbox" id="toggle-stops" checked>
               <span class="toggle-icon stop-icon">🚏</span>
