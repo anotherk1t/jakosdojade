@@ -62,8 +62,9 @@ describe('findNearby', () => {
     });
 
     it('returns empty array when nothing is in range', () => {
-        const result = findNearby(center, items, 1);
-        expect(result).toEqual([{ item: items[0], distance: 0 }]);
+        const farAway = { lat: 0, lon: 0 };
+        const result = findNearby(farAway, items, 1);
+        expect(result).toEqual([]);
     });
 
     it('attaches numeric distance to each item', () => {
