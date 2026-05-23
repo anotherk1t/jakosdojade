@@ -14,4 +14,15 @@ export default defineConfig({
             },
         },
     },
+    test: {
+        environment: 'jsdom',
+        globals: true,
+        setupFiles: ['./tests/setup.js'],
+        coverage: {
+            provider: 'v8',
+            reporter: ['text', 'html'],
+            include: ['src/data/**', 'src/routing/**'],
+            exclude: ['src/ui/**', 'src/main.js'],
+        },
+    },
 });
