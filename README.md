@@ -38,7 +38,7 @@ This application heavily relies on an external [GraphHopper](https://github.com/
 - **Routing Modules**: The logic for interacting with GraphHopper's Route API and Isochrone API is encapsulated in `src/routing/graphhopper.js` and `src/routing/multimodal.js`.
 
 ## Prerequisites
-- Node.js (v22+)
+- Node.js (v22.12+)
 - Docker & Docker Compose (optional, for containerized development)
 
 ## Installation & Setup
