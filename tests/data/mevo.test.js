@@ -78,11 +78,14 @@ describe('mevo', () => {
         await mevo.loadStations();
         const available = await mevo.getAvailableStationsNear(54.350, 18.650, 800);
         expect(Array.isArray(available)).toBe(true);
-        // Should include stations with availability data
+        // Should include stations with availability data wrapped in {item, distance, availability}
         if (available.length > 0) {
-            expect(available[0]).toHaveProperty('id');
-            expect(available[0]).toHaveProperty('bikesAvailable');
-            expect(available[0]).toHaveProperty('docksAvailable');
+            expect(available[0]).toHaveProperty('item');
+            expect(available[0]).toHaveProperty('distance');
+            expect(available[0]).toHaveProperty('availability');
+            expect(available[0].item).toHaveProperty('id');
+            expect(available[0].availability).toHaveProperty('bikesAvailable');
+            expect(available[0].availability).toHaveProperty('docksAvailable');
         }
     });
 });
