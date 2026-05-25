@@ -62,7 +62,7 @@
     <h2>Live departures — model vs ZTM</h2>
     <div class="controls">
       <span id="status" class="stale small"><span class="dot"></span><span id="statustxt">connecting…</span></span>
-      <input id="filter" type="search" placeholder="filter by line or destination…">
+      <input id="filter" type="search" aria-label="Filter departures by line or destination" placeholder="filter by line or destination…">
       <span class="muted small" id="shown"></span>
     </div>
     <div class="tablewrap">
@@ -116,6 +116,8 @@ const fmtDelay = s => {
   return 'on time';
 };
 const cls = s => s>30?'late':(s<-30?'early':'ontime');
+// Escape free-text fields (route/headsign originate from the external ZTM feed) before innerHTML.
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 function renderLive(){
   const q = filter.trim().toLowerCase();
@@ -129,8 +131,8 @@ function renderLive(){
   document.getElementById('shown').textContent = `${r.length} departures`;
   document.getElementById('livebody').innerHTML = r.slice(0,400).map(p=>`
     <tr>
-      <td><span class="route">${p.route}</span></td>
-      <td>${p.headsign||''}</td>
+      <td><span class="route">${esc(p.route)}</span></td>
+      <td>${esc(p.headsign||'')}</td>
       <td class="num muted">${p.lead_time_min.toFixed(0)} min</td>
       <td class="num ${cls(p.ztm_delay_s)}">${fmtDelay(p.ztm_delay_s)}</td>
       <td class="num ${cls(p.model_final_s)}">${fmtDelay(p.model_final_s)}</td>
