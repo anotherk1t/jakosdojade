@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>betterdojade — Delay Predictions (live)</title>
+<style>
+  :root{
+    --bg:#0f1216; --panel:#171c22; --panel2:#1e242c; --line:#2a323c;
+    --txt:#e7edf3; --muted:#8b97a6; --late:#f97316; --early:#38bdf8; --ontime:#22c55e;
+    --win:#22c55e; --lose:#ef4444; --accent:#a855f7;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);
+    font:15px/1.5 -apple-system,Inter,Segoe UI,Roboto,sans-serif}
+  header{padding:24px 20px 8px;max-width:1100px;margin:0 auto}
+  h1{margin:0 0 4px;font-size:24px}
+  h1 .city{color:var(--accent)}
+  .sub{color:var(--muted);margin:0 0 4px;max-width:760px}
+  main{max-width:1100px;margin:0 auto;padding:8px 20px 60px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:16px 0}
+  .card h2{margin:0 0 12px;font-size:16px;font-weight:600}
+  .row{display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+  .stat{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:120px}
+  .stat .v{font-size:22px;font-weight:700}
+  .stat .l{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+  .gain{color:var(--win)} .loss{color:var(--lose)}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+  th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.03em;cursor:pointer;user-select:none}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  .route{display:inline-block;min-width:30px;text-align:center;background:var(--panel2);
+    border:1px solid var(--line);border-radius:6px;padding:1px 7px;font-weight:700}
+  .late{color:var(--late)} .early{color:var(--early)} .ontime{color:var(--muted)}
+  .diverge{font-weight:600}
+  .controls{display:flex;gap:10px;align-items:center;margin-bottom:10px;flex-wrap:wrap}
+  input[type=search]{background:var(--panel2);border:1px solid var(--line);border-radius:8px;
+    color:var(--txt);padding:7px 11px;font-size:14px;min-width:200px}
+  .dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px}
+  .live .dot{background:var(--ontime);animation:pulse 2s infinite}
+  .stale .dot{background:var(--late)}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+  .muted{color:var(--muted)} .small{font-size:13px}
+  .tablewrap{max-height:560px;overflow:auto;border:1px solid var(--line);border-radius:10px}
+  .tablewrap thead th{position:sticky;top:0;background:var(--panel2)}
+  .banner{background:#3a1d1d;border:1px solid #5a2b2b;color:#fca5a5;padding:10px 14px;border-radius:8px;margin:12px 0;display:none}
+  .pillrow{display:flex;gap:6px;flex-wrap:wrap}
+  .pill{background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🚊 betterdojade <span class="city">Gdańsk</span> — Delay Predictions</h1>
+  <p class="sub">ZTM tells you a bus is late <em>right now</em>; it's poor at saying how late it'll
+  actually be by the time it reaches you. This model predicts each upcoming departure's
+  <strong>final</strong> delay. Below: live predictions vs ZTM, then how the model performs against ZTM overall.</p>
+</header>
+<main>
+  <div id="banner" class="banner"></div>
+
+  <section class="card">
+    <h2>Live departures — model vs ZTM</h2>
+    <div class="controls">
+      <span id="status" class="stale small"><span class="dot"></span><span id="statustxt">connecting…</span></span>
+      <input id="filter" type="search" aria-label="Filter departures by line or destination" placeholder="filter by line or destination…">
+      <span class="muted small" id="shown"></span>
+    </div>
+    <div class="tablewrap">
+      <table id="livetbl">
+        <thead><tr>
+          <th data-k="route">Line</th>
+          <th data-k="headsign">Destination</th>
+          <th class="num" data-k="lead_time_min">Departs in</th>
+          <th class="num" data-k="ztm_delay_s">ZTM says</th>
+          <th class="num" data-k="model_final_s">Model predicts</th>
+          <th class="num" data-k="divergence_s">Δ model−ZTM</th>
+        </tr></thead>
+        <tbody id="livebody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" id="results">
+    <h2>How good is the model? (held-out backtest)</h2>
+    <div class="row" id="headline"></div>
+    <p class="muted small" style="margin:14px 0 6px">Error (MAE) by how far ahead the departure is — ZTM degrades sharply with horizon; the model stays flat:</p>
+    <table id="bucketstbl"><thead><tr>
+      <th>Lead time</th><th class="num">Model MAE</th><th class="num">ZTM MAE</th><th class="num">Model gain</th>
+    </tr></thead><tbody></tbody></table>
+    <div class="row" style="margin-top:18px;align-items:flex-start">
+      <div style="flex:1;min-width:260px">
+        <h2 style="font-size:14px">Biggest model wins</h2>
+        <table id="wins"><tbody></tbody></table>
+      </div>
+      <div style="flex:1;min-width:260px">
+        <h2 style="font-size:14px">Route planning (no live data yet)</h2>
+        <p class="muted small">For a future trip there's no live signal, so the model uses schedule patterns vs assuming on-time:</p>
+        <table id="planning"><thead><tr><th>Lead</th><th class="num">Model</th><th class="num">On-time</th><th class="num">Gain</th></tr></thead><tbody></tbody></table>
+      </div>
+    </div>
+  </section>
+  <p class="muted small" id="footer"></p>
+</main>
+
+<script>
+const PREDICT_URL = 'https://delays.anotherk1t.beer/predictions';
+const REFRESH_MS = 60000;
+let rows = [], sortKey = 'divergence_s', sortDir = -1, filter = '';
+
+const fmtDelay = s => {
+  if (s === null || s === undefined) return '—';
+  const a = Math.abs(s), m = Math.floor(a/60), sec = a%60;
+  const t = m ? `${m}m${sec? ' '+sec+'s':''}` : `${sec}s`;
+  if (s > 30) return `+${t} late`;
+  if (s < -30) return `${t} early`;
+  return 'on time';
+};
+const cls = s => s>30?'late':(s<-30?'early':'ontime');
+// Escape free-text fields (route/headsign originate from the external ZTM feed) before innerHTML.
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function renderLive(){
+  const q = filter.trim().toLowerCase();
+  let r = rows.filter(p => !q || p.route.toLowerCase().includes(q) || (p.headsign||'').toLowerCase().includes(q));
+  r.sort((a,b)=>{
+    let x=a[sortKey], y=b[sortKey];
+    if(sortKey==='divergence_s'){x=Math.abs(x);y=Math.abs(y);}
+    if(typeof x==='string') return sortDir*x.localeCompare(y);
+    return sortDir*((x>y)-(x<y));
+  });
+  document.getElementById('shown').textContent = `${r.length} departures`;
+  document.getElementById('livebody').innerHTML = r.slice(0,400).map(p=>`
+    <tr>
+      <td><span class="route">${esc(p.route)}</span></td>
+      <td>${esc(p.headsign||'')}</td>
+      <td class="num muted">${p.lead_time_min.toFixed(0)} min</td>
+      <td class="num ${cls(p.ztm_delay_s)}">${fmtDelay(p.ztm_delay_s)}</td>
+      <td class="num ${cls(p.model_final_s)}">${fmtDelay(p.model_final_s)}</td>
+      <td class="num diverge ${p.divergence_s>0?'late':'early'}">${p.divergence_s>0?'+':''}${p.divergence_s}s</td>
+    </tr>`).join('');
+}
+
+async function loadLive(){
+  const st=document.getElementById('status'), tx=document.getElementById('statustxt');
+  try{
+    const r = await fetch(PREDICT_URL, {cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const d = await r.json();
+    // Normalize once so a single malformed row can't throw and break the whole table.
+    const num = v => Number.isFinite(+v) ? +v : 0;
+    rows = (d.predictions || []).map(p => ({
+      route: String(p.route ?? ''), headsign: String(p.headsign ?? ''),
+      lead_time_min: num(p.lead_time_min), ztm_delay_s: num(p.ztm_delay_s),
+      model_final_s: num(p.model_final_s), divergence_s: num(p.divergence_s),
+    }));
+    st.className='live small'; tx.textContent = `live · ${rows.length} departures · updated just now`;
+    document.getElementById('banner').style.display='none';
+    renderLive();
+  }catch(e){
+    st.className='stale small'; tx.textContent='live feed unavailable';
+    const b=document.getElementById('banner');
+    b.style.display='block';
+    b.textContent='Live predictions are temporarily unavailable ('+e.message+'). The backtest results below are still shown.';
+  }
+}
+
+async function loadSummary(){
+  try{
+    const s = await (await fetch('/delays_summary.json',{cache:'no-store'})).json();
+    const L=s.live;
+    document.getElementById('headline').innerHTML = `
+      <div class="stat"><div class="v gain">+${L.overall.gain.toFixed(0)}s</div><div class="l">Model gain vs ZTM</div></div>
+      <div class="stat"><div class="v">${L.overall.model.toFixed(0)}s</div><div class="l">Model MAE</div></div>
+      <div class="stat"><div class="v muted">${L.overall.ztm.toFixed(0)}s</div><div class="l">ZTM MAE</div></div>
+      <div class="stat"><div class="v">${L.routes_win}/${L.routes_total}</div><div class="l">Routes model wins</div></div>`;
+    document.querySelector('#bucketstbl tbody').innerHTML = L.buckets.map(b=>`
+      <tr><td>${esc(b.label)}</td><td class="num">${b.model.toFixed(0)}s</td>
+      <td class="num muted">${b.base.toFixed(0)}s</td><td class="num gain">+${b.gain.toFixed(0)}s</td></tr>`).join('');
+    document.querySelector('#wins tbody').innerHTML = L.top_wins.map(w=>`
+      <tr><td><span class="route">${esc(w.route)}</span></td>
+      <td class="num">${w.model.toFixed(0)}s</td><td class="num muted">${w.ztm.toFixed(0)}s</td>
+      <td class="num gain">+${w.gain.toFixed(0)}s</td></tr>`).join('');
+    const P=s.planning;
+    document.querySelector('#planning tbody').innerHTML = P.buckets.map(b=>`
+      <tr><td>${esc(b.label)}</td><td class="num">${b.model.toFixed(0)}s</td>
+      <td class="num muted">${b.base.toFixed(0)}s</td><td class="num gain">+${b.gain.toFixed(0)}s</td></tr>`).join('');
+    document.getElementById('footer').textContent =
+      `Backtest generated ${s.generated}. Live model uses realtime history (in-progress trips); planning model uses schedule patterns only.`;
+  }catch(e){ /* summary optional */ }
+}
+
+document.querySelectorAll('#livetbl th').forEach(th=>th.addEventListener('click',()=>{
+  const k=th.dataset.k; sortDir = (sortKey===k)? -sortDir : -1; sortKey=k; renderLive();
+}));
+document.getElementById('filter').addEventListener('input',e=>{filter=e.target.value;renderLive();});
+
+loadSummary();
+loadLive();
+setInterval(loadLive, REFRESH_MS);
+</script>
+</body>
+</html>
