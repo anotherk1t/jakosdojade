@@ -14,6 +14,9 @@ vi.mock('../../src/data/shapes.js', () => ({
 
 vi.mock('../../src/data/mevo.js', () => ({
     getStationsNear: vi.fn(() => []),
+    getAvailableStationsNear: vi.fn().mockResolvedValue([]),
+    loadStations: vi.fn().mockResolvedValue([]),
+    getStationAvailability: vi.fn().mockResolvedValue(null),
 }));
 
 let planRoutes;
@@ -31,7 +34,12 @@ beforeEach(async () => {
     gh.getCyclingRoute.mockReset();
     gh.getPtRoutes.mockReset();
     mevo.getStationsNear.mockReset();
+    mevo.getAvailableStationsNear.mockReset();
+    mevo.loadStations.mockReset();
+    mevo.getStationAvailability.mockReset();
     mevo.getStationsNear.mockReturnValue([]);
+    mevo.getAvailableStationsNear.mockResolvedValue([]);
+    mevo.loadStations.mockResolvedValue([]);
 });
 
 const ORIGIN = { lat: 54.350, lon: 18.650 };
