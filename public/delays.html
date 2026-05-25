@@ -146,7 +146,13 @@ async function loadLive(){
     const r = await fetch(PREDICT_URL, {cache:'no-store'});
     if(!r.ok) throw new Error('HTTP '+r.status);
     const d = await r.json();
-    rows = d.predictions || [];
+    // Normalize once so a single malformed row can't throw and break the whole table.
+    const num = v => Number.isFinite(+v) ? +v : 0;
+    rows = (d.predictions || []).map(p => ({
+      route: String(p.route ?? ''), headsign: String(p.headsign ?? ''),
+      lead_time_min: num(p.lead_time_min), ztm_delay_s: num(p.ztm_delay_s),
+      model_final_s: num(p.model_final_s), divergence_s: num(p.divergence_s),
+    }));
     st.className='live small'; tx.textContent = `live · ${rows.length} departures · updated just now`;
     document.getElementById('banner').style.display='none';
     renderLive();
@@ -168,15 +174,15 @@ async function loadSummary(){
       <div class="stat"><div class="v muted">${L.overall.ztm.toFixed(0)}s</div><div class="l">ZTM MAE</div></div>
       <div class="stat"><div class="v">${L.routes_win}/${L.routes_total}</div><div class="l">Routes model wins</div></div>`;
     document.querySelector('#bucketstbl tbody').innerHTML = L.buckets.map(b=>`
-      <tr><td>${b.label}</td><td class="num">${b.model.toFixed(0)}s</td>
+      <tr><td>${esc(b.label)}</td><td class="num">${b.model.toFixed(0)}s</td>
       <td class="num muted">${b.base.toFixed(0)}s</td><td class="num gain">+${b.gain.toFixed(0)}s</td></tr>`).join('');
     document.querySelector('#wins tbody').innerHTML = L.top_wins.map(w=>`
-      <tr><td><span class="route">${w.route}</span></td>
+      <tr><td><span class="route">${esc(w.route)}</span></td>
       <td class="num">${w.model.toFixed(0)}s</td><td class="num muted">${w.ztm.toFixed(0)}s</td>
       <td class="num gain">+${w.gain.toFixed(0)}s</td></tr>`).join('');
     const P=s.planning;
     document.querySelector('#planning tbody').innerHTML = P.buckets.map(b=>`
-      <tr><td>${b.label}</td><td class="num">${b.model.toFixed(0)}s</td>
+      <tr><td>${esc(b.label)}</td><td class="num">${b.model.toFixed(0)}s</td>
       <td class="num muted">${b.base.toFixed(0)}s</td><td class="num gain">+${b.gain.toFixed(0)}s</td></tr>`).join('');
     document.getElementById('footer').textContent =
       `Backtest generated ${s.generated}. Live model uses realtime history (in-progress trips); planning model uses schedule patterns only.`;
