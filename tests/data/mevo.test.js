@@ -63,6 +63,7 @@ describe('mevo', () => {
     });
 
     it('getStationAvailability returns availability data with mock defaults', async () => {
+        await mevo.loadStations();
         const result = await mevo.getStationAvailability('s1');
         expect(result).toBeDefined();
         expect(result).toHaveProperty('bikesAvailable');

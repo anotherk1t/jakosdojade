@@ -118,24 +118,32 @@ async function fetchStationAvailability() {
 
             const data = await response.json();
 
-            // Clear old cache
-            availabilityCache.clear();
-
-            // Parse GBFS station_status response
-            if (data.data && data.data.stations) {
+            // Parse GBFS station_status response and only clear cache if valid
+            if (data.data && data.data.stations && data.data.stations.length > 0) {
+                // Clear old cache only after validation succeeds
+                availabilityCache.clear();
                 data.data.stations.forEach(station => {
                     availabilityCache.set(station.station_id, {
                         bikesAvailable: station.num_bikes_available,
                         docksAvailable: station.num_docks_available,
                         lastUpdate: now,
+                        isMockData: false,
                     });
+                });
+            } else {
+                // Mark all existing cache entries with current time to rate-limit retries on malformed feed
+                availabilityCache.forEach((entry) => {
+                    entry.lastUpdate = now;
                 });
             }
 
             console.log(`[MEVO GBFS] ✅ Updated ${availabilityCache.size} stations`);
         } catch (err) {
             console.warn(`[MEVO GBFS] Fetch failed (${err.message}), using cached mock data`);
-            // Cache is already populated with mock data from loadStations
+            // Mark all cache entries with current time to prevent spam on repeated failures
+            availabilityCache.forEach((entry) => {
+                entry.lastUpdate = now;
+            });
         } finally {
             fetchPromise = null;
         }
@@ -149,7 +157,7 @@ async function fetchStationAvailability() {
 /**
  * Get availability for a specific station.
  * @param {string} stationId
- * @returns {Promise<{ bikesAvailable, docksAvailable, isAvailable, warning } | null>}
+ * @returns {Promise<{ bikesAvailable: number, docksAvailable: number, isAvailable: boolean, warning: string | null, isMockData: boolean }>}
  */
 export async function getStationAvailability(stationId) {
     const cache = await fetchStationAvailability();

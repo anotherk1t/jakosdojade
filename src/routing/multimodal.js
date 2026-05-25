@@ -7,7 +7,7 @@
 import { runCSA } from './csa.js';
 import { findNearbyStops, buildTransferLinks } from './graph.js';
 import { haversine, estimateWalkTime, estimateBikeTime } from './geo.js';
-import { getStationsNear, getAvailableStationsNear, getStationAvailability } from '../data/mevo.js';
+import { getStationsNear, getAvailableStationsNear } from '../data/mevo.js';
 import { getWalkingRoute, getCyclingRoute, getPtRoutes } from './graphhopper.js';
 import { loadShapes, getShapeForLeg, shapesLoaded } from '../data/shapes.js';
 
@@ -94,8 +94,10 @@ export async function planRoutes({ origin, destination, departureTimeSec, timeta
     // --- MEVO bike with walk access/egress (if stations nearby) ---
     // UPDATED: Now checks real-time availability and tries multiple stations if needed
     console.log('[Multimodal] Planning routes, fetching MEVO stations...');
-    const originBikeStations = await getAvailableStationsNear(origin.lat, origin.lon, 800);
-    const destBikeStations = await getAvailableStationsNear(destination.lat, destination.lon, 800);
+    const [originBikeStations, destBikeStations] = await Promise.all([
+        getAvailableStationsNear(origin.lat, origin.lon, 800),
+        getAvailableStationsNear(destination.lat, destination.lon, 800),
+    ]);
     
     console.log(`[Multimodal] Found ${originBikeStations.length} MEVO stations near origin, ${destBikeStations.length} near destination`);
 

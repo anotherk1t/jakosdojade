@@ -105,20 +105,25 @@ function createRouteCard(route, index) {
     header.appendChild(times);
 
     // MEVO availability badges
-    let availabilityHtml = '';
     if (route.type === 'bike' && route.mevoMeta) {
         const { originBikesAvailable, destDocksAvailable } = route.mevoMeta;
         const bikesClass = originBikesAvailable > 0 ? 'available' : 'unavailable';
         const docksClass = destDocksAvailable > 0 ? 'available' : 'unavailable';
-        
+
         const availDiv = document.createElement('div');
         availDiv.className = 'mevo-availability';
-        availDiv.innerHTML = `
-            <span class="availability-badge ${bikesClass}">🚲 ${originBikesAvailable} bikes</span>
-            <span class="availability-badge ${docksClass}">📍 ${destDocksAvailable} docks</span>
-        `;
-        card.appendChild(availDiv);
-    }
+        
+        const bikesSpan = document.createElement('span');
+        bikesSpan.className = `availability-badge ${bikesClass}`;
+        bikesSpan.textContent = `🚲 ${originBikesAvailable} bikes`;
+        
+        const docksSpan = document.createElement('span');
+        docksSpan.className = `availability-badge ${docksClass}`;
+        docksSpan.textContent = `📍 ${destDocksAvailable} docks`;
+        
+        availDiv.appendChild(bikesSpan);
+        availDiv.appendChild(docksSpan);
+        card.insertBefore(availDiv, header.nextSibling);
 
     // Legs badges
     const legsRow = document.createElement('div');
