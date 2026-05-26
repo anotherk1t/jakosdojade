@@ -70,6 +70,7 @@
         <thead><tr>
           <th data-k="route">Line</th>
           <th data-k="headsign">Destination</th>
+          <th data-k="stop_name">From stop</th>
           <th class="num" data-k="lead_time_min">Departs in</th>
           <th class="num" data-k="ztm_delay_s">ZTM says</th>
           <th class="num" data-k="model_final_s">Model predicts</th>
@@ -105,7 +106,7 @@
 <script>
 const PREDICT_URL = 'https://delays.anotherk1t.beer/predictions';
 const REFRESH_MS = 60000;
-let rows = [], sortKey = 'divergence_s', sortDir = -1, filter = '';
+let rows = [], sortKey = 'lead_time_min', sortDir = 1, filter = '';  // default: soonest-departing first
 
 const fmtDelay = s => {
   if (s === null || s === undefined) return '—';
@@ -121,7 +122,7 @@ const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>'
 
 function renderLive(){
   const q = filter.trim().toLowerCase();
-  let r = rows.filter(p => !q || p.route.toLowerCase().includes(q) || (p.headsign||'').toLowerCase().includes(q));
+  let r = rows.filter(p => !q || p.route.toLowerCase().includes(q) || p.headsign.toLowerCase().includes(q) || p.stop_name.toLowerCase().includes(q));
   r.sort((a,b)=>{
     let x=a[sortKey], y=b[sortKey];
     if(sortKey==='divergence_s'){x=Math.abs(x);y=Math.abs(y);}
@@ -133,6 +134,7 @@ function renderLive(){
     <tr>
       <td><span class="route">${esc(p.route)}</span></td>
       <td>${esc(p.headsign||'')}</td>
+      <td class="muted">${esc(p.stop_name||'')}</td>
       <td class="num muted">${p.lead_time_min.toFixed(0)} min</td>
       <td class="num ${cls(p.ztm_delay_s)}">${fmtDelay(p.ztm_delay_s)}</td>
       <td class="num ${cls(p.model_final_s)}">${fmtDelay(p.model_final_s)}</td>
@@ -149,7 +151,7 @@ async function loadLive(){
     // Normalize once so a single malformed row can't throw and break the whole table.
     const num = v => Number.isFinite(+v) ? +v : 0;
     rows = (d.predictions || []).map(p => ({
-      route: String(p.route ?? ''), headsign: String(p.headsign ?? ''),
+      route: String(p.route ?? ''), headsign: String(p.headsign ?? ''), stop_name: String(p.stop_name ?? ''),
       lead_time_min: num(p.lead_time_min), ztm_delay_s: num(p.ztm_delay_s),
       model_final_s: num(p.model_final_s), divergence_s: num(p.divergence_s),
     }));
