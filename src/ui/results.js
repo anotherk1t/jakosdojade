@@ -124,6 +124,7 @@ function createRouteCard(route, index) {
         availDiv.appendChild(bikesSpan);
         availDiv.appendChild(docksSpan);
         card.insertBefore(availDiv, header.nextSibling);
+    }
 
     // Legs badges
     const legsRow = document.createElement('div');
